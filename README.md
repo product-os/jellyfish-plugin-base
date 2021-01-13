@@ -1,26 +1,26 @@
-# Jellyfish assert
+# Jellyfish Plugin Base
 
-This library contains assert-related utilities for use in Jellyfish.
-
-The Jellyfish system distinguishes between two types of errors:
-- Internal errors, which are unexpected and should be fixed as soon as possible
-- User errors, which are the responsibility of the user and are usually the result of bad user usage of the system
-
-This module provides a handy set of functions to write concise assertions for
-both types of errors, and remove the amount of error handling `if` conditionals
-throughout the code
+This library contains the building blocks of the Jellyfish Plugin system:
+* `PluginManager`. The plugin manager is provided with a list of plugins and is responsible for _instantiating_, _validating_ (e.g. checking for duplicate slugs across plugins) and _loading_ these plugins in the correct order (for example respecting where one plugin `requires` another).
+* `JellyfishPlugin` - an 'abstract' class which all Jellyfish plugins should extend. This class encapsulates the logic/helper methods for validating and loading cards, integrations, actions, lenses etc and exposing them in the format expected (e.g. an object of cards keyed by slugs).
+* Generic unit tests for plugins. These include basic generic sanity tests for plugins that each plugin repo can import and run rather than writing explicitly each time.
 
 # Usage
 
 Below is an example how to use this library:
 
 ```js
-const assert = require('@balena/jellyfish-assert')
+const {
+	PluginManager
+} = require('@balena/jellyfish-plugin-base')
+const DefaultPlugin = require('@balena/jellyfish-plugin-default')
 
-assert.INTERNAL(context, version, errors.InvalidVersion, 'Custom error details')
-assert.USER(context, input, errors.WorkerNoElement, 'Custom error details')
+const pluginManager = new PluginManager([
+	DefaultPlugin
+])
+const cards = pluginManager.getCards(mixins)
 ```
 
 # Documentation
 
-Visit the website for complete documentation: https://product-os.github.io/jellyfish-assert
+Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-base
