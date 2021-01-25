@@ -80,7 +80,3 @@ export type JellyfishPluginConstructor = new () => JellyfishPlugin;
 export interface PluginManagerOptions {
 	plugins: JellyfishPluginConstructor[];
 }
-
-export interface ValidationErrors {
-	[attribute: string]: string[];
-}
