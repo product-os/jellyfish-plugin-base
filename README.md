@@ -7,7 +7,38 @@ This library contains the building blocks of the Jellyfish Plugin system:
 
 # Usage
 
-Below is an example how to use this library:
+## `JellyfishPlugin`
+
+Below is an example how to use the `JellyfishPlugin` base class exported by this library:
+
+```js
+const {
+	JellyfishPlugin
+} = require('@balena/jellyfish-plugin-base')
+
+class MyPlugin extends JellyfishPlugin {
+	constructor() {
+		super({
+			cards: [],
+			mixins: {},
+			integrations: []
+		})
+	}
+}
+
+const myPlugin = new MyPlugin()
+
+```
+
+The `JellyfishPlugin` constructor takes a single argument with the following optional properties:
+
+* **cards** - an array of cards defined by the plugin. Each item in the array can be a plain JavaScript object representing the card or a function that takes mixins as an argument and returns a card object (for cards that use mixins).
+* **mixins** - a map of mixins defined by the plugin that are used by the plugin's cards.
+* **integrations** - an array of integrations defined by the plugin.
+
+## `PluginManager`
+
+Below is an example how to use the plugin manager exported by this library:
 
 ```js
 const {

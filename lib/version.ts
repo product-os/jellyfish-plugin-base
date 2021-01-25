@@ -4,6 +4,4 @@
  * Proprietary and confidential.
  */
 
-test('remove me with a real test', () => {
-	expect(true).toBe(true);
-});
+export const INTERFACE_VERSION: string = '1.0.0';

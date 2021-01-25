@@ -4,4 +4,4 @@
  * Proprietary and confidential.
  */
 
-console.log('Hello World!');
+export { JellyfishPlugin } from './jellyfish-plugin';
