@@ -4,6 +4,8 @@
  * Proprietary and confidential.
  */
 
-export { JellyfishPluginBase } from './jellyfish-plugin';
-export { PluginManager } from './plugin-manager';
-export * from './types';
+// Temporary type definitions until jellyfish-logger is converted to TypeScript
+
+declare module '@balena/jellyfish-logger' {
+	function getLogger(name: string): any;
+}

@@ -5,109 +5,109 @@
  */
 
 import _ from 'lodash';
+import skhema from 'skhema';
+import { JSONSchema6 } from 'json-schema';
+import { getLogger } from '@balena/jellyfish-logger';
 import { INTERFACE_VERSION } from './version';
+import {
+	Map,
+	CardFiles,
+	JellyfishPlugin,
+	PluginIdentity,
+	CardFile,
+	Integration,
+	JellyfishPluginOptions,
+	CoreMixins,
+	Card,
+} from './types';
 
-export interface Mixins {
-	mixin: (mixins: Card[]) => (card: Card) => Card;
-	initialize: (card: Card) => Card;
-}
+const logger = getLogger(__filename);
 
-export interface Card {
-	id: string;
-	slug: string;
-	[key: string]: string | object | null | undefined;
-}
-
-export type CardFileFn = (mixins: Mixins) => Card;
-
-export type CardFile = Card | CardFileFn;
-
-interface Map<T> {
-	[key: string]: T;
-}
-
-export interface JellyfishPluginOptions {
-	cards?: CardFile[];
-	mixins?: Map<CardFile>;
-	integrations?: Integration[];
-}
-
-export interface IntegrationEvent {
-	data: object;
-}
-
-export interface IntegrationResult {
-	time: Date;
-	actor: string;
-	card: Card;
-}
-
-export interface Integration {
-	slug: string;
-	initialize: () => Promise<void>;
-	destroy: () => Promise<void>;
-	mirror: (card: Card, options: any) => Promise<IntegrationResult[]>;
-	translate: (event: IntegrationEvent) => Promise<IntegrationResult[]>;
-}
-
-export interface PluginIdentity {
-	slug: string;
-	version: string;
-}
-
-const getSafeMap = <T extends { slug: string }>(
-	source: any[],
-	sourceType: string,
-	resolver: (item: any) => T = _.identity,
-): Map<T> => {
-	return _.reduce(
-		source,
-		(map: Map<T>, item: T) => {
-			const resolvedItem = resolver(item);
-			if (map[resolvedItem.slug]) {
-				throw new Error(
-					`Duplicate ${sourceType} with slug '${resolvedItem.slug}' found`,
-				);
-			}
-			map[resolvedItem.slug] = resolvedItem;
-			return map;
+const pluginOptionsSchema: JSONSchema6 = {
+	type: 'object',
+	required: ['slug', 'name', 'version'],
+	properties: {
+		slug: {
+			type: 'string',
+			pattern: '^[a-z0-9-]+$',
 		},
-		{},
-	);
+		name: {
+			type: 'string',
+		},
+		version: {
+			type: 'string',
+			pattern: '^\\d+(\\.\\d+)?(\\.\\d+)?(-[\\w\\d-]*)?$',
+		},
+	},
 };
 
-export abstract class JellyfishPlugin {
-	abstract slug: string;
-	abstract name: string;
-	abstract version: string;
-	abstract requires: PluginIdentity[];
-
+export abstract class JellyfishPluginBase implements JellyfishPlugin {
+	slug: string;
+	name: string;
+	version: string;
+	requires: PluginIdentity[];
 	interfaceVersion: string;
 
 	private _cardFiles: CardFile[];
-	private _mixins: Map<CardFile>;
+	private _mixins: CardFiles;
 	private _integrations: Integration[];
 
-	constructor(options: JellyfishPluginOptions) {
+	protected constructor(options: JellyfishPluginOptions) {
+		skhema.validate(pluginOptionsSchema, options);
+		this.slug = options.slug;
+		this.name = options.name;
+		this.version = options.version;
+		this.requires = options.requires || [];
 		this.interfaceVersion = INTERFACE_VERSION;
 		this._cardFiles = options.cards || [];
 		this._mixins = options.mixins || {};
 		this._integrations = options.integrations || [];
 	}
 
-	getCards(mixins: Mixins) {
-		return getSafeMap<Card>(this._cardFiles, 'cards', (cardFile: CardFile) => {
-			const cardMixins = {
-				...mixins,
-				...this._mixins,
-			};
-			const card =
-				typeof cardFile === 'function' ? cardFile(cardMixins) : cardFile;
-			return mixins.initialize(card);
-		});
+	private getSafeMap<T extends { slug: string }>(
+		context: object,
+		source: any[],
+		sourceType: string,
+		resolver: (item: any) => T = _.identity,
+	): Map<T> {
+		return _.reduce(
+			source,
+			(map: Map<T>, item: T) => {
+				const resolvedItem = resolver(item);
+				if (map[resolvedItem.slug]) {
+					const errorMessage = `Duplicate ${sourceType} with slug '${resolvedItem.slug}' found`;
+					logger.error(context, `${this.name}: ${errorMessage}`);
+					throw new Error(errorMessage);
+				}
+				map[resolvedItem.slug] = resolvedItem;
+				return map;
+			},
+			{},
+		);
 	}
 
-	getSyncIntegrations() {
-		return getSafeMap<Integration>(this._integrations, 'integrations');
+	getCards(context: object, mixins: CoreMixins) {
+		return this.getSafeMap<Card>(
+			context,
+			this._cardFiles,
+			'cards',
+			(cardFile: CardFile) => {
+				const cardMixins = {
+					...mixins,
+					...this._mixins,
+				};
+				const card =
+					typeof cardFile === 'function' ? cardFile(cardMixins) : cardFile;
+				return mixins.initialize(card);
+			},
+		);
+	}
+
+	getSyncIntegrations(context: object) {
+		return this.getSafeMap<Integration>(
+			context,
+			this._integrations,
+			'integrations',
+		);
 	}
 }
