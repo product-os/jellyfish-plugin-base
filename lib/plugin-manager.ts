@@ -14,6 +14,7 @@ import {
 	JellyfishPlugin,
 	JellyfishPlugins,
 	PluginManagerOptions,
+	Actions,
 	Integrations,
 	Cards,
 	CoreMixins,
@@ -145,6 +146,20 @@ export class PluginManager {
 						carry,
 						'Integration',
 					);
+				}
+				return carry;
+			},
+			{},
+		);
+	}
+
+	getActions(context: object) {
+		return _.reduce<JellyfishPlugins, Actions>(
+			this._plugins,
+			(carry, plugin) => {
+				if (plugin.getActions) {
+					const pluginActions = plugin.getActions(context);
+					validatedAddToMap(context, plugin, pluginActions, carry, 'Action');
 				}
 				return carry;
 			},

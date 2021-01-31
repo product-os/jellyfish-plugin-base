@@ -24,7 +24,8 @@ class MyPlugin extends JellyfishPluginBase {
 			version: '1.0.0',
 			cards: [],
 			mixins: {},
-			integrations: []
+			integrations: [],
+			actions: [],
 		})
 	}
 }
@@ -39,6 +40,7 @@ The `JellyfishPluginBase` constructor takes a single argument with the following
 * **cards** - an optional array of cards defined by the plugin. Each item in the array can be a plain JavaScript object representing the card or a function that takes mixins as an argument and returns a card object (for cards that use mixins).
 * **mixins** - an optional map of mixins defined by the plugin that are used by the plugin's cards.
 * **integrations** - an optional array of integrations defined by the plugin.
+* **actions** - an optional array of actions defined by the plugin.
 
 _Note: the order of cards in the cards array is important. Specifically, any type cards must be placed above/before any cards of that type._
 
