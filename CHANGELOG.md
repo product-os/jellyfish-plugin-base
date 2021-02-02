@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+# v1.0.1
+## (2021-02-02)
+
+* Add .whitesource configuration file [whitesource-bolt-for-github[bot]]
+
 # v1.0.0
 ## (2021-01-28)
 
