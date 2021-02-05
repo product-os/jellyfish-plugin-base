@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+# v1.0.3
+## (2021-02-05)
+
+* Set renovate npm version [Josh Bowling]
+
 # v1.0.2
 ## (2021-02-03)
 
