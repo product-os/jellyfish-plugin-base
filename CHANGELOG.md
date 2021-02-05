@@ -5,6 +5,12 @@
 
 # v0.0.3
 
+# v1.1.0
+## (2021-02-05)
+
+* Update docs [Graham McCulloch]
+* Add support for loading actions [Graham McCulloch]
+
 # v1.0.3
 ## (2021-02-05)
 
