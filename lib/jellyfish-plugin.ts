@@ -10,7 +10,10 @@ import { JSONSchema6 } from 'json-schema';
 import { getLogger } from '@balena/jellyfish-logger';
 import { INTERFACE_VERSION } from './version';
 import {
+	ActionFile,
+	Actions,
 	Map,
+	Sluggable,
 	CardFiles,
 	JellyfishPlugin,
 	PluginIdentity,
@@ -51,6 +54,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	private _cardFiles: CardFile[];
 	private _mixins: CardFiles;
 	private _integrations: Integration[];
+	private _actions: ActionFile[];
 
 	protected constructor(options: JellyfishPluginOptions) {
 		skhema.validate(pluginOptionsSchema, options);
@@ -62,9 +66,10 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		this._cardFiles = options.cards || [];
 		this._mixins = options.mixins || {};
 		this._integrations = options.integrations || [];
+		this._actions = options.actions || [];
 	}
 
-	private getSafeMap<T extends { slug: string }>(
+	private getSafeMap<T extends Sluggable>(
 		context: object,
 		source: any[],
 		sourceType: string,
@@ -74,12 +79,14 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 			source,
 			(map: Map<T>, item: T) => {
 				const resolvedItem = resolver(item);
-				if (map[resolvedItem.slug]) {
-					const errorMessage = `Duplicate ${sourceType} with slug '${resolvedItem.slug}' found`;
+				const slug =
+					_.get(resolvedItem, 'slug') || _.get(resolvedItem, ['card', 'slug']);
+				if (map[slug]) {
+					const errorMessage = `Duplicate ${sourceType} with slug '${slug}' found`;
 					logger.error(context, `${this.name}: ${errorMessage}`);
 					throw new Error(errorMessage);
 				}
-				map[resolvedItem.slug] = resolvedItem;
+				map[slug] = resolvedItem;
 				return map;
 			},
 			{},
@@ -87,20 +94,23 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	}
 
 	getCards(context: object, mixins: CoreMixins) {
-		return this.getSafeMap<Card>(
+		const actionCards = _.map(this._actions, 'card');
+		const allCards = _.concat(this._cardFiles, actionCards);
+		const cardMixins = {
+			...mixins,
+			...this._mixins,
+		};
+		const cards = this.getSafeMap<Card>(
 			context,
-			this._cardFiles,
+			allCards,
 			'cards',
 			(cardFile: CardFile) => {
-				const cardMixins = {
-					...mixins,
-					...this._mixins,
-				};
 				const card =
 					typeof cardFile === 'function' ? cardFile(cardMixins) : cardFile;
 				return mixins.initialize(card);
 			},
 		);
+		return cards;
 	}
 
 	getSyncIntegrations(context: object) {
@@ -108,6 +118,21 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 			context,
 			this._integrations,
 			'integrations',
+		);
+	}
+
+	getActions(_context: object) {
+		return _.reduce(
+			this._actions,
+			(actions: Actions, action: ActionFile) => {
+				const slug = action.card.slug;
+				actions[slug] = {
+					handler: action.handler,
+					pre: action.pre || _.noop,
+				};
+				return actions;
+			},
+			{},
 		);
 	}
 }

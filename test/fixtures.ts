@@ -6,6 +6,7 @@
 
 import _ from 'lodash';
 import {
+	ActionFile,
 	JellyfishPluginBase,
 	Card,
 	CardFile,
@@ -24,11 +25,15 @@ export const mixins = {
 export const card1: Card = {
 	id: '1',
 	slug: 'card-1',
+	type: 'card',
+	version: '1.0.0',
 };
 
 export const card2: Card = {
 	id: '2',
 	slug: 'card-2',
+	type: 'card',
+	version: '1.0.0',
 };
 
 class TestIntegration implements Integration {
@@ -69,6 +74,7 @@ interface TestJellyfishPluginOptions {
 	cards?: CardFile[];
 	mixins?: CardFiles;
 	integrations?: Integration[];
+	actions?: ActionFile[];
 }
 
 export const TestPluginFactory = (
@@ -88,4 +94,25 @@ export const TestPluginFactory = (
 	}
 
 	return TestPlugin;
+};
+
+export const action1: ActionFile = {
+	card: {
+		id: 'a1',
+		slug: 'action-1',
+		type: 'action',
+		version: '1.0.0',
+	},
+	handler: () => null,
+};
+
+export const action2: ActionFile = {
+	card: {
+		id: 'a2',
+		slug: 'action-2',
+		type: 'action',
+		version: '1.0.0',
+	},
+	pre: _.noop,
+	handler: () => _.pick(card1, 'id', 'slug', 'type', 'version'),
 };

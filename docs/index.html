@@ -84,7 +84,8 @@
 <span style="color: #000000">            </span><span style="color: #001080">version:</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;1.0.0&#039;</span><span style="color: #000000">,</span>
 <span style="color: #000000">            </span><span style="color: #001080">cards:</span><span style="color: #000000"> [],</span>
 <span style="color: #000000">            </span><span style="color: #001080">mixins:</span><span style="color: #000000"> {},</span>
-<span style="color: #000000">            </span><span style="color: #001080">integrations:</span><span style="color: #000000"> []</span>
+<span style="color: #000000">            </span><span style="color: #001080">integrations:</span><span style="color: #000000"> [],</span>
+<span style="color: #000000">            </span><span style="color: #001080">actions:</span><span style="color: #000000"> [],</span>
 <span style="color: #000000">        })</span>
 <span style="color: #000000">    }</span>
 <span style="color: #000000">}</span>
@@ -98,6 +99,7 @@
 					<li><strong>cards</strong> - an optional array of cards defined by the plugin. Each item in the array can be a plain JavaScript object representing the card or a function that takes mixins as an argument and returns a card object (for cards that use mixins).</li>
 					<li><strong>mixins</strong> - an optional map of mixins defined by the plugin that are used by the plugin&#39;s cards.</li>
 					<li><strong>integrations</strong> - an optional array of integrations defined by the plugin.</li>
+					<li><strong>actions</strong> - an optional array of actions defined by the plugin.</li>
 				</ul>
 				<p><em>Note: the order of cards in the cards array is important. Specifically, any type cards must be placed above/before any cards of that type.</em></p>
 				<a href="#pluginmanager" id="pluginmanager" style="color: inherit; text-decoration: none;">

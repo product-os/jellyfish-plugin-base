@@ -13,6 +13,8 @@ import {
 	card2,
 	integration1,
 	integration2,
+	action1,
+	action2,
 	mixins,
 } from './fixtures';
 
@@ -276,6 +278,77 @@ describe('PluginManager', () => {
 			expect(loadedIntegrations).toEqual({
 				'integration-1': integration1,
 				'integration-2': integration2,
+			});
+		});
+	});
+
+	describe('.getActions', () => {
+		test('returns an empty object if no actions are supplied to any of the plugins', () => {
+			const pluginManager = new PluginManager(context, {
+				plugins: [
+					TestPluginFactory({ slug: 'test-plugin-1' }),
+					TestPluginFactory({ slug: 'test-plugin-2' }),
+				],
+			});
+			const loadedActions = pluginManager.getActions(context);
+			expect(loadedActions).toEqual({});
+		});
+
+		test('will throw an exception if duplicate action slugs are found', () => {
+			const pluginManager = new PluginManager(context, {
+				plugins: [
+					TestPluginFactory({
+						slug: 'test-plugin-1',
+						name: 'Test Plugin 1',
+						actions: [action1],
+					}),
+					TestPluginFactory({
+						slug: 'test-plugin-2',
+						name: 'Test Plugin 2',
+						actions: [
+							Object.assign({}, action2, {
+								card: {
+									slug: action1.card.slug,
+								},
+							}),
+						],
+					}),
+				],
+			});
+
+			const getActions = () => pluginManager.getActions(context);
+
+			expect(getActions).toThrow(
+				"Action 'action-1' already exists and cannot be loaded from plugin 'Test Plugin 2'",
+			);
+		});
+
+		test('returns a dictionary of actions keyed by slug', () => {
+			const pluginManager = new PluginManager(context, {
+				plugins: [
+					TestPluginFactory({
+						slug: 'test-plugin-1',
+						actions: [action1],
+					}),
+
+					TestPluginFactory({
+						slug: 'test-plugin-2',
+						actions: [action2],
+					}),
+				],
+			});
+
+			const loadedActions = pluginManager.getActions(context);
+
+			expect(loadedActions).toEqual({
+				'action-1': {
+					handler: action1.handler,
+					pre: action1.pre || _.noop,
+				},
+				'action-2': {
+					handler: action2.handler,
+					pre: action2.pre || _.noop,
+				},
 			});
 		});
 	});

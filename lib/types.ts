@@ -8,14 +8,21 @@ export interface Map<T> {
 	[key: string]: T;
 }
 
+export type Sluggable = { slug: string } | { card: Card };
+
 export interface CoreMixins {
 	mixin: (mixins: Card[]) => (card: Card) => Card;
 	initialize: (card: Card) => Card;
 }
 
-export interface Card {
+export interface CardSummary {
 	id: string;
 	slug: string;
+	version: string;
+	type: string;
+}
+
+export interface Card extends CardSummary {
 	[key: string]: string | object | null | undefined;
 }
 
@@ -47,6 +54,28 @@ export interface Integration {
 
 export interface Integrations extends Map<Integration> {}
 
+type ActionPreFn = (session: any, context: any, request: any) => void;
+
+interface ActionCore {
+	handler: (
+		session: any,
+		context: any,
+		card: Card,
+		request: any,
+	) => null | CardSummary;
+}
+
+interface Action extends ActionCore {
+	pre: ActionPreFn;
+}
+
+export interface ActionFile extends ActionCore {
+	pre?: ActionPreFn;
+	card: Card;
+}
+
+export interface Actions extends Map<Action> {}
+
 export interface PluginIdentity {
 	slug: string;
 	version: string;
@@ -60,6 +89,7 @@ export interface JellyfishPluginOptions {
 	cards?: CardFile[];
 	mixins?: CardFiles;
 	integrations?: Integration[];
+	actions?: ActionFile[];
 }
 
 export interface JellyfishPlugin {
@@ -71,6 +101,7 @@ export interface JellyfishPlugin {
 
 	getCards: (context: object, mixins: CoreMixins) => Cards;
 	getSyncIntegrations: (context: object) => Integrations;
+	getActions: (context: object) => Actions;
 }
 
 export interface JellyfishPlugins extends Map<JellyfishPlugin> {}

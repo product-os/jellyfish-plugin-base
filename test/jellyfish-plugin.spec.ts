@@ -13,6 +13,8 @@ import {
 	card2,
 	integration1,
 	integration2,
+	action1,
+	action2,
 	mixins,
 } from './fixtures';
 
@@ -61,6 +63,24 @@ describe('JellyfishPlugin', () => {
 			const getCards = () => plugin.getCards(context, mixins);
 
 			expect(getCards).toThrow("Duplicate cards with slug 'card-1' found");
+		});
+
+		test('throws an exception if duplicate action slugs are found', () => {
+			const plugin = new (TestPluginFactory({
+				cards: [card1],
+				actions: [
+					action1,
+					Object.assign({}, action2, {
+						card: {
+							slug: action1.card.slug,
+						},
+					}),
+				],
+			}))();
+
+			const getCards = () => plugin.getCards(context, mixins);
+
+			expect(getCards).toThrow("Duplicate cards with slug 'action-1' found");
 		});
 
 		test('passes mixins to any card provided as a function', () => {
@@ -141,6 +161,33 @@ describe('JellyfishPlugin', () => {
 			expect(loadedIntegrations).toEqual({
 				'integration-1': integration1,
 				'integration-2': integration2,
+			});
+		});
+	});
+
+	describe('.getActions', () => {
+		test('returns an empty object if no actions are supplied to the plugin', () => {
+			const plugin = new (TestPluginFactory({}))();
+			const loadedActions = plugin.getActions(context);
+			expect(loadedActions).toEqual({});
+		});
+
+		test('returns a dictionary of actions keyed by slug', () => {
+			const plugin = new (TestPluginFactory({
+				actions: [action1, action2],
+			}))();
+
+			const loadedActions = plugin.getActions(context);
+
+			expect(loadedActions).toEqual({
+				'action-1': {
+					handler: action1.handler,
+					pre: action1.pre || _.noop,
+				},
+				'action-2': {
+					handler: action2.handler,
+					pre: action2.pre || _.noop,
+				},
 			});
 		});
 	});
