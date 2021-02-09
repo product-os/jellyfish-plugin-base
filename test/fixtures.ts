@@ -103,7 +103,7 @@ export const action1: ActionFile = {
 		type: 'action',
 		version: '1.0.0',
 	},
-	handler: () => null,
+	handler: async () => null,
 };
 
 export const action2: ActionFile = {
@@ -114,5 +114,5 @@ export const action2: ActionFile = {
 		version: '1.0.0',
 	},
 	pre: _.noop,
-	handler: () => _.pick(card1, 'id', 'slug', 'type', 'version'),
+	handler: async () => _.pick(card1, 'id', 'slug', 'type', 'version'),
 };

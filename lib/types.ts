@@ -12,7 +12,13 @@ export type Sluggable = { slug: string } | { card: Card };
 
 export interface CoreMixins {
 	mixin: (mixins: Card[]) => (card: Card) => Card;
-	initialize: (card: Card) => Card;
+	initialize: (card: CardBase) => Card;
+}
+
+export interface CardBase {
+	slug: string;
+	type: string;
+	[key: string]: string | object | null | undefined;
 }
 
 export interface CardSummary {
@@ -28,9 +34,9 @@ export interface Card extends CardSummary {
 
 export interface Cards extends Map<Card> {}
 
-export type CardFileFn = (mixins: CoreMixins) => Card;
+export type CardFileFn = (mixins: CoreMixins) => CardBase;
 
-export type CardFile = Card | CardFileFn;
+export type CardFile = CardBase | CardFileFn;
 
 export interface CardFiles extends Map<CardFile> {}
 
@@ -62,7 +68,7 @@ interface ActionCore {
 		context: any,
 		card: Card,
 		request: any,
-	) => null | CardSummary;
+	) => Promise<null | CardSummary>;
 }
 
 interface Action extends ActionCore {
@@ -71,7 +77,7 @@ interface Action extends ActionCore {
 
 export interface ActionFile extends ActionCore {
 	pre?: ActionPreFn;
-	card: Card;
+	card: CardBase;
 }
 
 export interface Actions extends Map<Action> {}
