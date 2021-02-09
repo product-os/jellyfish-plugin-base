@@ -5,6 +5,12 @@
 
 # v0.0.3
 
+# v1.1.6
+## (2021-02-09)
+
+* Update docs [Graham McCulloch]
+* Fix card-related TypeScript types [Graham McCulloch]
+
 # v1.1.5
 ## (2021-02-09)
 
