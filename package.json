@@ -53,7 +53,7 @@
     "skhema": "^5.3.3"
   },
   "devDependencies": {
-    "@balena/lint": "^5.3.0",
+    "@balena/lint": "^5.4.1",
     "@types/jest": "^26.0.20",
     "@types/semver": "^7.3.4",
     "@types/sinon": "^9.0.10",
