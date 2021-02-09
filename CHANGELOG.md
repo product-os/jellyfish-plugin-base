@@ -5,6 +5,12 @@
 
 # v0.0.3
 
+# v1.1.4
+## (2021-02-09)
+
+* Update docs [Josh Bowling]
+* patch: Update non-major [Renovate Bot]
+
 # v1.1.3
 ## (2021-02-09)
 
