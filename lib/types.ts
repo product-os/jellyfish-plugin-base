@@ -18,7 +18,7 @@ export interface CoreMixins {
 export interface CardBase {
 	slug: string;
 	type: string;
-	[key: string]: string | object | null | undefined;
+	[key: string]: string | number | boolean | object | null | undefined;
 }
 
 export interface CardSummary {
@@ -29,7 +29,7 @@ export interface CardSummary {
 }
 
 export interface Card extends CardSummary {
-	[key: string]: string | object | null | undefined;
+	[key: string]: string | number | boolean | object | null | undefined;
 }
 
 export interface Cards extends Map<Card> {}
@@ -41,13 +41,13 @@ export type CardFile = CardBase | CardFileFn;
 export interface CardFiles extends Map<CardFile> {}
 
 export interface IntegrationEvent {
-	data: object;
+	data: any;
 }
 
 export interface IntegrationResult {
 	time: Date;
 	actor: string;
-	card: Card;
+	card: CardBase;
 }
 
 export interface Integration {
