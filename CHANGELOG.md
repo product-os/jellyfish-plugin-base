@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+# v1.2.0
+## (2021-02-16)
+
+* Minor updates to TypeScript types [Graham McCulloch]
+
 # v1.1.16
 ## (2021-02-15)
 
