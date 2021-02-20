@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.8 - 2021-02-20
+
+* Add versionbot CHANGELOG.yml [Josh Bowling]
+
 # v1.2.7
 ## (2021-02-20)
 
