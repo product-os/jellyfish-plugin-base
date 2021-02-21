@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency husky to ^5.1.0'
+      hash: d4d67e4116ef5d7730a1abd652b7483fb456e5ed
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.2.14
+  date: 2021-02-21T23:13:41.705Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.28'
       hash: 374a079abe169e1a30fcb0818c6c85202cf4cd7a
       body: ''
