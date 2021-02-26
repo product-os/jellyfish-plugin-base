@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.23 - 2021-02-26
+
+* patch: Update dependency @balena/jellyfish-logger to ^1.0.34 [Renovate Bot]
+
 ## 1.2.22 - 2021-02-25
 
 * patch: Update dependency shellcheck to v1 [Renovate Bot]
