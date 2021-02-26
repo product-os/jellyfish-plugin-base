@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.22 - 2021-02-25
+
+* patch: Update dependency shellcheck to v1 [Renovate Bot]
+
 ## 1.2.21 - 2021-02-23
 
 * patch: Update non-major [Renovate Bot]

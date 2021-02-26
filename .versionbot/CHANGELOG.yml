@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency shellcheck to v1'
+      hash: ee6098e3dd57319f7c27b164057dc92bbfaebf02
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.2.22
+  date: 2021-02-25T18:52:39.894Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: 10364fb7a9b4074734380c8e4bb421f6b8c5e9f5
       body: ''
