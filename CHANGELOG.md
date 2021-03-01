@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.27 - 2021-03-01
+
+* patch: Update dependency husky to ^5.1.2 [Renovate Bot]
+
 ## 1.2.26 - 2021-02-28
 
 * patch: Update dependency @balena/jellyfish-logger to ^1.0.38 [Renovate Bot]
