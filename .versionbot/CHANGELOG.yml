@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use jellycheck
+      hash: 27b6d0e770a7cef90f3dd8235e236c86b118cbaf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 1.2.32
+  date: 2021-03-15T10:06:37.553Z
+- commits:
     - subject: Update docs
       hash: 40eaae78d073e66a008b30fd27d5700c5ebf764b
       body: ''

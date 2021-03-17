@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.32 - 2021-03-15
+
+* Use jellycheck [Graham McCulloch]
+
 ## 1.2.31 - 2021-03-13
 
 * Update docs [Josh Bowling]
