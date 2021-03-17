@@ -40,7 +40,7 @@
     "test": "npm run doc && catch-uncommitted --skip-node-versionbot-changes && npm run lint && npm run unit",
     "doc": "typedoc lib/ && touch docs/.nojekyll",
     "prepack": "npm run build",
-    "check": "./scripts/check-filenames.sh && ./scripts/check-licenses.sh && ./scripts/check-deployable-lib.sh && shellcheck ./scripts/*.sh",
+    "check": "jellycheck",
     "postinstall": "if [ -z \"$CI\" ] && [ -d \".git\" ]; then husky install; fi"
   },
   "author": "Balena.io. <hello@balena.io>",
@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@balena/lint": "^5.4.1",
+    "@balena/jellycheck": "^0.1.1",
     "@types/jest": "^26.0.20",
     "@types/semver": "^7.3.4",
     "@types/sinon": "^9.0.11",
