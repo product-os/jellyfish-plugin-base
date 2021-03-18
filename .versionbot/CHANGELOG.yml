@@ -1,4 +1,25 @@
 - commits:
+    - subject: Update docs
+      hash: 7c0a0da367ed092df37c0f3e52f6b07d9159f863
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: 7e38a3d77ec54f8a0cadcd1246fad0f1d97f8fb5
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.2.33
+  date: 2021-03-18T00:58:10.114Z
+- commits:
     - subject: Use jellycheck
       hash: 27b6d0e770a7cef90f3dd8235e236c86b118cbaf
       body: ''

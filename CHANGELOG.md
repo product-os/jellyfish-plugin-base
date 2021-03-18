@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 1.2.33 - 2021-03-18
+
+* Update docs [Josh Bowling]
+* patch: Update non-major [Renovate Bot]
+
 ## 1.2.32 - 2021-03-15
 
 * Use jellycheck [Graham McCulloch]
