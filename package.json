@@ -46,7 +46,7 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "UNLICENSED",
   "dependencies": {
-    "@balena/jellyfish-logger": "^1.0.48",
+    "@balena/jellyfish-logger": "^1.0.50",
     "json-schema": "^0.3.0",
     "lodash": "^4.17.21",
     "semver": "^7.3.4",
@@ -55,7 +55,7 @@
   "devDependencies": {
     "@balena/lint": "^5.4.1",
     "@balena/jellycheck": "^0.1.1",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.21",
     "@types/semver": "^7.3.4",
     "@types/sinon": "^9.0.11",
     "catch-uncommitted": "^1.6.2",
@@ -66,8 +66,8 @@
     "lint-staged": "^10.5.4",
     "shellcheck": "^1.0.0",
     "sinon": "^9.2.4",
-    "ts-jest": "^26.5.3",
-    "typedoc": "^0.20.30",
+    "ts-jest": "^26.5.4",
+    "typedoc": "^0.20.32",
     "typescript": "^4.2.3"
   },
   "husky": {
