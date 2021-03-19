@@ -5,31 +5,44 @@
  */
 
 import _ from 'lodash';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import {
 	ActionFile,
 	JellyfishPluginBase,
-	Card,
-	CardFile,
-	CardFiles,
+	ContractFile,
+	ContractFiles,
 	Integration,
 	PluginIdentity,
 	JellyfishPluginConstructor,
 	JellyfishPluginOptions,
 } from '../lib';
 
+const commonCard = {
+	tags: [],
+	markers: [],
+	links: {},
+	created_at: '2021-03-18T23:29:51.132Z',
+	active: true,
+	data: {},
+	requires: [],
+	capabilities: [],
+};
+
 export const mixins = {
 	initialize: _.identity,
 	mixin: () => _.identity,
 };
 
-export const card1: Card = {
+export const card1: Contract = {
+	...commonCard,
 	id: '1',
 	slug: 'card-1',
 	type: 'card',
 	version: '1.0.0',
 };
 
-export const card2: Card = {
+export const card2: Contract = {
+	...commonCard,
 	id: '2',
 	slug: 'card-2',
 	type: 'card',
@@ -71,8 +84,8 @@ interface TestJellyfishPluginOptions {
 	version?: string;
 	interfaceVersion?: string;
 	requires?: PluginIdentity[];
-	cards?: CardFile[];
-	mixins?: CardFiles;
+	cards?: ContractFile[];
+	mixins?: ContractFiles;
 	integrations?: Integration[];
 	actions?: ActionFile[];
 }
@@ -98,20 +111,16 @@ export const TestPluginFactory = (
 
 export const action1: ActionFile = {
 	card: {
-		id: 'a1',
 		slug: 'action-1',
 		type: 'action',
-		version: '1.0.0',
 	},
 	handler: async () => null,
 };
 
 export const action2: ActionFile = {
 	card: {
-		id: 'a2',
 		slug: 'action-2',
 		type: 'action',
-		version: '1.0.0',
 	},
 	pre: _.noop,
 	handler: async () => _.pick(card1, 'id', 'slug', 'type', 'version'),
