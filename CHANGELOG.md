@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.39 - 2021-03-22
+
+* patch: Update dependency @balena/jellyfish-logger to ^1.0.56 [Renovate Bot]
+
 ## 1.2.38 - 2021-03-22
 
 * patch: Update dependency typedoc to ^0.20.33 [Renovate Bot]
