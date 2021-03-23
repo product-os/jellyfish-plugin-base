@@ -49,7 +49,7 @@
     "@balena/jellyfish-logger": "^1.0.57",
     "json-schema": "^0.3.0",
     "lodash": "^4.17.21",
-    "semver": "^7.3.4",
+    "semver": "^7.3.5",
     "skhema": "^5.3.3"
   },
   "devDependencies": {
