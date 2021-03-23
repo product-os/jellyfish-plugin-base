@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.0.0 - 2021-03-23
+
+* Update docs [Graham McCulloch]
+* Use interfaces from jellyfish-types [Graham McCulloch]
+
 ## 1.2.41 - 2021-03-23
 
 * patch: Update dependency semver to ^7.3.5 [Renovate Bot]

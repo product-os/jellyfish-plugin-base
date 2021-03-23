@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update docs
+      hash: db6de98ea213300c4f78e2caef85d450a0b36c14
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: Use interfaces from jellyfish-types
+      hash: 7a41f231e1265cd0d3ff7414552cba94a6945e17
+      body: >
+        This is a breaking change as the exported interfaces have changed.
+        `Card...` has been replaced by `Contract...`.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.0
+  date: 2021-03-23T02:26:10.834Z
+- commits:
     - subject: 'patch: Update dependency semver to ^7.3.5'
       hash: 409992412e007d5f1a1e1533f1234a85cb2c9a1b
       body: ''
