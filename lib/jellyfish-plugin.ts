@@ -8,20 +8,20 @@ import _ from 'lodash';
 import skhema from 'skhema';
 import { JSONSchema6 } from 'json-schema';
 import { getLogger } from '@balena/jellyfish-logger';
+import type { Contract } from '@balena/jellyfish-types/build/core';
 import { INTERFACE_VERSION } from './version';
 import {
 	ActionFile,
 	Actions,
 	Map,
 	Sluggable,
-	CardFiles,
+	ContractFiles,
 	JellyfishPlugin,
 	PluginIdentity,
-	CardFile,
+	ContractFile,
 	Integration,
 	JellyfishPluginOptions,
 	CoreMixins,
-	Card,
 } from './types';
 
 const logger = getLogger(__filename);
@@ -51,8 +51,8 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	requires: PluginIdentity[];
 	interfaceVersion: string;
 
-	private _cardFiles: CardFile[];
-	private _mixins: CardFiles;
+	private _cardFiles: ContractFile[];
+	private _mixins: ContractFiles;
 	private _integrations: Integration[];
 	private _actions: ActionFile[];
 
@@ -100,11 +100,11 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 			...mixins,
 			...this._mixins,
 		};
-		const cards = this.getSafeMap<Card>(
+		const cards = this.getSafeMap<Contract>(
 			context,
 			allCards,
 			'cards',
-			(cardFile: CardFile) => {
+			(cardFile: ContractFile) => {
 				const card =
 					typeof cardFile === 'function' ? cardFile(cardMixins) : cardFile;
 				return mixins.initialize(card);

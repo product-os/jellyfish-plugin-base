@@ -16,7 +16,7 @@ import {
 	PluginManagerOptions,
 	Actions,
 	Integrations,
-	Cards,
+	Contracts,
 	CoreMixins,
 } from './types';
 
@@ -120,7 +120,7 @@ export class PluginManager {
 	}
 
 	getCards(context: object, mixins: CoreMixins) {
-		return _.reduce<JellyfishPlugins, Cards>(
+		return _.reduce<JellyfishPlugins, Contracts>(
 			this._plugins,
 			(carry, plugin) => {
 				if (plugin.getCards) {

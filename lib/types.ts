@@ -4,41 +4,30 @@
  * Proprietary and confidential.
  */
 
+import type {
+	Contract,
+	ContractSummary,
+	ContractDefinition,
+} from '@balena/jellyfish-types/build/core';
+
 export interface Map<T> {
 	[key: string]: T;
 }
 
-export type Sluggable = { slug: string } | { card: Card };
+export type Sluggable = { slug: string } | { card: Contract };
 
 export interface CoreMixins {
-	mixin: (mixins: Card[]) => (card: Card) => Card;
-	initialize: (card: CardBase) => Card;
+	mixin: (mixins: Contract[]) => (card: Contract) => Contract;
+	initialize: (card: ContractDefinition) => Contract;
 }
 
-export interface CardBase {
-	slug: string;
-	type: string;
-	[key: string]: string | number | boolean | object | null | undefined;
-}
+export interface Contracts extends Map<Contract> {}
 
-export interface CardSummary {
-	id: string;
-	slug: string;
-	version: string;
-	type: string;
-}
+export type ContractFileFn = (mixins: CoreMixins) => ContractDefinition;
 
-export interface Card extends CardSummary {
-	[key: string]: string | number | boolean | object | null | undefined;
-}
+export type ContractFile = ContractDefinition | ContractFileFn;
 
-export interface Cards extends Map<Card> {}
-
-export type CardFileFn = (mixins: CoreMixins) => CardBase;
-
-export type CardFile = CardBase | CardFileFn;
-
-export interface CardFiles extends Map<CardFile> {}
+export interface ContractFiles extends Map<ContractFile> {}
 
 export interface IntegrationEvent {
 	data: any;
@@ -47,14 +36,14 @@ export interface IntegrationEvent {
 export interface IntegrationResult {
 	time: Date;
 	actor: string;
-	card: CardBase;
+	card: ContractDefinition;
 }
 
 export interface Integration {
 	slug: string;
 	initialize: () => Promise<void>;
 	destroy: () => Promise<void>;
-	mirror: (card: Card, options: any) => Promise<IntegrationResult[]>;
+	mirror: (card: Contract, options: any) => Promise<IntegrationResult[]>;
 	translate: (event: IntegrationEvent) => Promise<IntegrationResult[]>;
 }
 
@@ -66,9 +55,9 @@ interface ActionCore {
 	handler: (
 		session: any,
 		context: any,
-		card: Card,
+		card: Contract,
 		request: any,
-	) => Promise<null | CardSummary>;
+	) => Promise<null | ContractSummary>;
 }
 
 interface Action extends ActionCore {
@@ -77,7 +66,7 @@ interface Action extends ActionCore {
 
 export interface ActionFile extends ActionCore {
 	pre?: ActionPreFn;
-	card: CardBase;
+	card: ContractDefinition;
 }
 
 export interface Actions extends Map<Action> {}
@@ -92,8 +81,8 @@ export interface JellyfishPluginOptions {
 	name: string;
 	version: string;
 	requires?: PluginIdentity[];
-	cards?: CardFile[];
-	mixins?: CardFiles;
+	cards?: ContractFile[];
+	mixins?: ContractFiles;
 	integrations?: Integration[];
 	actions?: ActionFile[];
 }
@@ -105,7 +94,7 @@ export interface JellyfishPlugin {
 	interfaceVersion: string;
 	requires: PluginIdentity[];
 
-	getCards: (context: object, mixins: CoreMixins) => Cards;
+	getCards: (context: object, mixins: CoreMixins) => Contracts;
 	getSyncIntegrations: (context: object) => Integrations;
 	getActions: (context: object) => Actions;
 }
