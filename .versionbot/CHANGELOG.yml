@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency semver to ^7.3.5'
+      hash: 409992412e007d5f1a1e1533f1234a85cb2c9a1b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 1.2.41
+  date: 2021-03-23T02:17:50.278Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.57'
       hash: 0a7b4d759e2e618d839648fafc8e78492b133e54
       body: ''

@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 1.2.41 - 2021-03-23
+
+* patch: Update dependency semver to ^7.3.5 [Renovate Bot]
+
 ## 1.2.40 - 2021-03-22
 
 * patch: Update dependency @balena/jellyfish-logger to ^1.0.57 [Renovate Bot]
