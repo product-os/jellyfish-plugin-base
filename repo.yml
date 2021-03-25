@@ -1,4 +1,0 @@
-type: 'node'
-upstream:
-  - repo: 'jellyfish-logger'
-    url: 'https://github.com/product-os/jellyfish-logger'
