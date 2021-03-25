@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: f41f1da146e162e4ad75c38785044de2ad137169
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.6
+  date: 2021-03-25T05:42:30.552Z
+- commits:
     - subject: Use GitHub action to generate and publish Typedoc docs
       hash: e81b4b9ac22a28ded6943b70ca7d1d16c04fed33
       body: ''
