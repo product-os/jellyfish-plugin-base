@@ -1,4 +1,17 @@
 - commits:
+    - subject: Use GitHub action to generate and publish Typedoc docs
+      hash: e81b4b9ac22a28ded6943b70ca7d1d16c04fed33
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.0.5
+  date: 2021-03-25T05:31:10.402Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.6'
       hash: 43a0a3bbab07d0ab274ffa8b91f5287feac44e9b
       body: ''

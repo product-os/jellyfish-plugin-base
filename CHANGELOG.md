@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.5 - 2021-03-25
+
+* Use GitHub action to generate and publish Typedoc docs [Graham McCulloch]
+
 ## 2.0.4 - 2021-03-24
 
 * patch: Update dependency @balena/jellyfish-logger to ^2.1.6 [Renovate Bot]
