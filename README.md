@@ -67,4 +67,6 @@ const cards = pluginManager.getCards(context, mixins)
 
 # Documentation
 
+[![Publish Documentation](https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml)
+
 Visit the website for complete documentation: https://product-os.github.io/jellyfish-plugin-base
