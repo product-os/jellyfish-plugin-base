@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.11 - 2021-03-26
+
+* Replace husky with simple-git-hooks [Graham McCulloch]
+
 ## 2.0.10 - 2021-03-26
 
 * patch: Update dependency @balena/jellyfish-types to ^0.2.2 [Renovate Bot]
