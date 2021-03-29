@@ -8,6 +8,9 @@ import type {
 	Contract,
 	ContractSummary,
 	ContractDefinition,
+	ContractData,
+	Context,
+	ActionRequestContract,
 } from '@balena/jellyfish-types/build/core';
 
 export interface Map<T> {
@@ -17,8 +20,12 @@ export interface Map<T> {
 export type Sluggable = { slug: string } | { card: Contract };
 
 export interface CoreMixins {
-	mixin: (mixins: Contract[]) => (card: Contract) => Contract;
-	initialize: (card: ContractDefinition) => Contract;
+	mixin: (
+		mixins: Contract[],
+	) => <TData = ContractData>(card: Contract<TData>) => Contract<TData>;
+	initialize: <TData = ContractData>(
+		card: ContractDefinition<TData>,
+	) => Contract<TData>;
 }
 
 export interface ExtraMixins {
@@ -29,9 +36,13 @@ export interface Mixins extends CoreMixins, ExtraMixins {}
 
 export interface Contracts extends Map<Contract> {}
 
-export type ContractFileFn = (mixins: Mixins) => ContractDefinition;
+export type ContractFileFn<TData = ContractData> = (
+	mixins: CoreMixins,
+) => ContractDefinition<TData>;
 
-export type ContractFile = ContractDefinition | ContractFileFn;
+export type ContractFile<TData = ContractData> =
+	| ContractDefinition<TData>
+	| ContractFileFn<TData>;
 
 export interface ContractFiles extends Map<ContractFile> {}
 
@@ -39,41 +50,49 @@ export interface IntegrationEvent {
 	data: any;
 }
 
-export interface IntegrationResult {
+export interface IntegrationResult<TData> {
 	time: Date;
 	actor: string;
-	card: ContractDefinition;
+	card: ContractDefinition<TData>;
 }
 
-export interface Integration {
+export interface Integration<TData = ContractData> {
 	slug: string;
 	initialize: () => Promise<void>;
 	destroy: () => Promise<void>;
-	mirror: (card: Contract, options: any) => Promise<IntegrationResult[]>;
-	translate: (event: IntegrationEvent) => Promise<IntegrationResult[]>;
+	mirror: (
+		card: Contract<TData>,
+		options: any,
+	) => Promise<Array<IntegrationResult<TData>>>;
+	translate: (
+		event: IntegrationEvent,
+	) => Promise<Array<IntegrationResult<TData>>>;
 }
 
 export interface Integrations extends Map<Integration> {}
 
-// TS-TODO: Define more strict return type that matches reality
-type ActionPreFn = (session: any, context: any, request: any) => any;
+type ActionPreFn = (
+	session: string,
+	context: Context,
+	request: ActionRequestContract,
+) => Promise<void> | void;
 
-interface ActionCore {
+interface ActionCore<TData = ContractData> {
 	handler: (
-		session: any,
-		context: any,
-		card: Contract,
-		request: any,
-	) => Promise<null | ContractSummary | ContractSummary[]>;
+		session: string,
+		context: Context,
+		card: Contract<TData>,
+		request: ActionRequestContract,
+	) => Promise<null | ContractSummary<TData>>;
 }
 
-interface Action extends ActionCore {
+interface Action<TData = ContractData> extends ActionCore<TData> {
 	pre: ActionPreFn;
 }
 
-export interface ActionFile extends ActionCore {
+export interface ActionFile<TData = ContractData> extends ActionCore<TData> {
 	pre?: ActionPreFn;
-	card: ContractDefinition;
+	card: ContractDefinition<TData>;
 }
 
 export interface Actions extends Map<Action> {}
@@ -101,9 +120,9 @@ export interface JellyfishPlugin {
 	interfaceVersion: string;
 	requires: PluginIdentity[];
 
-	getCards: (context: object, mixins: CoreMixins) => Contracts;
-	getSyncIntegrations: (context: object) => Integrations;
-	getActions: (context: object) => Actions;
+	getCards: (context: Context, mixins: CoreMixins) => Contracts;
+	getSyncIntegrations: (context: Context) => Integrations;
+	getActions: (context: Context) => Actions;
 }
 
 export interface JellyfishPlugins extends Map<JellyfishPlugin> {}

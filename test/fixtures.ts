@@ -15,6 +15,7 @@ import {
 	PluginIdentity,
 	JellyfishPluginConstructor,
 	JellyfishPluginOptions,
+	IntegrationEvent,
 } from '../lib';
 
 const commonCard = {
@@ -64,13 +65,11 @@ class TestIntegration implements Integration {
 		return Promise.resolve();
 	}
 
-	// @ts-ignore
-	async mirror(card: Card, options: any) {
+	async mirror(_contract: Contract, _options: any) {
 		return Promise.resolve([]);
 	}
 
-	// @ts-ignore
-	async translate(event: IntegrationEvent) {
+	async translate(_event: IntegrationEvent) {
 		return Promise.resolve([]);
 	}
 }

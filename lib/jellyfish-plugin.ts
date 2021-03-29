@@ -8,9 +8,9 @@ import _ from 'lodash';
 import skhema from 'skhema';
 import { JSONSchema6 } from 'json-schema';
 import { getLogger } from '@balena/jellyfish-logger';
-import type { Contract } from '@balena/jellyfish-types/build/core';
+import type { Context, Contract } from '@balena/jellyfish-types/build/core';
 import { INTERFACE_VERSION } from './version';
-import {
+import type {
 	ActionFile,
 	Actions,
 	Map,
@@ -70,7 +70,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	}
 
 	private getSafeMap<T extends Sluggable>(
-		context: object,
+		context: Context,
 		source: any[],
 		sourceType: string,
 		resolver: (item: any) => T = _.identity,
@@ -93,7 +93,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		);
 	}
 
-	getCards(context: object, mixins: CoreMixins) {
+	getCards(context: Context, mixins: CoreMixins) {
 		const actionCards = _.map(this._actions, 'card');
 		const allCards = _.concat(this._cardFiles, actionCards);
 		const cardMixins = {
@@ -113,7 +113,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		return cards;
 	}
 
-	getSyncIntegrations(context: object) {
+	getSyncIntegrations(context: Context) {
 		return this.getSafeMap<Integration>(
 			context,
 			this._integrations,
@@ -121,7 +121,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		);
 	}
 
-	getActions(_context: object) {
+	getActions(_context: Context) {
 		return _.reduce(
 			this._actions,
 			(actions: Actions, action: ActionFile) => {
