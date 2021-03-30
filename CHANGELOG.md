@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.16 - 2021-03-30
+
+* patch: Update dependency @balena/jellyfish-logger to ^2.1.13 [Renovate Bot]
+
 ## 2.0.15 - 2021-03-30
 
 * Allow for array result for action handler [Josh Bowling]
