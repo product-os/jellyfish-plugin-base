@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.15 - 2021-03-30
+
+* Allow for array result for action handler [Josh Bowling]
+
 ## 2.0.14 - 2021-03-29
 
 * patch: Update dependency @balena/jellyfish-types to ^0.4.4 [Renovate Bot]
