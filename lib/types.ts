@@ -57,7 +57,7 @@ interface ActionCore {
 		context: any,
 		card: Contract,
 		request: any,
-	) => Promise<null | ContractSummary>;
+	) => Promise<null | ContractSummary | ContractSummary[]>;
 }
 
 interface Action extends ActionCore {
