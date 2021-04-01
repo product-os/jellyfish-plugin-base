@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.21 - 2021-04-01
+
+* patch: Update dependency @balena/jellyfish-types to ^0.4.5 [Renovate Bot]
+
 ## 2.0.20 - 2021-03-31
 
 * patch: Update dependency sinon to v10 [Renovate Bot]
