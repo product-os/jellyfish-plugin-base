@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency typedoc to ^0.20.35'
+      hash: e8e77dd42106788b36d17799128c25b904a8b17a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.31
+  date: 2021-04-03T20:49:55.439Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: edb24c740896de5008841c69211fb01062011c76
       body: ''
