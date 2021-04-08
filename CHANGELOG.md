@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.45 - 2021-04-08
+
+* Update return type for ActionPreFn [Josh Bowling]
+
 ## 2.0.44 - 2021-04-07
 
 * patch: Update dependency @balena/jellyfish-logger to ^2.1.24 [Renovate Bot]

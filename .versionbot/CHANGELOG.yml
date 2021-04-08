@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update return type for ActionPreFn
+      hash: 3a45ac68d580810f3fa21368a716307eafa6cc9a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: josh Bowling <josh@balena.io>
+        signed-off-by: josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.0.45
+  date: 2021-04-08T05:23:01.395Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.24'
       hash: 323da6103eef0196eb06e368c5c4715174a72ec0
       body: ''
