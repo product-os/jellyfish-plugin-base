@@ -49,7 +49,8 @@ export interface Integration {
 
 export interface Integrations extends Map<Integration> {}
 
-type ActionPreFn = (session: any, context: any, request: any) => void;
+// TS-TODO: Define more strict return type that matches reality
+type ActionPreFn = (session: any, context: any, request: any) => any;
 
 interface ActionCore {
 	handler: (
