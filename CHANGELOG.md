@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.0.46 - 2021-04-10
+
+* patch: Update dependency @balena/jellyfish-types to ^0.4.30 [Renovate Bot]
+
 ## 2.0.45 - 2021-04-08
 
 * Update return type for ActionPreFn [Josh Bowling]
