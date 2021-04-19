@@ -113,6 +113,7 @@ export const action1: ActionFile = {
 	card: {
 		slug: 'action-1',
 		type: 'action',
+		data: {},
 	},
 	handler: async () => null,
 };
@@ -121,6 +122,7 @@ export const action2: ActionFile = {
 	card: {
 		slug: 'action-2',
 		type: 'action',
+		data: {},
 	},
 	pre: _.noop,
 	handler: async () => _.pick(card1, 'id', 'slug', 'type', 'version'),
