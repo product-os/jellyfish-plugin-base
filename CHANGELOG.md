@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.0.80 - 2021-04-19
+
+* Update test fixture to satisfy type [Josh Bowling]
+* patch: Update non-major [Renovate Bot]
+
 ## 2.0.79 - 2021-04-15
 
 * patch: Update dependency @types/sinon to v10 [Renovate Bot]

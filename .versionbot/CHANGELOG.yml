@@ -1,4 +1,25 @@
 - commits:
+    - subject: Update test fixture to satisfy type
+      hash: 10d96854062760e2479c0568971b1daeb07ab358
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update non-major'
+      hash: ccc6e4f4acf3f23abc83d973d999147a721b7610
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.0.80
+  date: 2021-04-19T00:55:42.666Z
+- commits:
     - subject: 'patch: Update dependency @types/sinon to v10'
       hash: 9cd67ffebd7d75fcfae3153d8c84c9ebf63bb60d
       body: ''
