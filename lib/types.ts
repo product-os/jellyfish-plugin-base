@@ -21,9 +21,15 @@ export interface CoreMixins {
 	initialize: (card: ContractDefinition) => Contract;
 }
 
+export interface ExtraMixins {
+	[key: string]: any;
+}
+
+export interface Mixins extends CoreMixins, ExtraMixins {}
+
 export interface Contracts extends Map<Contract> {}
 
-export type ContractFileFn = (mixins: CoreMixins) => ContractDefinition;
+export type ContractFileFn = (mixins: Mixins) => ContractDefinition;
 
 export type ContractFile = ContractDefinition | ContractFileFn;
 
