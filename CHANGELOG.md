@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.1 - 2021-04-20
+
+* patch: Update dependency @balena/jellyfish-types to ^0.5.32 [Renovate Bot]
+
 ## 2.1.0 - 2021-04-20
 
 * Update mixins interface to allow extra [Josh Bowling]

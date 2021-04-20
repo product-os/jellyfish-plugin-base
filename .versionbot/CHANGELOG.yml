@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.32'
+      hash: 2952743dc848ff18e6595285f1b0fff60bf9824f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.1
+  date: 2021-04-20T02:50:24.160Z
+- commits:
     - subject: Update mixins interface to allow extra
       hash: 7d1fa6d39338582d67ae7c1ab8ada5d2e52d379f
       body: ''
