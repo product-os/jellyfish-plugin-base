@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>CoreMixins | @balena/jellyfish-plugin-base</title>
+	<title>Mixins | @balena/jellyfish-plugin-base</title>
 	<meta name="description" content="Documentation for @balena/jellyfish-plugin-base">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,10 +56,10 @@
 					<a href="../modules/types.html">types</a>
 				</li>
 				<li>
-					<a href="types.coremixins.html">CoreMixins</a>
+					<a href="types.mixins.html">Mixins</a>
 				</li>
 			</ul>
-			<h1>Interface CoreMixins</h1>
+			<h1>Interface Mixins</h1>
 		</div>
 	</div>
 </header>
@@ -70,10 +70,13 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">CoreMixins</span>
+						<a href="types.coremixins.html" class="tsd-signature-type" data-tsd-kind="Interface">CoreMixins</a>
+					</li>
+					<li>
+						<a href="types.extramixins.html" class="tsd-signature-type" data-tsd-kind="Interface">ExtraMixins</a>
 						<ul class="tsd-hierarchy">
 							<li>
-								<a href="types.mixins.html" class="tsd-signature-type" data-tsd-kind="Interface">Mixins</a>
+								<span class="target">Mixins</span>
 							</li>
 						</ul>
 					</li>
@@ -83,23 +86,24 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
+						<section class="tsd-index-section tsd-is-inherited">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.coremixins.html#initialize" class="tsd-kind-icon">initialize</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.coremixins.html#mixin" class="tsd-kind-icon">mixin</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="types.mixins.html#initialize" class="tsd-kind-icon">initialize</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="types.mixins.html#mixin" class="tsd-kind-icon">mixin</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
+			<section class="tsd-panel-group tsd-member-group tsd-is-inherited">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="initialize" class="tsd-anchor"></a>
 					<h3>initialize</h3>
 					<div class="tsd-signature tsd-kind-icon">initialize<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>card<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ContractDefinition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Contract</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from <a href="types.coremixins.html">CoreMixins</a>.<a href="types.coremixins.html#initialize">initialize</a></p>
 						<ul>
 							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/types.ts#L21">lib/types.ts:21</a></li>
 						</ul>
@@ -126,11 +130,12 @@
 						</ul>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a name="mixin" class="tsd-anchor"></a>
 					<h3>mixin</h3>
 					<div class="tsd-signature tsd-kind-icon">mixin<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>mixins<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Contract</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-symbol">(</span>card<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Contract</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">Contract</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">{}</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from <a href="types.coremixins.html">CoreMixins</a>.<a href="types.coremixins.html#mixin">mixin</a></p>
 						<ul>
 							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/types.ts#L20">lib/types.ts:20</a></li>
 						</ul>
@@ -214,21 +219,9 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.contracts.html" class="tsd-kind-icon">Contracts</a>
 					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module">
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.coremixins.html" class="tsd-kind-icon">Core<wbr>Mixins</a>
-						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.coremixins.html#initialize" class="tsd-kind-icon">initialize</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.coremixins.html#mixin" class="tsd-kind-icon">mixin</a>
-							</li>
-						</ul>
 					</li>
-				</ul>
-				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.extramixins.html" class="tsd-kind-icon">Extra<wbr>Mixins</a>
 					</li>
@@ -256,9 +249,21 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="types.map.html" class="tsd-kind-icon">Map</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.mixins.html" class="tsd-kind-icon">Mixins</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="types.mixins.html#initialize" class="tsd-kind-icon">initialize</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="types.mixins.html#mixin" class="tsd-kind-icon">mixin</a>
+							</li>
+						</ul>
 					</li>
+				</ul>
+				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.pluginidentity.html" class="tsd-kind-icon">Plugin<wbr>Identity</a>
 					</li>
@@ -287,13 +292,12 @@
 		<h2>Legend</h2>
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
-			</ul>
-			<ul class="tsd-legend">
 				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
