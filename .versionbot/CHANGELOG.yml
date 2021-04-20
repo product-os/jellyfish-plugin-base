@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update mixins interface to allow extra
+      hash: 7d1fa6d39338582d67ae7c1ab8ada5d2e52d379f
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.0
+  date: 2021-04-20T02:31:29.534Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.31'
       hash: 6148c9f38cad6245b39270bf5da7a2d757699f71
       body: ''
