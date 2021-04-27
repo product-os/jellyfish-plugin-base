@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.28 - 2021-04-27
+
+* patch: Update dependency skhema to ^5.3.4 [Renovate Bot]
+
 ## 2.1.27 - 2021-04-27
 
 * patch: Update non-major [Renovate Bot]

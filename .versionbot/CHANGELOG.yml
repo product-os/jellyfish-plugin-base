@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency skhema to ^5.3.4'
+      hash: 675a942c10012905837cafc8672c6aaf10ecfbc1
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.28
+  date: 2021-04-27T15:11:20.773Z
+- commits:
     - subject: 'patch: Update non-major'
       hash: 380491d80bc1871dedf58b89f7db965ef24b1884
       body: ''
