@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.38'
+      hash: a94914a6d3b78ba16f66798c51ea903c1685ed24
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.29
+  date: 2021-04-28T13:06:57.184Z
+- commits:
     - subject: 'patch: Update dependency skhema to ^5.3.4'
       hash: 675a942c10012905837cafc8672c6aaf10ecfbc1
       body: ''
