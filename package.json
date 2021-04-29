@@ -45,7 +45,7 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@balena/jellyfish-logger": "^2.1.38",
-    "@balena/jellyfish-types": "^0.5.59",
+    "@balena/jellyfish-types": "^0.5.60",
     "json-schema": "^0.3.0",
     "lodash": "^4.17.21",
     "semver": "^7.3.5",
