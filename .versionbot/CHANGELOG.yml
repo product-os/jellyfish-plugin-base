@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update interfaces based on jellyfish-types
+      hash: 5b7d6806d13071cb7f3de589861d8ceaa55ef042
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.41
+  date: 2021-04-30T15:49:57.323Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.40'
       hash: 2feb342d06f606e4c51a29eb600feded13387edc
       body: ''
