@@ -7,8 +7,9 @@
 import _ from 'lodash';
 import semver from 'semver';
 import { getLogger } from '@balena/jellyfish-logger';
+import type { Context } from '@balena/jellyfish-types/build/core';
 import { INTERFACE_VERSION } from './version';
-import {
+import type {
 	Map,
 	JellyfishPluginConstructor,
 	JellyfishPlugin,
@@ -87,7 +88,7 @@ const loadPlugins = (plugins: JellyfishPluginConstructor[]) => {
 };
 
 const validatedAddToMap = <T>(
-	context: object,
+	context: Context,
 	plugin: JellyfishPlugin,
 	pluginItems: Map<T>,
 	consolidatedItems: Map<T>,
@@ -109,7 +110,7 @@ export class PluginManager {
 
 	interfaceVersion: string;
 
-	constructor(context: object, options: PluginManagerOptions) {
+	constructor(context: Context, options: PluginManagerOptions) {
 		this.interfaceVersion = INTERFACE_VERSION;
 		try {
 			this._plugins = loadPlugins(options.plugins);
@@ -119,7 +120,7 @@ export class PluginManager {
 		}
 	}
 
-	getCards(context: object, mixins: CoreMixins) {
+	getCards(context: Context, mixins: CoreMixins) {
 		return _.reduce<JellyfishPlugins, Contracts>(
 			this._plugins,
 			(carry, plugin) => {
@@ -133,7 +134,7 @@ export class PluginManager {
 		);
 	}
 
-	getSyncIntegrations(context: object) {
+	getSyncIntegrations(context: Context) {
 		return _.reduce<JellyfishPlugins, Integrations>(
 			this._plugins,
 			(carry, plugin) => {
@@ -153,7 +154,7 @@ export class PluginManager {
 		);
 	}
 
-	getActions(context: object) {
+	getActions(context: Context) {
 		return _.reduce<JellyfishPlugins, Actions>(
 			this._plugins,
 			(carry, plugin) => {
