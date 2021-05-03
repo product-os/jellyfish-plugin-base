@@ -52,7 +52,7 @@
     "skhema": "^5.3.4"
   },
   "devDependencies": {
-    "@balena/lint": "^5.4.1",
+    "@balena/lint": "^5.4.2",
     "@balena/jellycheck": "^0.1.1",
     "@types/jest": "^26.0.23",
     "@types/semver": "^7.3.5",
