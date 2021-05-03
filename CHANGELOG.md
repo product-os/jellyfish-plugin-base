@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.56 - 2021-05-03
+
+* patch: Update non-major [Renovate Bot]
+
 ## 2.1.55 - 2021-05-03
 
 * patch: Update dependency @balena/lint to ^5.4.2 [Renovate Bot]

@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update non-major'
+      hash: 5d19abc86cf2845f16531014f4a31ccbb84e00d2
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.56
+  date: 2021-05-03T12:16:11.438Z
+- commits:
     - subject: 'patch: Update dependency @balena/lint to ^5.4.2'
       hash: 62a742911e15ae24d41688350fbb9a7eca06d589
       body: ''
