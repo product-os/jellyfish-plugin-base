@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use a looser request type until we define ActionRequest better
+      hash: 2e1a94548804516c3d0e18dbb2f6be92c6d959da
+      body: |
+        Also fixed the return types of the `pre` and `handler` functions.
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 2.1.72
+  date: 2021-05-05T07:34:35.027Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.109'
       hash: 84e3be0943e759c59c472a32787771a2d7041908
       body: ''

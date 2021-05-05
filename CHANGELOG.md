@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.72 - 2021-05-05
+
+* Use a looser request type until we define ActionRequest better [Graham McCulloch]
+
 ## 2.1.71 - 2021-05-04
 
 * patch: Update dependency @balena/jellyfish-types to ^0.5.109 [Renovate Bot]
