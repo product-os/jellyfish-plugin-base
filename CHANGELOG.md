@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.102 - 2021-05-24
+
+* Improve typings for core mixins [Lucian Buzzo]
+
 ## 2.1.101 - 2021-05-24
 
 * patch: Update internal-patch [Renovate Bot]
