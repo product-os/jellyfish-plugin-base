@@ -39,6 +39,8 @@
 							</div>
 							<input type="checkbox" id="tsd-filter-inherited" checked />
 							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
 						</div>
 					</div>
 					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
@@ -84,9 +86,19 @@
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-private-protected">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-protected"><a href="jellyfish_plugin.jellyfishpluginbase.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="jellyfish_plugin.jellyfishpluginbase.html#_actions" class="tsd-kind-icon">_actions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="jellyfish_plugin.jellyfishpluginbase.html#_cardfiles" class="tsd-kind-icon">_card<wbr>Files</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="jellyfish_plugin.jellyfishpluginbase.html#_integrations" class="tsd-kind-icon">_integrations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="jellyfish_plugin.jellyfishpluginbase.html#_mixins" class="tsd-kind-icon">_mixins</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#interfaceversion" class="tsd-kind-icon">interface<wbr>Version</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#requires" class="tsd-kind-icon">requires</a></li>
@@ -99,14 +111,81 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#getactions" class="tsd-kind-icon">get<wbr>Actions</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#getcards" class="tsd-kind-icon">get<wbr>Cards</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private"><a href="jellyfish_plugin.jellyfishpluginbase.html#getsafemap" class="tsd-kind-icon">get<wbr>Safe<wbr>Map</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="jellyfish_plugin.jellyfishpluginbase.html#getsyncintegrations" class="tsd-kind-icon">get<wbr>Sync<wbr>Integrations</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private-protected">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-protected">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Jellyfish<wbr>Plugin<wbr>Base<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/types.jellyfishpluginoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">JellyfishPluginOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="jellyfish_plugin.jellyfishpluginbase.html" class="tsd-signature-type" data-tsd-kind="Class">JellyfishPluginBase</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L57">lib/jellyfish-plugin.ts:57</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="../interfaces/types.jellyfishpluginoptions.html" class="tsd-signature-type" data-tsd-kind="Interface">JellyfishPluginOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="jellyfish_plugin.jellyfishpluginbase.html" class="tsd-signature-type" data-tsd-kind="Class">JellyfishPluginBase</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_actions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _actions</h3>
+					<div class="tsd-signature tsd-kind-icon">_actions<span class="tsd-signature-symbol">:</span> <a href="../interfaces/types.actionfile.html" class="tsd-signature-type" data-tsd-kind="Interface">ActionFile</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L57">lib/jellyfish-plugin.ts:57</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_cardfiles" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _card<wbr>Files</h3>
+					<div class="tsd-signature tsd-kind-icon">_card<wbr>Files<span class="tsd-signature-symbol">:</span> <a href="../modules/types.html#contractfile" class="tsd-signature-type" data-tsd-kind="Type alias">ContractFile</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L54">lib/jellyfish-plugin.ts:54</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_integrations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _integrations</h3>
+					<div class="tsd-signature tsd-kind-icon">_integrations<span class="tsd-signature-symbol">:</span> <a href="../interfaces/types.integration.html" class="tsd-signature-type" data-tsd-kind="Interface">Integration</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ContractData</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L56">lib/jellyfish-plugin.ts:56</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_mixins" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _mixins</h3>
+					<div class="tsd-signature tsd-kind-icon">_mixins<span class="tsd-signature-symbol">:</span> <a href="../interfaces/types.contractfiles.html" class="tsd-signature-type" data-tsd-kind="Interface">ContractFiles</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L55">lib/jellyfish-plugin.ts:55</a></li>
+						</ul>
+					</aside>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="interfaceversion" class="tsd-anchor"></a>
 					<h3>interface<wbr>Version</h3>
@@ -114,7 +193,7 @@
 					<aside class="tsd-sources">
 						<p>Implementation of <a href="../interfaces/types.jellyfishplugin.html">JellyfishPlugin</a>.<a href="../interfaces/types.jellyfishplugin.html#interfaceversion">interfaceVersion</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L52">lib/jellyfish-plugin.ts:52</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L52">lib/jellyfish-plugin.ts:52</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -125,7 +204,7 @@
 					<aside class="tsd-sources">
 						<p>Implementation of <a href="../interfaces/types.jellyfishplugin.html">JellyfishPlugin</a>.<a href="../interfaces/types.jellyfishplugin.html#name">name</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L49">lib/jellyfish-plugin.ts:49</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L49">lib/jellyfish-plugin.ts:49</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -136,7 +215,7 @@
 					<aside class="tsd-sources">
 						<p>Implementation of <a href="../interfaces/types.jellyfishplugin.html">JellyfishPlugin</a>.<a href="../interfaces/types.jellyfishplugin.html#requires">requires</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L51">lib/jellyfish-plugin.ts:51</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L51">lib/jellyfish-plugin.ts:51</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -147,7 +226,7 @@
 					<aside class="tsd-sources">
 						<p>Implementation of <a href="../interfaces/types.jellyfishplugin.html">JellyfishPlugin</a>.<a href="../interfaces/types.jellyfishplugin.html#slug">slug</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L48">lib/jellyfish-plugin.ts:48</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L48">lib/jellyfish-plugin.ts:48</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -158,7 +237,7 @@
 					<aside class="tsd-sources">
 						<p>Implementation of <a href="../interfaces/types.jellyfishplugin.html">JellyfishPlugin</a>.<a href="../interfaces/types.jellyfishplugin.html#version">version</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L50">lib/jellyfish-plugin.ts:50</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L50">lib/jellyfish-plugin.ts:50</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -176,7 +255,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of JellyfishPlugin.getActions</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L124">lib/jellyfish-plugin.ts:124</a></li>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L124">lib/jellyfish-plugin.ts:124</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -200,7 +279,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of JellyfishPlugin.getCards</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L96">lib/jellyfish-plugin.ts:96</a></li>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L96">lib/jellyfish-plugin.ts:96</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -216,6 +295,62 @@
 						</li>
 					</ul>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+					<a name="getsafemap" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Safe<wbr>Map</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Safe<wbr>Map&lt;T&gt;<span class="tsd-signature-symbol">(</span>context<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Context</span>, source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span>, sourceType<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, resolver<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/types.map.html" class="tsd-signature-type" data-tsd-kind="Interface">Map</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L72">lib/jellyfish-plugin.ts:72</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><a href="../modules/types.html#sluggable" class="tsd-signature-type" data-tsd-kind="Type alias">Sluggable</a></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>context: <span class="tsd-signature-type">Context</span></h5>
+								</li>
+								<li>
+									<h5>source: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>sourceType: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>resolver: <span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> = ...</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>item: <span class="tsd-signature-type">any</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/types.map.html" class="tsd-signature-type" data-tsd-kind="Interface">Map</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="getsyncintegrations" class="tsd-anchor"></a>
 					<h3>get<wbr>Sync<wbr>Integrations</h3>
@@ -227,7 +362,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of JellyfishPlugin.getSyncIntegrations</p>
 								<ul>
-									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/master/lib/jellyfish-plugin.ts#L116">lib/jellyfish-plugin.ts:116</a></li>
+									<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/78f78ef/lib/jellyfish-plugin.ts#L116">lib/jellyfish-plugin.ts:116</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -272,6 +407,21 @@
 					<li class="current tsd-kind-class tsd-parent-kind-module">
 						<a href="jellyfish_plugin.jellyfishpluginbase.html" class="tsd-kind-icon">Jellyfish<wbr>Plugin<wbr>Base</a>
 						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-protected">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#_actions" class="tsd-kind-icon">_actions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#_cardfiles" class="tsd-kind-icon">_card<wbr>Files</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#_integrations" class="tsd-kind-icon">_integrations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#_mixins" class="tsd-kind-icon">_mixins</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="jellyfish_plugin.jellyfishpluginbase.html#interfaceversion" class="tsd-kind-icon">interface<wbr>Version</a>
 							</li>
@@ -292,6 +442,9 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="jellyfish_plugin.jellyfishpluginbase.html#getcards" class="tsd-kind-icon">get<wbr>Cards</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-private">
+								<a href="jellyfish_plugin.jellyfishpluginbase.html#getsafemap" class="tsd-kind-icon">get<wbr>Safe<wbr>Map</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="jellyfish_plugin.jellyfishpluginbase.html#getsyncintegrations" class="tsd-kind-icon">get<wbr>Sync<wbr>Integrations</a>
@@ -322,6 +475,9 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
 				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 			</ul>
 		</div>
 	</div>
