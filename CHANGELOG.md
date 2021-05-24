@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.1.99 - 2021-05-24
+
+* Update lint command [Josh Bowling]
+* Use jellyfish-config [Josh Bowling]
+
 ## 2.1.98 - 2021-05-24
 
 * patch: Update dependency @balena/jellyfish-types to ^0.5.119 [Renovate Bot]
