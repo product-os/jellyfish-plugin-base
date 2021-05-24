@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.100 - 2021-05-24
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.99 - 2021-05-24
 
 * Update lint command [Josh Bowling]
