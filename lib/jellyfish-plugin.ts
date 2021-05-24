@@ -8,7 +8,10 @@ import _ from 'lodash';
 import skhema from 'skhema';
 import { JSONSchema6 } from 'json-schema';
 import { getLogger } from '@balena/jellyfish-logger';
-import type { Context, Contract } from '@balena/jellyfish-types/build/core';
+import type {
+	Context,
+	ContractDefinition,
+} from '@balena/jellyfish-types/build/core';
 import { INTERFACE_VERSION } from './version';
 import type {
 	ActionFile,
@@ -100,7 +103,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 			...mixins,
 			...this._mixins,
 		};
-		const cards = this.getSafeMap<Contract>(
+		const cards = this.getSafeMap<ContractDefinition>(
 			context,
 			allCards,
 			'cards',

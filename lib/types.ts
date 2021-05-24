@@ -18,13 +18,17 @@ export interface Map<T> {
 
 export type Sluggable = { slug: string } | { card: Contract };
 
+// TS-TODO: Replace this with the type directly from jellyfish-core once it's fully converted to TS
+
 export interface CoreMixins {
 	mixin: (
-		mixins: Contract[],
-	) => <TData = ContractData>(card: Contract<TData>) => Contract<TData>;
+		mixins: ContractDefinition[],
+	) => <TData = ContractData>(
+		card: ContractDefinition<TData>,
+	) => ContractDefinition<TData>;
 	initialize: <TData = ContractData>(
 		card: ContractDefinition<TData>,
-	) => Contract<TData>;
+	) => ContractDefinition<TData>;
 }
 
 export interface ExtraMixins {
@@ -33,7 +37,7 @@ export interface ExtraMixins {
 
 export interface Mixins extends CoreMixins, ExtraMixins {}
 
-export interface Contracts extends Map<Contract> {}
+export interface Contracts extends Map<ContractDefinition> {}
 
 export type ContractFileFn<TData = ContractData> = (
 	mixins: CoreMixins,
