@@ -1,4 +1,17 @@
 - commits:
+    - subject: Fix arity in CoreMixin interface
+      hash: d7682e18c0ea86a7ccc7b53d5fcc47a30c7788c7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.1.107
+  date: 2021-05-25T16:24:50.691Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.78'
       hash: 4d93f8abf85ade2b38c97da8a6bef6db1d8907a5
       body: ''
