@@ -109,7 +109,7 @@ describe('JellyfishPlugin', () => {
 					// Cards can be passed in as objects:
 					card1,
 					// ...or as a function that returns a card
-					({ mixin }) => mixin([])(card2),
+					({ mixin }) => mixin()(card2),
 				],
 			}))();
 
