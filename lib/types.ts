@@ -19,10 +19,9 @@ export interface Map<T> {
 export type Sluggable = { slug: string } | { card: Contract };
 
 // TS-TODO: Replace this with the type directly from jellyfish-core once it's fully converted to TS
-
 export interface CoreMixins {
 	mixin: (
-		mixins: ContractDefinition[],
+		...mixins: ContractDefinition[]
 	) => <TData = ContractData>(
 		card: ContractDefinition<TData>,
 	) => ContractDefinition<TData>;
