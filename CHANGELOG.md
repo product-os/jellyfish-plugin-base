@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.108 - 2021-05-26
+
+* patch: Update dependency @balena/jellyfish-logger to ^2.1.79 [Renovate Bot]
+
 ## 2.1.107 - 2021-05-25
 
 * Fix arity in CoreMixin interface [Lucian Buzzo]

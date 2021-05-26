@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.79'
+      hash: 13f1106f7e59abb658ac35add804495a0ceec300
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.108
+  date: 2021-05-26T02:16:29.857Z
+- commits:
     - subject: Fix arity in CoreMixin interface
       hash: d7682e18c0ea86a7ccc7b53d5fcc47a30c7788c7
       body: ''
