@@ -1,4 +1,15 @@
 - commits:
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: c1c0b53bd80e010e80e90ba0030d8d4b9e6a6a2b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: jellyfish-bot
+      nested: []
+  version: 2.1.126
+  date: 2021-05-31T03:14:50.777Z
+- commits:
     - subject: 'patch: Update dependency jest to ^27.0.3'
       hash: 89bc1fa7c6d640eb716ebe282c7bab23f363fa7f
       body: ''

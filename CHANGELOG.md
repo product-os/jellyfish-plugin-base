@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.126 - 2021-05-31
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [jellyfish-bot]
+
 ## 2.1.125 - 2021-05-29
 
 * patch: Update dependency jest to ^27.0.3 [Renovate Bot]
