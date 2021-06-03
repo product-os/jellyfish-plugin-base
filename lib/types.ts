@@ -58,16 +58,21 @@ export interface IntegrationResult<TData> {
 	card: ContractDefinition<TData>;
 }
 
+export interface SyncFunctionOptions {
+	actor: string;
+}
+
 export interface Integration<TData = ContractData> {
 	slug: string;
 	initialize: () => Promise<void>;
 	destroy: () => Promise<void>;
 	mirror: (
 		card: Contract<TData>,
-		options: any,
+		options: SyncFunctionOptions,
 	) => Promise<Array<IntegrationResult<TData>>>;
 	translate: (
 		event: IntegrationEvent,
+		options?: SyncFunctionOptions,
 	) => Promise<Array<IntegrationResult<TData>>>;
 }
 
