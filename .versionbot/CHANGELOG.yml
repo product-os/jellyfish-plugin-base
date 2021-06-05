@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add optional options to translate function
+      hash: a801e7f9dedd6c68e511358f0335222e0c4dc606
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.134
+  date: 2021-06-05T04:07:30.566Z
+- commits:
     - subject: Improve lint-staged config
       hash: 979b8ebaf95fbc7f8b3906a7bed7f85654269271
       body: ''

@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.134 - 2021-06-05
+
+* Add optional options to translate function [Josh Bowling]
+
 ## 2.1.133 - 2021-06-03
 
 * Improve lint-staged config [Josh Bowling]
