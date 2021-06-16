@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 3.0.0 - 2021-06-16
+
+* Fix integration types [Graham McCulloch]
+
 ## 2.1.154 - 2021-06-15
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.17 [Renovate Bot]
