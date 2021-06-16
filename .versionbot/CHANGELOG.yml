@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fix integration types
+      hash: badeb7294b8ef0853790c4cc9cb9c88d8764df86
+      body: |
+        Plugins should take integration classes, not objects.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+  version: 3.0.0
+  date: 2021-06-16T07:03:51.455Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.17'
       hash: bc2b8ef5611f86533155b63653c8d3fbbeaa9a79
       body: ''
