@@ -5,13 +5,14 @@
  */
 
 import _ from 'lodash';
-import type { Contract } from '@balena/jellyfish-types/build/core';
+import { Context, Contract } from '@balena/jellyfish-types/build/core';
 import {
 	ActionFile,
 	JellyfishPluginBase,
 	ContractFile,
 	ContractFiles,
 	Integration,
+	IntegrationClass,
 	PluginIdentity,
 	JellyfishPluginConstructor,
 	JellyfishPluginOptions,
@@ -50,11 +51,22 @@ export const card2: Contract = {
 	version: '1.0.0',
 };
 
-class TestIntegration implements Integration {
-	slug: string;
+abstract class TestIntegration implements Integration {
+	static isEventValid(
+		_token: any,
+		_rawEvent: any,
+		_headers: { [key: string]: string },
+		_loggerContext: Context,
+	): boolean {
+		return true;
+	}
 
-	constructor(slug: string) {
-		this.slug = slug;
+	static whoami(
+		_loggerContext: Context,
+		_credentials: any,
+		_options: { errors: any },
+	): Promise<any> | null {
+		return null;
 	}
 
 	async initialize() {
@@ -74,8 +86,13 @@ class TestIntegration implements Integration {
 	}
 }
 
-export const integration1 = new TestIntegration('integration-1');
-export const integration2 = new TestIntegration('integration-2');
+export class TestIntegration1 extends TestIntegration {
+	static slug: string = 'integration-1';
+}
+
+export class TestIntegration2 extends TestIntegration {
+	static slug: string = 'integration-2';
+}
 
 interface TestJellyfishPluginOptions {
 	slug?: string;
@@ -85,7 +102,7 @@ interface TestJellyfishPluginOptions {
 	requires?: PluginIdentity[];
 	cards?: ContractFile[];
 	mixins?: ContractFiles;
-	integrations?: Integration[];
+	integrations?: IntegrationClass[];
 	actions?: ActionFile[];
 }
 
