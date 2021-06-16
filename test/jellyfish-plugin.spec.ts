@@ -11,8 +11,8 @@ import {
 	TestPluginFactory,
 	card1,
 	card2,
-	integration1,
-	integration2,
+	TestIntegration1,
+	TestIntegration2,
 	action1,
 	action2,
 	mixins,
@@ -139,8 +139,8 @@ describe('JellyfishPlugin', () => {
 		test('throws an exception if duplicate integration slugs are found', () => {
 			const plugin = new (TestPluginFactory({
 				integrations: [
-					integration1,
-					Object.assign({}, integration2, { slug: integration1.slug }),
+					TestIntegration1,
+					Object.assign({}, TestIntegration2, { slug: TestIntegration1.slug }),
 				],
 			}))();
 
@@ -153,14 +153,14 @@ describe('JellyfishPlugin', () => {
 
 		test('returns a dictionary of integrations keyed by slug', () => {
 			const plugin = new (TestPluginFactory({
-				integrations: [integration1, integration2],
+				integrations: [TestIntegration1, TestIntegration2],
 			}))();
 
 			const loadedIntegrations = plugin.getSyncIntegrations(context);
 
 			expect(loadedIntegrations).toEqual({
-				'integration-1': integration1,
-				'integration-2': integration2,
+				'integration-1': TestIntegration1,
+				'integration-2': TestIntegration2,
 			});
 		});
 	});

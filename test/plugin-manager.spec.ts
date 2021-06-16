@@ -11,8 +11,8 @@ import {
 	TestPluginFactory,
 	card1,
 	card2,
-	integration1,
-	integration2,
+	TestIntegration1,
+	TestIntegration2,
 	action1,
 	action2,
 	mixins,
@@ -238,13 +238,15 @@ describe('PluginManager', () => {
 					TestPluginFactory({
 						slug: 'test-plugin-1',
 						name: 'Test Plugin 1',
-						integrations: [integration1],
+						integrations: [TestIntegration1],
 					}),
 					TestPluginFactory({
 						slug: 'test-plugin-2',
 						name: 'Test Plugin 2',
 						integrations: [
-							Object.assign({}, integration2, { slug: integration1.slug }),
+							Object.assign({}, TestIntegration2, {
+								slug: TestIntegration1.slug,
+							}),
 						],
 					}),
 				],
@@ -263,12 +265,12 @@ describe('PluginManager', () => {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
-						integrations: [integration1],
+						integrations: [TestIntegration1],
 					}),
 
 					TestPluginFactory({
 						slug: 'test-plugin-2',
-						integrations: [integration2],
+						integrations: [TestIntegration2],
 					}),
 				],
 			});
@@ -276,8 +278,8 @@ describe('PluginManager', () => {
 			const loadedIntegrations = pluginManager.getSyncIntegrations(context);
 
 			expect(loadedIntegrations).toEqual({
-				'integration-1': integration1,
-				'integration-2': integration2,
+				'integration-1': TestIntegration1,
+				'integration-2': TestIntegration2,
 			});
 		});
 	});
