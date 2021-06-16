@@ -63,7 +63,6 @@ export interface SyncFunctionOptions {
 }
 
 export interface Integration<TData = ContractData> {
-	slug: string;
 	initialize: () => Promise<void>;
 	destroy: () => Promise<void>;
 	mirror: (
@@ -76,7 +75,7 @@ export interface Integration<TData = ContractData> {
 	) => Promise<Array<IntegrationResult<TData>>>;
 }
 
-export interface Integrations extends Map<Integration> {}
+export interface Integrations extends Map<IntegrationClass> {}
 
 export type ActionPreFn = (
 	session: string,
@@ -112,6 +111,24 @@ export interface PluginIdentity {
 	version: string;
 }
 
+export interface IntegrationClass {
+	slug: string;
+	isEventValid: (
+		token: any,
+		rawEvent: any,
+		headers: { [key: string]: string },
+		loggerContext: Context,
+	) => boolean;
+	whoami: (
+		loggerContext: Context,
+		credentials: any,
+		options: {
+			errors: any;
+		},
+	) => null | Promise<any>;
+	new (params: any): Integration;
+}
+
 export interface JellyfishPluginOptions {
 	slug: string;
 	name: string;
@@ -119,7 +136,7 @@ export interface JellyfishPluginOptions {
 	requires?: PluginIdentity[];
 	cards?: ContractFile[];
 	mixins?: ContractFiles;
-	integrations?: Integration[];
+	integrations?: IntegrationClass[];
 	actions?: ActionFile[];
 }
 
