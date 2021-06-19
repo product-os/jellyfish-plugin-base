@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>IntegrationResult | @balena/jellyfish-plugin-base</title>
+	<title>SyncFunctionOptions | @balena/jellyfish-plugin-base</title>
 	<meta name="description" content="Documentation for @balena/jellyfish-plugin-base">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -58,29 +58,21 @@
 					<a href="../modules/types.html">types</a>
 				</li>
 				<li>
-					<a href="types.integrationresult.html">IntegrationResult</a>
+					<a href="types.syncfunctionoptions.html">SyncFunctionOptions</a>
 				</li>
 			</ul>
-			<h1>Interface IntegrationResult&lt;TData&gt;</h1>
+			<h1>Interface SyncFunctionOptions</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-type-parameters">
-				<h3>Type parameters</h3>
-				<ul class="tsd-type-parameters">
-					<li>
-						<h4>TData</h4>
-					</li>
-				</ul>
-			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">IntegrationResult</span>
+						<span class="target">SyncFunctionOptions</span>
 					</li>
 				</ul>
 			</section>
@@ -91,9 +83,7 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.integrationresult.html#actor" class="tsd-kind-icon">actor</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.integrationresult.html#card" class="tsd-kind-icon">card</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.integrationresult.html#time" class="tsd-kind-icon">time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="types.syncfunctionoptions.html#actor" class="tsd-kind-icon">actor</a></li>
 							</ul>
 						</section>
 					</div>
@@ -107,27 +97,7 @@
 					<div class="tsd-signature tsd-kind-icon">actor<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/a2225f4/lib/types.ts#L57">lib/types.ts:57</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="card" class="tsd-anchor"></a>
-					<h3>card</h3>
-					<div class="tsd-signature tsd-kind-icon">card<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ContractDefinition</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TData</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/a2225f4/lib/types.ts#L58">lib/types.ts:58</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="time" class="tsd-anchor"></a>
-					<h3>time</h3>
-					<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/a2225f4/lib/types.ts#L56">lib/types.ts:56</a></li>
+							<li>Defined in <a href="https://github.com/product-os/jellyfish-plugin-base/blob/a2225f4/lib/types.ts#L62">lib/types.ts:62</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -182,24 +152,9 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.integrationevent.html" class="tsd-kind-icon">Integration<wbr>Event</a>
 					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
+					<li class=" tsd-kind-interface tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="types.integrationresult.html" class="tsd-kind-icon">Integration<wbr>Result</a>
-						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.integrationresult.html#actor" class="tsd-kind-icon">actor</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.integrationresult.html#card" class="tsd-kind-icon">card</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="types.integrationresult.html#time" class="tsd-kind-icon">time</a>
-							</li>
-						</ul>
 					</li>
-				</ul>
-				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.integrations.html" class="tsd-kind-icon">Integrations</a>
 					</li>
@@ -224,9 +179,18 @@
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.pluginmanageroptions.html" class="tsd-kind-icon">Plugin<wbr>Manager<wbr>Options</a>
 					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
 						<a href="types.syncfunctionoptions.html" class="tsd-kind-icon">Sync<wbr>Function<wbr>Options</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="types.syncfunctionoptions.html#actor" class="tsd-kind-icon">actor</a>
+							</li>
+						</ul>
 					</li>
+				</ul>
+				<ul class="after-current">
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
 						<a href="../modules/types.html#actionprefn" class="tsd-kind-icon">Action<wbr>Pre<wbr>Fn</a>
 					</li>
