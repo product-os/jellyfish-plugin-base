@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.1.171 - 2021-06-29
+
+* patch: Update dependency @balena/jellyfish-types to ^0.7.3 [Renovate Bot]
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.170 - 2021-06-27
 
 * patch: Update dependency simple-git-hooks to ^2.5.1 [Renovate Bot]

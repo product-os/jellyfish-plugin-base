@@ -1,4 +1,23 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.7.3'
+      hash: 83aa6b4cad532936bbf01ab0abb641541f7f2d5f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+    - subject: 'patch: Update internal-patch'
+      hash: e4f9cf32f950f19cd507263be1ace3dab3995030
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.171
+  date: 2021-06-29T13:00:12.307Z
+- commits:
     - subject: 'patch: Update dependency simple-git-hooks to ^2.5.1'
       hash: c1895b232fc5ea2f81bb6c76406508bcb9d74a04
       body: ''
