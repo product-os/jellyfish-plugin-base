@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.174 - 2021-06-30
+
+* patch: Update dependency @balena/jellyfish-logger to ^3.0.34 [Renovate Bot]
+
 ## 2.1.173 - 2021-06-30
 
 * Remove package-lock.json [Josh Bowling]
