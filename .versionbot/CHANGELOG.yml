@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove package-lock.json
+      hash: 1673d7e31f4b229160307bfb2fafd48b3a1a2471
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.173
+  date: 2021-06-30T01:37:51.406Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.32'
       hash: 3ec5a76c35322d8c74ffb078e5dff00247725972
       body: ''
