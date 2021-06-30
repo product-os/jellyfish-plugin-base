@@ -1,4 +1,25 @@
 - commits:
+    - subject: Remove package lock file
+      hash: 888cdf4568ed389c209a2371ba70cbdb2a712379
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Graham McCulloch <graham@balena.io>
+        signed-off-by: Graham McCulloch <graham@balena.io>
+      author: Graham McCulloch
+      nested: []
+    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+      hash: 2689ea2577fda3787a7b8b44c8ff2f98b9a22980
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: jellyfish-bot
+      nested: []
+  version: 2.1.175
+  date: 2021-06-30T04:50:01.844Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.34'
       hash: d0610f39997fef7c6fa7c00dcb97963fec6b2dca
       body: ''

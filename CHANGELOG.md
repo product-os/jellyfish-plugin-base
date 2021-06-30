@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.1.175 - 2021-06-30
+
+* Remove package lock file [Graham McCulloch]
+* 🔄 Synced file(s) with product-os/jellyfish-config [jellyfish-bot]
+
 ## 2.1.174 - 2021-06-30
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.34 [Renovate Bot]
