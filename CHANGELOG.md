@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.176 - 2021-07-02
+
+* patch: Update dependency @balena/jellyfish-config to ^1.4.0 [Renovate Bot]
+
 ## 2.1.175 - 2021-06-30
 
 * Remove package lock file [Graham McCulloch]
