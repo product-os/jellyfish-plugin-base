@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.11'
+      hash: b729c2b38ab939995ff92d2268701eab4a8ddfcc
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.200
+  date: 2021-07-17T00:36:22.634Z
+- commits:
     - subject: Remove whitesource config
       hash: f45714c77799cbd79eeb90090ddf6c9a2d546ab1
       body: ''

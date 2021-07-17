@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.200 - 2021-07-17
+
+* patch: Update dependency @balena/jellyfish-types to ^0.8.11 [Renovate Bot]
+
 ## 2.1.199 - 2021-07-17
 
 * Remove whitesource config [Josh Bowling]
