@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.8'
+      hash: 0fb0a4d9cda954cbf89c6867973dfe9eb1432ef4
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.210
+  date: 2021-07-31T03:17:00.688Z
+- commits:
     - subject: 'patch: Update dependency sinon to ^11.1.2'
       hash: bf026652176b60ae4ce399890425520b00f56718
       body: ''
