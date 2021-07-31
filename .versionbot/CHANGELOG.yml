@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency sinon to ^11.1.2'
+      hash: bf026652176b60ae4ce399890425520b00f56718
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.209
+  date: 2021-07-31T01:05:21.285Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.3'
       hash: c3688f3bd57f0201c491ee33f2d9b7d21d5c6ad0
       body: ''

@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.209 - 2021-07-31
+
+* patch: Update dependency sinon to ^11.1.2 [Renovate Bot]
+
 ## 2.1.208 - 2021-07-30
 
 * patch: Update dependency @balena/jellycheck to ^0.1.3 [Renovate Bot]
