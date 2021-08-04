@@ -1,4 +1,18 @@
 - commits:
+    - subject: use balena convention for npm script names
+      hash: f4dd876ac86e5003cb8314ba3213df6c36a25145
+      body: |
+        i.e. base-cmd:sub-cmd
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Martin Rauscher <martin@balena.io>
+        signed-off-by: Martin Rauscher <martin@balena.io>
+      author: Martin Rauscher
+      nested: []
+  version: 2.1.212
+  date: 2021-08-04T23:33:11.687Z
+- commits:
     - subject: 'patch: Update dependency typedoc to ^0.21.5'
       hash: a89267cddef7c41e7acd924f691ebfd8f33872b0
       body: ''

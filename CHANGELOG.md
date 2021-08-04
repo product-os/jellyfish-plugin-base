@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.212 - 2021-08-04
+
+* use balena convention for npm script names [Martin Rauscher]
+
 ## 2.1.211 - 2021-07-31
 
 * patch: Update dependency typedoc to ^0.21.5 [Renovate Bot]
