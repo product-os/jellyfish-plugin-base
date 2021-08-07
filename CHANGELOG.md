@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.215 - 2021-08-07
+
+* patch: Update dependency lint-staged to ^11.1.2 [Renovate Bot]
+
 ## 2.1.214 - 2021-08-06
 
 * patch: Update dependency @balena/jellyfish-logger to ^3.0.56 [Renovate Bot]
