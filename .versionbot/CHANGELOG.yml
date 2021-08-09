@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update to latest types that fix queue consumer callback
+      hash: d99a61244168d73b5f1ccb6d92f59cd3bb92c0e6
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.1.218
+  date: 2021-08-09T11:12:30.247Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.15'
       hash: bc39f7e2eb928e96b268b08a68bca674ea10f4dc
       body: ''
