@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.222 - 2021-08-10
+
+* Correctly type action handler function [Lucian Buzzo]
+
 ## 2.1.221 - 2021-08-10
 
 * patch: Update dependency @balena/jellyfish-types to ^0.9.2 [Renovate Bot]
