@@ -6,11 +6,11 @@
 
 import type {
 	Contract,
-	ContractSummary,
 	ContractDefinition,
 	ContractData,
 	Context,
 } from '@balena/jellyfish-types/build/core';
+import type { Action } from '@balena/jellyfish-types/build/worker';
 
 export interface Map<T> {
 	[key: string]: T;
@@ -78,30 +78,12 @@ export interface Integration<TData = ContractData> {
 
 export interface Integrations extends Map<Integration> {}
 
-export type ActionPreFn = (
-	session: string,
-	context: Context,
-	request: any,
-) => Promise<any> | any;
-
-// TS-TODO: it's annoying that action-increment-tag returns an array of contract summaries
-// whereas all the other actions return either null or a single contract summary. Might be
-// better to standardize?
-interface ActionCore<TData = ContractData> {
-	handler: (
-		session: string,
-		context: Context,
-		card: Contract<TData>,
-		request: any,
-	) => Promise<null | ContractSummary<TData> | Array<ContractSummary<TData>>>;
+interface ActionCore {
+	handler: Action['handler'];
 }
 
-interface Action<TData = ContractData> extends ActionCore<TData> {
-	pre: ActionPreFn;
-}
-
-export interface ActionFile<TData = ContractData> extends ActionCore<TData> {
-	pre?: ActionPreFn;
+export interface ActionFile<TData = ContractData> extends ActionCore {
+	pre?: Action['pre'];
 	card: ContractDefinition<TData>;
 }
 
