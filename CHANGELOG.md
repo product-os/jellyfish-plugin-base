@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.223 - 2021-08-16
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.222 - 2021-08-10
 
 * Correctly type action handler function [Lucian Buzzo]
