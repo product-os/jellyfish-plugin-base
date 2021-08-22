@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.228 - 2021-08-22
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.227 - 2021-08-22
 
 * Bump @types/jest to v27.0.1 [Josh Bowling]
