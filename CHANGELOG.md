@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.227 - 2021-08-22
+
+* Bump @types/jest to v27.0.1 [Josh Bowling]
+
 ## 2.1.226 - 2021-08-19
 
 * patch: Update dependency @balena/jellyfish-types to ^0.9.8 [Renovate Bot]
