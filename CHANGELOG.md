@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.230 - 2021-08-25
+
+* Move jellyfish-types to devDependencies [Josh Bowling]
+
 ## 2.1.229 - 2021-08-22
 
 * patch: Update external-non-major [Renovate Bot]

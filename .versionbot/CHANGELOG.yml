@@ -1,4 +1,17 @@
 - commits:
+    - subject: Move jellyfish-types to devDependencies
+      hash: 883eb4e6cbfc2c1b50670a2b7884c7ede9b81789
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.230
+  date: 2021-08-25T12:40:46.483Z
+- commits:
     - subject: 'patch: Update external-non-major'
       hash: 16e56a9258140e3a4f5d6331f03149cd2fbe0c1f
       body: ''
