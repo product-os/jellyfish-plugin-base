@@ -114,7 +114,7 @@ export class PluginManager {
 		this.interfaceVersion = INTERFACE_VERSION;
 		try {
 			this._plugins = loadPlugins(options.plugins);
-		} catch (err) {
+		} catch (err: any) {
 			logger.error(context, err.message);
 			throw err;
 		}
