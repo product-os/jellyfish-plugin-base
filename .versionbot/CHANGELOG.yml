@@ -1,4 +1,25 @@
 - commits:
+    - subject: Fix error type unknown type errors
+      hash: 6e2c2e6adf821b12ae5a186d7347c94ff1c4b649
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+    - subject: 'patch: Update external-non-major'
+      hash: 95ef3e5cd766b97ec195f3adfb070073481e9493
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.231
+  date: 2021-08-29T01:42:37.986Z
+- commits:
     - subject: Move jellyfish-types to devDependencies
       hash: 883eb4e6cbfc2c1b50670a2b7884c7ede9b81789
       body: ''

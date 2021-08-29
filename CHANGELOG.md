@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.1.231 - 2021-08-29
+
+* Fix error type unknown type errors [Josh Bowling]
+* patch: Update external-non-major [Renovate Bot]
+
 ## 2.1.230 - 2021-08-25
 
 * Move jellyfish-types to devDependencies [Josh Bowling]
