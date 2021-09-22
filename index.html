@@ -1,188 +1,47 @@
-<!doctype html>
-<html class="default no-js">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>@balena/jellyfish-plugin-base</title>
-	<meta name="description" content="Documentation for @balena/jellyfish-plugin-base">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/main.css">
-	<script async src="assets/js/search.js" id="search-script"></script>
-</head>
-<body>
-<header>
-	<div class="tsd-page-toolbar">
-		<div class="container">
-			<div class="table-wrap">
-				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
-					<div class="field">
-						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
-						<input id="tsd-search-field" type="text" />
-					</div>
-					<ul class="results">
-						<li class="state loading">Preparing search index...</li>
-						<li class="state failure">The search index is not available</li>
-					</ul>
-					<a href="index.html" class="title">@balena/jellyfish-plugin-base</a>
-				</div>
-				<div class="table-cell" id="tsd-widgets">
-					<div id="tsd-filter">
-						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
-						<div class="tsd-filter-group">
-							<div class="tsd-select" id="tsd-filter-visibility">
-								<span class="tsd-select-label">All</span>
-								<ul class="tsd-select-list">
-									<li data-value="public">Public</li>
-									<li data-value="protected">Public/Protected</li>
-									<li data-value="private" class="selected">All</li>
-								</ul>
-							</div>
-							<input type="checkbox" id="tsd-filter-inherited" checked />
-							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
-							<input type="checkbox" id="tsd-filter-externals" checked />
-							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
-						</div>
-					</div>
-					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="tsd-page-title">
-		<div class="container">
-			<h1>@balena/jellyfish-plugin-base</h1>
-		</div>
-	</div>
-</header>
-<div class="container container-main">
-	<div class="row">
-		<div class="col-8 col-content">
-			<div class="tsd-panel tsd-typography">
-				<a href="#jellyfish-plugin-base" id="jellyfish-plugin-base" style="color: inherit; text-decoration: none;">
-					<h1>Jellyfish Plugin Base</h1>
-				</a>
-				<p>This library contains the building blocks of the Jellyfish Plugin system:</p>
-				<ul>
-					<li><code>PluginManager</code>. The plugin manager is provided with a list of plugins and is responsible for <em>instantiating</em>, <em>validating</em> (e.g. checking for duplicate slugs across plugins) and <em>loading</em> these plugins in the correct order (for example respecting where one plugin <code>requires</code> another).</li>
-					<li><code>JellyfishPluginBase</code> - an &#39;abstract&#39; class which all Jellyfish plugins should extend. This class encapsulates the logic/helper methods for validating and loading cards, integrations, actions, lenses etc and exposing them in the format expected (e.g. an object of cards keyed by slugs).</li>
-					<li>Generic unit tests for plugins. These include basic generic sanity tests for plugins that each plugin repo can import and run rather than writing explicitly each time.</li>
-				</ul>
-				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
-					<h1>Usage</h1>
-				</a>
-				<a href="#jellyfishpluginbase" id="jellyfishpluginbase" style="color: inherit; text-decoration: none;">
-					<h2><code>JellyfishPluginBase</code></h2>
-				</a>
-				<p>Below is an example how to use the <code>JellyfishPluginBase</code> base class exported by this library:</p>
-				<pre><code class="language-js"><span style="color: #0000FF">const</span><span style="color: #000000"> {</span>
-<span style="color: #000000">    </span><span style="color: #0070C1">JellyfishPluginBase</span>
-<span style="color: #000000">} = </span><span style="color: #795E26">require</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;@balena/jellyfish-plugin-base&#039;</span><span style="color: #000000">)</span>
+<!DOCTYPE html><html class="default no-js"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>@balena/jellyfish-plugin-base</title><meta name="description" content="Documentation for @balena/jellyfish-plugin-base"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><header><div class="tsd-page-toolbar"><div class="container"><div class="table-wrap"><div class="table-cell" id="tsd-search" data-base="."><div class="field"><label for="tsd-search-field" class="tsd-widget search no-caption">Search</label><input type="text" id="tsd-search-field"/></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">@balena/jellyfish-plugin-base</a></div><div class="table-cell" id="tsd-widgets"><div id="tsd-filter"><a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a><div class="tsd-filter-group"><div class="tsd-select" id="tsd-filter-visibility"><span class="tsd-select-label">All</span><ul class="tsd-select-list"><li data-value="public">Public</li><li data-value="protected">Public/Protected</li><li data-value="private" class="selected">All</li></ul></div> <input type="checkbox" id="tsd-filter-inherited" checked/><label class="tsd-widget" for="tsd-filter-inherited">Inherited</label><input type="checkbox" id="tsd-filter-externals" checked/><label class="tsd-widget" for="tsd-filter-externals">Externals</label></div></div><a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a></div></div></div></div><div class="tsd-page-title"><div class="container"><h1>@balena/jellyfish-plugin-base</h1></div></div></header><div class="container container-main"><div class="row"><div class="col-8 col-content"><div class="tsd-panel tsd-typography">
+<a href="#jellyfish-plugin-base" id="jellyfish-plugin-base" style="color: inherit; text-decoration: none;">
+  <h1>Jellyfish Plugin Base</h1>
+</a>
+<p>This library contains the building blocks of the Jellyfish Plugin system:</p>
+<ul>
+<li><code>PluginManager</code>. The plugin manager is provided with a list of plugins and is responsible for <em>instantiating</em>, <em>validating</em> (e.g. checking for duplicate slugs across plugins) and <em>loading</em> these plugins in the correct order (for example respecting where one plugin <code>requires</code> another).</li>
+<li><code>JellyfishPluginBase</code> - an &#39;abstract&#39; class which all Jellyfish plugins should extend. This class encapsulates the logic/helper methods for validating and loading cards, integrations, actions, lenses etc and exposing them in the format expected (e.g. an object of cards keyed by slugs).</li>
+<li>Generic unit tests for plugins. These include basic generic sanity tests for plugins that each plugin repo can import and run rather than writing explicitly each time.</li>
+</ul>
 
-<span style="color: #0000FF">class</span><span style="color: #000000"> </span><span style="color: #267F99">MyPlugin</span><span style="color: #000000"> </span><span style="color: #0000FF">extends</span><span style="color: #000000"> </span><span style="color: #267F99">JellyfishPluginBase</span><span style="color: #000000"> {</span>
-<span style="color: #000000">    </span><span style="color: #0000FF">constructor</span><span style="color: #000000">() {</span>
-<span style="color: #000000">        </span><span style="color: #0000FF">super</span><span style="color: #000000">({</span>
-<span style="color: #000000">            </span><span style="color: #001080">slug:</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;my-plugin&#039;</span><span style="color: #000000">,</span>
-<span style="color: #000000">            </span><span style="color: #001080">name:</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;My Plugin&#039;</span><span style="color: #000000">,</span>
-<span style="color: #000000">            </span><span style="color: #001080">version:</span><span style="color: #000000"> </span><span style="color: #A31515">&#039;1.0.0&#039;</span><span style="color: #000000">,</span>
-<span style="color: #000000">            </span><span style="color: #001080">cards:</span><span style="color: #000000"> [],</span>
-<span style="color: #000000">            </span><span style="color: #001080">mixins:</span><span style="color: #000000"> {},</span>
-<span style="color: #000000">            </span><span style="color: #001080">integrations:</span><span style="color: #000000"> [],</span>
-<span style="color: #000000">            </span><span style="color: #001080">actions:</span><span style="color: #000000"> [],</span>
-<span style="color: #000000">        })</span>
-<span style="color: #000000">    }</span>
-<span style="color: #000000">}</span>
+<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+  <h1>Usage</h1>
+</a>
+
+<a href="#jellyfishpluginbase" id="jellyfishpluginbase" style="color: inherit; text-decoration: none;">
+  <h2><code>JellyfishPluginBase</code></h2>
+</a>
+<p>Below is an example how to use the <code>JellyfishPluginBase</code> base class exported by this library:</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-2">JellyfishPluginBase</span><br/><span class="hl-1">} = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;@balena/jellyfish-plugin-base&#39;</span><span class="hl-1">)</span><br/><br/><span class="hl-0">class</span><span class="hl-1"> </span><span class="hl-5">MyPlugin</span><span class="hl-1"> </span><span class="hl-0">extends</span><span class="hl-1"> </span><span class="hl-5">JellyfishPluginBase</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-0">constructor</span><span class="hl-1">() {</span><br/><span class="hl-1">        </span><span class="hl-0">super</span><span class="hl-1">({</span><br/><span class="hl-1">            </span><span class="hl-6">slug:</span><span class="hl-1"> </span><span class="hl-4">&#39;my-plugin&#39;</span><span class="hl-1">,</span><br/><span class="hl-1">            </span><span class="hl-6">name:</span><span class="hl-1"> </span><span class="hl-4">&#39;My Plugin&#39;</span><span class="hl-1">,</span><br/><span class="hl-1">            </span><span class="hl-6">version:</span><span class="hl-1"> </span><span class="hl-4">&#39;1.0.0&#39;</span><span class="hl-1">,</span><br/><span class="hl-1">            </span><span class="hl-6">cards:</span><span class="hl-1"> [],</span><br/><span class="hl-1">            </span><span class="hl-6">mixins:</span><span class="hl-1"> {},</span><br/><span class="hl-1">            </span><span class="hl-6">integrations:</span><span class="hl-1"> [],</span><br/><span class="hl-1">            </span><span class="hl-6">actions:</span><span class="hl-1"> [],</span><br/><span class="hl-1">        })</span><br/><span class="hl-1">    }</span><br/><span class="hl-1">}</span>
 </code></pre>
-				<p>The <code>JellyfishPluginBase</code> constructor takes a single argument with the following properties:</p>
-				<ul>
-					<li><strong>slug</strong> - the unique identifying slug for the plugin. Can only contain lowercase letters, numbers and &#39;-&#39;.</li>
-					<li><strong>name</strong> - a user-friendly name for the plugin.</li>
-					<li><strong>version</strong> - the version of the plugin. Used for compatibility checks when one plugin requires another plugin.</li>
-					<li><strong>requires</strong> - an optional array of objects identifying other plugins that are required for this plugin to work.</li>
-					<li><strong>cards</strong> - an optional array of cards defined by the plugin. Each item in the array can be a plain JavaScript object representing the card or a function that takes mixins as an argument and returns a card object (for cards that use mixins).</li>
-					<li><strong>mixins</strong> - an optional map of mixins defined by the plugin that are used by the plugin&#39;s cards.</li>
-					<li><strong>integrations</strong> - an optional array of integrations defined by the plugin.</li>
-					<li><strong>actions</strong> - an optional array of actions defined by the plugin.</li>
-				</ul>
-				<p><em>Note: the order of cards in the cards array is important. Specifically, any type cards must be placed above/before any cards of that type.</em></p>
-				<a href="#pluginmanager" id="pluginmanager" style="color: inherit; text-decoration: none;">
-					<h2><code>PluginManager</code></h2>
-				</a>
-				<p>Below is an example how to use the plugin manager exported by this library:</p>
-				<pre><code class="language-js"><span style="color: #0000FF">const</span><span style="color: #000000"> {</span>
-<span style="color: #000000">    </span><span style="color: #0070C1">PluginManager</span>
-<span style="color: #000000">} = </span><span style="color: #795E26">require</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;@balena/jellyfish-plugin-base&#039;</span><span style="color: #000000">)</span>
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">DefaultPlugin</span><span style="color: #000000"> = </span><span style="color: #795E26">require</span><span style="color: #000000">(</span><span style="color: #A31515">&#039;@balena/jellyfish-plugin-default&#039;</span><span style="color: #000000">)</span>
+<p>The <code>JellyfishPluginBase</code> constructor takes a single argument with the following properties:</p>
+<ul>
+<li><strong>slug</strong> - the unique identifying slug for the plugin. Can only contain lowercase letters, numbers and &#39;-&#39;.</li>
+<li><strong>name</strong> - a user-friendly name for the plugin.</li>
+<li><strong>version</strong> - the version of the plugin. Used for compatibility checks when one plugin requires another plugin.</li>
+<li><strong>requires</strong> - an optional array of objects identifying other plugins that are required for this plugin to work.</li>
+<li><strong>cards</strong> - an optional array of cards defined by the plugin. Each item in the array can be a plain JavaScript object representing the card or a function that takes mixins as an argument and returns a card object (for cards that use mixins).</li>
+<li><strong>mixins</strong> - an optional map of mixins defined by the plugin that are used by the plugin&#39;s cards.</li>
+<li><strong>integrations</strong> - an optional array of integrations defined by the plugin.</li>
+<li><strong>actions</strong> - an optional array of actions defined by the plugin.</li>
+</ul>
+<p><em>Note: the order of cards in the cards array is important. Specifically, any type cards must be placed above/before any cards of that type.</em></p>
 
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">pluginManager</span><span style="color: #000000"> = </span><span style="color: #0000FF">new</span><span style="color: #000000"> </span><span style="color: #795E26">PluginManager</span><span style="color: #000000">(</span>
-<span style="color: #000000">    </span><span style="color: #001080">context</span><span style="color: #000000">, {</span>
-<span style="color: #000000">        </span><span style="color: #001080">plugins:</span><span style="color: #000000"> [</span>
-<span style="color: #000000">            </span><span style="color: #001080">DefaultPlugin</span>
-<span style="color: #000000">        ]</span>
-<span style="color: #000000">    }</span>
-<span style="color: #000000">)</span>
-
-<span style="color: #0000FF">const</span><span style="color: #000000"> </span><span style="color: #0070C1">cards</span><span style="color: #000000"> = </span><span style="color: #001080">pluginManager</span><span style="color: #000000">.</span><span style="color: #795E26">getCards</span><span style="color: #000000">(</span><span style="color: #001080">context</span><span style="color: #000000">, </span><span style="color: #001080">mixins</span><span style="color: #000000">)</span>
+<a href="#pluginmanager" id="pluginmanager" style="color: inherit; text-decoration: none;">
+  <h2><code>PluginManager</code></h2>
+</a>
+<p>Below is an example how to use the plugin manager exported by this library:</p>
+<pre><code class="language-js"><span class="hl-0">const</span><span class="hl-1"> {</span><br/><span class="hl-1">    </span><span class="hl-2">PluginManager</span><br/><span class="hl-1">} = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;@balena/jellyfish-plugin-base&#39;</span><span class="hl-1">)</span><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">DefaultPlugin</span><span class="hl-1"> = </span><span class="hl-3">require</span><span class="hl-1">(</span><span class="hl-4">&#39;@balena/jellyfish-plugin-default&#39;</span><span class="hl-1">)</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">pluginManager</span><span class="hl-1"> = </span><span class="hl-0">new</span><span class="hl-1"> </span><span class="hl-3">PluginManager</span><span class="hl-1">(</span><br/><span class="hl-1">    </span><span class="hl-6">context</span><span class="hl-1">, {</span><br/><span class="hl-1">        </span><span class="hl-6">plugins:</span><span class="hl-1"> [</span><br/><span class="hl-1">            </span><span class="hl-6">DefaultPlugin</span><br/><span class="hl-1">        ]</span><br/><span class="hl-1">    }</span><br/><span class="hl-1">)</span><br/><br/><span class="hl-0">const</span><span class="hl-1"> </span><span class="hl-2">cards</span><span class="hl-1"> = </span><span class="hl-6">pluginManager</span><span class="hl-1">.</span><span class="hl-3">getCards</span><span class="hl-1">(</span><span class="hl-6">context</span><span class="hl-1">, </span><span class="hl-6">mixins</span><span class="hl-1">)</span>
 </code></pre>
-				<a href="#documentation" id="documentation" style="color: inherit; text-decoration: none;">
-					<h1>Documentation</h1>
-				</a>
-				<p><a href="https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml"><img src="https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml/badge.svg" alt="Publish Documentation"></a></p>
-				<p>Visit the website for complete documentation: <a href="https://product-os.github.io/jellyfish-plugin-base">https://product-os.github.io/jellyfish-plugin-base</a></p>
-			</div>
-		</div>
-		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
-			<nav class="tsd-navigation primary">
-				<ul>
-					<li class=" ">
-						<a href="modules.html">Modules</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/index.html">index</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/jellyfish_plugin.html">jellyfish-<wbr>plugin</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/plugin_manager.html">plugin-<wbr>manager</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/types.html">types</a>
-					</li>
-					<li class=" tsd-kind-module">
-						<a href="modules/version.html">version</a>
-					</li>
-				</ul>
-			</nav>
-			<nav class="tsd-navigation secondary menu-sticky">
-				<ul class="before-current">
-				</ul>
-			</nav>
-		</div>
-	</div>
-</div>
-<footer class="with-border-bottom">
-	<div class="container">
-		<h2>Legend</h2>
-		<div class="tsd-legend-group">
-			<ul class="tsd-legend">
-				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
-				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
-				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
-				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
-			</ul>
-			<ul class="tsd-legend">
-				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
-			</ul>
-		</div>
-	</div>
-</footer>
-<div class="container tsd-generator">
-	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
-</div>
-<div class="overlay"></div>
-<script src="assets/js/main.js"></script>
-</body>
-</html>
+
+<a href="#documentation" id="documentation" style="color: inherit; text-decoration: none;">
+  <h1>Documentation</h1>
+</a>
+<p><a href="https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml"><img src="https://github.com/product-os/jellyfish-plugin-base/actions/workflows/publish-docs.yml/badge.svg" alt="Publish Documentation"></a></p>
+<p>Visit the website for complete documentation: <a href="https://product-os.github.io/jellyfish-plugin-base">https://product-os.github.io/jellyfish-plugin-base</a></p>
+</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Exports</a></li></ul></nav><nav class="tsd-navigation secondary menu-sticky"><ul><li class="tsd-kind-class"><a href="classes/JellyfishPluginBase.html" class="tsd-kind-icon">Jellyfish<wbr/>Plugin<wbr/>Base</a></li><li class="tsd-kind-class"><a href="classes/PluginManager.html" class="tsd-kind-icon">Plugin<wbr/>Manager</a></li><li class="tsd-kind-interface tsd-has-type-parameter"><a href="interfaces/ActionFile.html" class="tsd-kind-icon">Action<wbr/>File</a></li><li class="tsd-kind-interface"><a href="interfaces/Actions.html" class="tsd-kind-icon">Actions</a></li><li class="tsd-kind-interface"><a href="interfaces/ContractFiles.html" class="tsd-kind-icon">Contract<wbr/>Files</a></li><li class="tsd-kind-interface"><a href="interfaces/Contracts.html" class="tsd-kind-icon">Contracts</a></li><li class="tsd-kind-interface"><a href="interfaces/CoreMixins.html" class="tsd-kind-icon">Core<wbr/>Mixins</a></li><li class="tsd-kind-interface"><a href="interfaces/ExtraMixins.html" class="tsd-kind-icon">Extra<wbr/>Mixins</a></li><li class="tsd-kind-interface tsd-has-type-parameter"><a href="interfaces/Integration.html" class="tsd-kind-icon">Integration</a></li><li class="tsd-kind-interface"><a href="interfaces/IntegrationEvent.html" class="tsd-kind-icon">Integration<wbr/>Event</a></li><li class="tsd-kind-interface tsd-has-type-parameter"><a href="interfaces/IntegrationResult.html" class="tsd-kind-icon">Integration<wbr/>Result</a></li><li class="tsd-kind-interface"><a href="interfaces/Integrations.html" class="tsd-kind-icon">Integrations</a></li><li class="tsd-kind-interface"><a href="interfaces/JellyfishPlugin.html" class="tsd-kind-icon">Jellyfish<wbr/>Plugin</a></li><li class="tsd-kind-interface"><a href="interfaces/JellyfishPluginOptions.html" class="tsd-kind-icon">Jellyfish<wbr/>Plugin<wbr/>Options</a></li><li class="tsd-kind-interface"><a href="interfaces/JellyfishPlugins.html" class="tsd-kind-icon">Jellyfish<wbr/>Plugins</a></li><li class="tsd-kind-interface tsd-has-type-parameter"><a href="interfaces/Map.html" class="tsd-kind-icon">Map</a></li><li class="tsd-kind-interface"><a href="interfaces/Mixins.html" class="tsd-kind-icon">Mixins</a></li><li class="tsd-kind-interface"><a href="interfaces/PluginIdentity.html" class="tsd-kind-icon">Plugin<wbr/>Identity</a></li><li class="tsd-kind-interface"><a href="interfaces/PluginManagerOptions.html" class="tsd-kind-icon">Plugin<wbr/>Manager<wbr/>Options</a></li><li class="tsd-kind-interface"><a href="interfaces/SyncFunctionOptions.html" class="tsd-kind-icon">Sync<wbr/>Function<wbr/>Options</a></li><li class="tsd-kind-type-alias tsd-has-type-parameter"><a href="modules.html#ContractFile" class="tsd-kind-icon">Contract<wbr/>File</a></li><li class="tsd-kind-type-alias tsd-has-type-parameter"><a href="modules.html#ContractFileFn" class="tsd-kind-icon">Contract<wbr/>File<wbr/>Fn</a></li><li class="tsd-kind-type-alias"><a href="modules.html#JellyfishPluginConstructor" class="tsd-kind-icon">Jellyfish<wbr/>Plugin<wbr/>Constructor</a></li><li class="tsd-kind-type-alias"><a href="modules.html#Sluggable" class="tsd-kind-icon">Sluggable</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Legend</h2><div class="tsd-legend-group"><ul class="tsd-legend"><li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li><li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li><li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li></ul><ul class="tsd-legend"><li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li><li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li></ul><ul class="tsd-legend"><li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li></ul></div><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
