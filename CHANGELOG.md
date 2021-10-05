@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.244 - 2021-10-04
+
+* 🔄 Synced file(s) with product-os/jellyfish-config [joshbwlng]
+
 ## 2.1.243 - 2021-09-22
 
 * Add typedoc to depcheck ignore list [Josh Bowling]
