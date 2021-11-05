@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.260 - 2021-11-05
+
+* patch: Update dependency @balena/jellyfish-config to ^1.5.7 [Renovate Bot]
+
 ## 2.1.259 - 2021-10-30
 
 * patch: Update internal-patch [Renovate Bot]
