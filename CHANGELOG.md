@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.266 - 2021-11-09
+
+* Bump sinon to v12 [Josh Bowling]
+
 ## 2.1.265 - 2021-11-09
 
 * patch: Update internal-patch [Renovate Bot]
