@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.271 - 2021-11-13
+
+* patch: Update dependency json-schema to ^0.4.0 [Renovate Bot]
+
 ## 2.1.270 - 2021-11-13
 
 * patch: Update dependency @balena/jellyfish-types to ^1.2.14 [Renovate Bot]

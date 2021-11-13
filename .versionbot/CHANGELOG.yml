@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update dependency json-schema to ^0.4.0'
+      hash: d2779e10a804d53f4327828f21db9740a86101d3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.1.271
+  date: 2021-11-13T04:10:42.361Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.14'
       hash: 6c91a1fe91e7cc2c285824f67659e3602703a0cb
       body: ''
