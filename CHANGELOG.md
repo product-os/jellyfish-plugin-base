@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.281 - 2021-11-16
+
+* Set license [Josh Bowling]
+
 ## 2.1.280 - 2021-11-16
 
 * patch: Update dependency @balena/jellycheck to ^0.1.8 [Renovate Bot]

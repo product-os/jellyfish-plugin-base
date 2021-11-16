@@ -1,4 +1,17 @@
 - commits:
+    - subject: Set license
+      hash: cf1c462729c9a729206fdec51ab4a856eeab56ae
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.281
+  date: 2021-11-16T01:08:48.100Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.8'
       hash: 930a700bbe467a0f554cfa3b2a11a0b41cf01e74
       body: ''
