@@ -51,7 +51,7 @@
     "skhema": "^5.3.4"
   },
   "devDependencies": {
-    "@balena/jellycheck": "^0.1.8",
+    "@balena/jellycheck": "^1.0.0",
     "@balena/jellyfish-config": "^1.5.10",
     "@balena/jellyfish-types": "^1.2.21",
     "@balena/lint": "^6.1.1",
