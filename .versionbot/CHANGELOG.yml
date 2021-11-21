@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove license headers
+      hash: 02d1d41fdd0fffe3afd39c9e97c7fcb23a549183
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.287
+  date: 2021-11-21T00:46:28.369Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.127'
       hash: 478d10f00ef5b318fd9c94e8b1daf18d0e1a67de
       body: ''
