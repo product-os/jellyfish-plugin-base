@@ -4,4 +4,4 @@
  * Proprietary and confidential.
  */
 
-export const INTERFACE_VERSION: string = '1.1.0';
+export const INTERFACE_VERSION: string = '2.0.0';

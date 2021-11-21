@@ -22,7 +22,7 @@ import type {
 	JellyfishPlugin,
 	PluginIdentity,
 	ContractFile,
-	Integration,
+	IntegrationClass,
 	JellyfishPluginOptions,
 	CoreMixins,
 } from './types';
@@ -56,7 +56,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 
 	private _cardFiles: ContractFile[];
 	private _mixins: ContractFiles;
-	private _integrations: Integration[];
+	private _integrations: IntegrationClass[];
 	private _actions: ActionFile[];
 
 	protected constructor(options: JellyfishPluginOptions) {
@@ -117,7 +117,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	}
 
 	getSyncIntegrations(context: Context) {
-		return this.getSafeMap<Integration>(
+		return this.getSafeMap<IntegrationClass>(
 			context,
 			this._integrations,
 			'integrations',
