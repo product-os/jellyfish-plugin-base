@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.288 - 2021-11-22
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.287 - 2021-11-21
 
 * Remove license headers [Josh Bowling]
