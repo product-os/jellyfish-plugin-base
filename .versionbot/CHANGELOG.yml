@@ -1,4 +1,17 @@
 - commits:
+    - subject: Bump @types/jest to v27.0.3
+      hash: c5306fa6af6c823c4ddc983221b60e607aefbe1d
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.291
+  date: 2021-11-22T13:54:47.782Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 4f44b638aee8b4ca5b061a185af89d0bd6df8ced
       body: ''
