@@ -43,15 +43,15 @@
   "author": "Balena.io. <hello@balena.io>",
   "license": "Apache-2.0",
   "dependencies": {
-    "@balena/jellyfish-logger": "^3.0.154",
+    "@balena/jellyfish-logger": "^3.0.155",
     "json-schema": "^0.4.0",
     "lodash": "^4.17.21",
     "semver": "^7.3.5",
     "skhema": "^5.3.4"
   },
   "devDependencies": {
-    "@balena/jellyfish-config": "^2.0.1",
-    "@balena/jellyfish-types": "^1.2.35",
+    "@balena/jellyfish-config": "^2.0.2",
+    "@balena/jellyfish-types": "^1.2.36",
     "@balena/lint": "^6.2.0",
     "@types/jest": "^27.0.3",
     "@types/json-schema": "~6.0.1",
