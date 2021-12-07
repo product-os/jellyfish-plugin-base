@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.320 - 2021-12-07
+
+* Update @balena/jellyfish-logger from v3.0.162 to v3.0.163 [Josh Bowling]
+
 ## 2.1.319 - 2021-12-07
 
 * Update upstream repos [Josh Bowling]

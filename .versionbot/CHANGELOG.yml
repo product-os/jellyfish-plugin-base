@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update @balena/jellyfish-logger from v3.0.162 to v3.0.163
+      hash: a6457daa552dd622867b59d90b0b7eb9b002e46c
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.320
+  date: 2021-12-07T05:38:49.368Z
+- commits:
     - subject: Update upstream repos
       hash: f5d36b20c12426988b394dcdbaf2647bcead45a7
       body: ''
