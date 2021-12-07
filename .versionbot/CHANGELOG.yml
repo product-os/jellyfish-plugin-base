@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update upstream repos
+      hash: f5d36b20c12426988b394dcdbaf2647bcead45a7
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.1.319
+  date: 2021-12-07T05:15:18.872Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.162'
       hash: adbf57d49e6ef14c07dcb1cd62db604b13a117bb
       body: ''
