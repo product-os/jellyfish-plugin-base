@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.321 - 2021-12-09
+
+* patch: Update dependency typescript to ^4.5.3 [Renovate Bot]
+
 ## 2.1.320 - 2021-12-07
 
 * Update @balena/jellyfish-logger from v3.0.162 to v3.0.163 [Josh Bowling]
