@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.1.322 - 2021-12-11
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.1.321 - 2021-12-09
 
 * patch: Update dependency typescript to ^4.5.3 [Renovate Bot]
