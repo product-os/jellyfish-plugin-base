@@ -1,4 +1,31 @@
 - commits:
+    - subject: Remove dependency on core by defining uiSchemaDefs in TS
+      hash: 18899db34b17eae8c7912c0ceb188d93349a82b0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+    - subject: Move mixins from jellyfish-plugin-default to plugin base
+      hash: 07f0c1aeafa5b74307b1a9a87f6cfa6701b2eb13
+      body: |
+        The mixins from the default plugin are now available by default in the
+        plugin base. These mixins are already imported and used by other
+        plugins, so adding them into the base helps us reduce cross-dependency
+        in plugin code.
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.2.0
+  date: 2021-12-14T15:36:19.880Z
+- commits:
     - subject: 'Drop depcheck, bump typescript'
       hash: 64396f8fd818aacc93bd8e1570c28ce541c998dd
       body: ''

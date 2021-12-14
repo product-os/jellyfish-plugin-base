@@ -5,6 +5,11 @@
 
 # v0.0.3
 
+## 2.2.0 - 2021-12-14
+
+* Remove dependency on core by defining uiSchemaDefs in TS [Lucian Buzzo]
+* Move mixins from jellyfish-plugin-default to plugin base [Lucian Buzzo]
+
 ## 2.1.324 - 2021-12-14
 
 * Drop depcheck, bump typescript [Josh Bowling]
