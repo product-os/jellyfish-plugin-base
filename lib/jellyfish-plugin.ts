@@ -20,6 +20,7 @@ import type {
 	JellyfishPluginOptions,
 	CoreMixins,
 } from './types';
+import { mixins as builtinMixins } from './mixins';
 
 const logger = getLogger(__filename);
 
@@ -61,7 +62,10 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		this.requires = options.requires || [];
 		this.interfaceVersion = INTERFACE_VERSION;
 		this._cardFiles = options.cards || [];
-		this._mixins = options.mixins || {};
+		this._mixins = {
+			...builtinMixins,
+			...(options.mixins || {}),
+		};
 		this._integrations = options.integrations || [];
 		this._actions = options.actions || [];
 	}
