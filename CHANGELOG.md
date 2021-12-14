@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.1 - 2021-12-14
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.2.0 - 2021-12-14
 
 * Remove dependency on core by defining uiSchemaDefs in TS [Lucian Buzzo]

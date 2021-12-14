@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Update internal-patch'
+      hash: d30cbbff5aa824aaaa7d9552151a41a0d5b1a843
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 2.2.1
+  date: 2021-12-14T15:44:56.370Z
+- commits:
     - subject: Remove dependency on core by defining uiSchemaDefs in TS
       hash: 18899db34b17eae8c7912c0ceb188d93349a82b0
       body: ''
