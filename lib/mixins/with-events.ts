@@ -1,7 +1,7 @@
-// TS-TODO: Use proper type for uiSchemaDef
+import { uiSchemaDef } from './ui-schema-def';
 // This mixin defines all common fields in cards that support
 // attached events (i.e. 'timelines')
-export function withEvents({ uiSchemaDef }: { uiSchemaDef?: any }): any {
+export function withEvents(): any {
 	return {
 		data: {
 			schema: {
@@ -42,9 +42,7 @@ export function withEvents({ uiSchemaDef }: { uiSchemaDef?: any }): any {
 			},
 			uiSchema: {
 				fields: {
-					tags: {
-						$ref: uiSchemaDef('badgeList'),
-					},
+					tags: uiSchemaDef('badgeList'),
 					data: {
 						'ui:order': [
 							'mentionsUser',
@@ -53,21 +51,11 @@ export function withEvents({ uiSchemaDef }: { uiSchemaDef?: any }): any {
 							'alertsGroup',
 							'participants',
 						],
-						mentionsUser: {
-							$ref: uiSchemaDef('usernameList'),
-						},
-						alertsUser: {
-							$ref: uiSchemaDef('usernameList'),
-						},
-						mentionsGroup: {
-							$ref: uiSchemaDef('groupList'),
-						},
-						alertsGroup: {
-							$ref: uiSchemaDef('groupList'),
-						},
-						participants: {
-							$ref: uiSchemaDef('userIdList'),
-						},
+						mentionsUser: uiSchemaDef('usernameList'),
+						alertsUser: uiSchemaDef('usernameList'),
+						mentionsGroup: uiSchemaDef('groupList'),
+						alertsGroup: uiSchemaDef('groupList'),
+						participants: uiSchemaDef('userIdList'),
 					},
 				},
 			},
