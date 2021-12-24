@@ -1,8 +1,7 @@
 import _ from 'lodash';
 import type { Contract } from '@balena/jellyfish-types/build/core';
-import {
+import type {
 	ActionFile,
-	JellyfishPluginBase,
 	ContractFile,
 	ContractFiles,
 	Integration,
@@ -11,6 +10,7 @@ import {
 	JellyfishPluginOptions,
 	IntegrationEvent,
 } from '../lib';
+import { JellyfishPluginBase } from '../lib';
 
 const commonCard = {
 	tags: [],

@@ -1,8 +1,7 @@
+import { getLogger } from '@balena/jellyfish-logger';
+import type { LogContext } from '@balena/jellyfish-logger';
 import _ from 'lodash';
 import semver from 'semver';
-import { getLogger } from '@balena/jellyfish-logger';
-import type { Context } from '@balena/jellyfish-types/build/core';
-import { INTERFACE_VERSION } from './version';
 import type {
 	Map,
 	JellyfishPluginConstructor,
@@ -14,6 +13,7 @@ import type {
 	Contracts,
 	CoreMixins,
 } from './types';
+import { INTERFACE_VERSION } from './version';
 
 const logger = getLogger(__filename);
 
@@ -82,7 +82,7 @@ const loadPlugins = (plugins: JellyfishPluginConstructor[]) => {
 };
 
 const validatedAddToMap = <T>(
-	context: Context,
+	logContext: LogContext,
 	plugin: JellyfishPlugin,
 	pluginItems: Map<T>,
 	consolidatedItems: Map<T>,
@@ -91,7 +91,7 @@ const validatedAddToMap = <T>(
 	_.each(pluginItems, (item: T, slug: string) => {
 		if (consolidatedItems[slug]) {
 			const errorMessage = `${itemName} '${slug}' already exists and cannot be loaded from plugin '${plugin.name}'`;
-			logger.error(context, errorMessage);
+			logger.error(logContext, errorMessage);
 			throw new Error(errorMessage);
 		}
 
@@ -104,23 +104,23 @@ export class PluginManager {
 
 	interfaceVersion: string;
 
-	constructor(context: Context, options: PluginManagerOptions) {
+	constructor(logContext: LogContext, options: PluginManagerOptions) {
 		this.interfaceVersion = INTERFACE_VERSION;
 		try {
 			this._plugins = loadPlugins(options.plugins);
 		} catch (err: any) {
-			logger.error(context, err.message);
+			logger.error(logContext, err.message);
 			throw err;
 		}
 	}
 
-	getCards(context: Context, mixins: CoreMixins) {
+	getCards(logContext: LogContext, mixins: CoreMixins) {
 		return _.reduce<JellyfishPlugins, Contracts>(
 			this._plugins,
 			(carry, plugin) => {
 				if (plugin.getCards) {
-					const pluginCards = plugin.getCards(context, mixins);
-					validatedAddToMap(context, plugin, pluginCards, carry, 'Card');
+					const pluginCards = plugin.getCards(logContext, mixins);
+					validatedAddToMap(logContext, plugin, pluginCards, carry, 'Card');
 				}
 				return carry;
 			},
@@ -128,14 +128,14 @@ export class PluginManager {
 		);
 	}
 
-	getSyncIntegrations(context: Context) {
+	getSyncIntegrations(logContext: LogContext) {
 		return _.reduce<JellyfishPlugins, Integrations>(
 			this._plugins,
 			(carry, plugin) => {
 				if (plugin.getSyncIntegrations) {
-					const pluginIntegrations = plugin.getSyncIntegrations(context);
+					const pluginIntegrations = plugin.getSyncIntegrations(logContext);
 					validatedAddToMap(
-						context,
+						logContext,
 						plugin,
 						pluginIntegrations,
 						carry,
@@ -148,13 +148,13 @@ export class PluginManager {
 		);
 	}
 
-	getActions(context: Context) {
+	getActions(logContext: LogContext) {
 		return _.reduce<JellyfishPlugins, Actions>(
 			this._plugins,
 			(carry, plugin) => {
 				if (plugin.getActions) {
-					const pluginActions = plugin.getActions(context);
-					validatedAddToMap(context, plugin, pluginActions, carry, 'Action');
+					const pluginActions = plugin.getActions(logContext);
+					validatedAddToMap(logContext, plugin, pluginActions, carry, 'Action');
 				}
 				return carry;
 			},

@@ -2,17 +2,17 @@ import _ from 'lodash';
 import { PluginManager } from '../lib/plugin-manager';
 import { INTERFACE_VERSION } from '../lib/version';
 import {
-	TestPluginFactory,
+	action1,
+	action2,
 	card1,
 	card2,
 	integration1,
 	integration2,
-	action1,
-	action2,
 	mixins,
+	TestPluginFactory,
 } from './fixtures';
 
-const context = {
+const logContext = {
 	id: 'plugin-manager-test',
 };
 
@@ -20,7 +20,7 @@ describe('PluginManager', () => {
 	describe('validates plugins', () => {
 		test('by throwing an exception if you try and load two plugins with the same slug', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({ slug: 'test-plugin-1', name: 'Test plugin 1' }),
 						TestPluginFactory({ slug: 'test-plugin-1', name: 'Test plugin 2' }),
@@ -34,7 +34,7 @@ describe('PluginManager', () => {
 
 		test('by throwing an exception if a plugin requires another plugin that is not provided', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({
 							slug: 'test-plugin-2',
@@ -56,7 +56,7 @@ describe('PluginManager', () => {
 
 		test('by throwing an exception if a plugin requires a version of another plugin that is not provided', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({
 							slug: 'test-plugin-1',
@@ -83,7 +83,7 @@ describe('PluginManager', () => {
 
 		test('by throwing an exception if a plugin implements an incompatible interface version', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({
 							slug: 'test-plugin-1',
@@ -102,7 +102,7 @@ describe('PluginManager', () => {
 
 		test('but will not throw an exception if a plugin requires a version of another plugin that is provided', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({
 							slug: 'test-plugin-1',
@@ -126,7 +126,7 @@ describe('PluginManager', () => {
 
 		test('but will not throw an exception if a plugin requires a version of another plugin that is provided as a beta version', () => {
 			const getPluginManager = () =>
-				new PluginManager(context, {
+				new PluginManager(logContext, {
 					plugins: [
 						TestPluginFactory({
 							slug: 'test-plugin-1',
@@ -151,7 +151,7 @@ describe('PluginManager', () => {
 
 	describe('.interfaceVersion', () => {
 		test('returns the value of INTERFACE_VERSION', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [TestPluginFactory({})],
 			});
 			expect(pluginManager.interfaceVersion).toBe(INTERFACE_VERSION);
@@ -160,18 +160,18 @@ describe('PluginManager', () => {
 
 	describe('.getCards', () => {
 		test('returns an empty object if no cards are supplied to any of the plugins', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({ slug: 'test-plugin-1' }),
 					TestPluginFactory({ slug: 'test-plugin-2' }),
 				],
 			});
-			const cards = pluginManager.getCards(context, mixins);
+			const cards = pluginManager.getCards(logContext, mixins);
 			expect(cards).toEqual({});
 		});
 
 		test('will throw an exception if different plugins contain duplicate card slugs', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
@@ -185,7 +185,7 @@ describe('PluginManager', () => {
 					}),
 				],
 			});
-			const getCards = () => pluginManager.getCards(context, mixins);
+			const getCards = () => pluginManager.getCards(logContext, mixins);
 
 			expect(getCards).toThrow(
 				"Card 'card-1' already exists and cannot be loaded from plugin 'Test Plugin 2'",
@@ -193,7 +193,7 @@ describe('PluginManager', () => {
 		});
 
 		test('returns a dictionary of cards, keyed by slug', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						cards: [
@@ -206,7 +206,7 @@ describe('PluginManager', () => {
 				],
 			});
 
-			const cards = pluginManager.getCards(context, mixins);
+			const cards = pluginManager.getCards(logContext, mixins);
 			expect(cards).toEqual({
 				'card-1': card1,
 				'card-2': card2,
@@ -216,18 +216,18 @@ describe('PluginManager', () => {
 
 	describe('.getSyncIntegrations', () => {
 		test('returns an empty object if no integrations are supplied to any of the plugins', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({ slug: 'test-plugin-1' }),
 					TestPluginFactory({ slug: 'test-plugin-2' }),
 				],
 			});
-			const loadedIntegrations = pluginManager.getSyncIntegrations(context);
+			const loadedIntegrations = pluginManager.getSyncIntegrations(logContext);
 			expect(loadedIntegrations).toEqual({});
 		});
 
 		test('will throw an exception if duplicate integration slugs are found', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
@@ -245,7 +245,7 @@ describe('PluginManager', () => {
 			});
 
 			const getSyncIntegrations = () =>
-				pluginManager.getSyncIntegrations(context);
+				pluginManager.getSyncIntegrations(logContext);
 
 			expect(getSyncIntegrations).toThrow(
 				"Integration 'integration-1' already exists and cannot be loaded from plugin 'Test Plugin 2'",
@@ -253,7 +253,7 @@ describe('PluginManager', () => {
 		});
 
 		test('returns a dictionary of integrations keyed by slug', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
@@ -267,7 +267,7 @@ describe('PluginManager', () => {
 				],
 			});
 
-			const loadedIntegrations = pluginManager.getSyncIntegrations(context);
+			const loadedIntegrations = pluginManager.getSyncIntegrations(logContext);
 
 			expect(loadedIntegrations).toEqual({
 				'integration-1': integration1,
@@ -278,18 +278,18 @@ describe('PluginManager', () => {
 
 	describe('.getActions', () => {
 		test('returns an empty object if no actions are supplied to any of the plugins', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({ slug: 'test-plugin-1' }),
 					TestPluginFactory({ slug: 'test-plugin-2' }),
 				],
 			});
-			const loadedActions = pluginManager.getActions(context);
+			const loadedActions = pluginManager.getActions(logContext);
 			expect(loadedActions).toEqual({});
 		});
 
 		test('will throw an exception if duplicate action slugs are found', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
@@ -310,7 +310,7 @@ describe('PluginManager', () => {
 				],
 			});
 
-			const getActions = () => pluginManager.getActions(context);
+			const getActions = () => pluginManager.getActions(logContext);
 
 			expect(getActions).toThrow(
 				"Action 'action-1' already exists and cannot be loaded from plugin 'Test Plugin 2'",
@@ -318,7 +318,7 @@ describe('PluginManager', () => {
 		});
 
 		test('returns a dictionary of actions keyed by slug', () => {
-			const pluginManager = new PluginManager(context, {
+			const pluginManager = new PluginManager(logContext, {
 				plugins: [
 					TestPluginFactory({
 						slug: 'test-plugin-1',
@@ -332,7 +332,7 @@ describe('PluginManager', () => {
 				],
 			});
 
-			const loadedActions = pluginManager.getActions(context);
+			const loadedActions = pluginManager.getActions(logContext);
 
 			expect(loadedActions).toEqual({
 				'action-1': {

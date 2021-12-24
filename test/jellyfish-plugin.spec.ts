@@ -2,17 +2,17 @@ import _ from 'lodash';
 import sinon from 'sinon';
 import { INTERFACE_VERSION } from '../lib/version';
 import {
-	TestPluginFactory,
+	action1,
+	action2,
 	card1,
 	card2,
 	integration1,
 	integration2,
-	action1,
-	action2,
 	mixins,
+	TestPluginFactory,
 } from './fixtures';
 
-const context = {
+const logContext = {
 	id: 'jellyfish-plugin-test',
 };
 
@@ -45,7 +45,7 @@ describe('JellyfishPlugin', () => {
 	describe('.getCards', () => {
 		test('returns an empty object if no cards are supplied to the plugin', () => {
 			const plugin = new (TestPluginFactory({}))();
-			const cards = plugin.getCards(context, mixins);
+			const cards = plugin.getCards(logContext, mixins);
 			expect(cards).toEqual({});
 		});
 
@@ -54,7 +54,7 @@ describe('JellyfishPlugin', () => {
 				cards: [card1, Object.assign({}, card2, { slug: card1.slug })],
 			}))();
 
-			const getCards = () => plugin.getCards(context, mixins);
+			const getCards = () => plugin.getCards(logContext, mixins);
 
 			expect(getCards).toThrow("Duplicate cards with slug 'card-1' found");
 		});
@@ -72,7 +72,7 @@ describe('JellyfishPlugin', () => {
 				],
 			}))();
 
-			const getCards = () => plugin.getCards(context, mixins);
+			const getCards = () => plugin.getCards(logContext, mixins);
 
 			expect(getCards).toThrow("Duplicate cards with slug 'action-1' found");
 		});
@@ -88,7 +88,7 @@ describe('JellyfishPlugin', () => {
 				},
 			}))();
 
-			const cards = plugin.getCards(context, mixins);
+			const cards = plugin.getCards(logContext, mixins);
 
 			expect(cardFunction.calledOnce).toBe(true);
 			expect(cardFunction.firstCall.firstArg.test).toBe(testMixin);
@@ -110,7 +110,7 @@ describe('JellyfishPlugin', () => {
 			const initializeSpy = sinon.spy(mixins, 'initialize');
 			const mixinSpy = sinon.spy(mixins, 'mixin');
 
-			const cards = plugin.getCards(context, mixins);
+			const cards = plugin.getCards(logContext, mixins);
 
 			expect(mixinSpy.callCount).toBe(1);
 			expect(initializeSpy.callCount).toBe(2);
@@ -126,7 +126,7 @@ describe('JellyfishPlugin', () => {
 	describe('.getSyncIntegrations', () => {
 		test('returns an empty object if no integrations are supplied to the plugin', () => {
 			const plugin = new (TestPluginFactory({}))();
-			const loadedIntegrations = plugin.getSyncIntegrations(context);
+			const loadedIntegrations = plugin.getSyncIntegrations(logContext);
 			expect(loadedIntegrations).toEqual({});
 		});
 
@@ -138,7 +138,7 @@ describe('JellyfishPlugin', () => {
 				],
 			}))();
 
-			const getSyncIntegrations = () => plugin.getSyncIntegrations(context);
+			const getSyncIntegrations = () => plugin.getSyncIntegrations(logContext);
 
 			expect(getSyncIntegrations).toThrow(
 				"Duplicate integrations with slug 'integration-1' found",
@@ -150,7 +150,7 @@ describe('JellyfishPlugin', () => {
 				integrations: [integration1, integration2],
 			}))();
 
-			const loadedIntegrations = plugin.getSyncIntegrations(context);
+			const loadedIntegrations = plugin.getSyncIntegrations(logContext);
 
 			expect(loadedIntegrations).toEqual({
 				'integration-1': integration1,
@@ -162,7 +162,7 @@ describe('JellyfishPlugin', () => {
 	describe('.getActions', () => {
 		test('returns an empty object if no actions are supplied to the plugin', () => {
 			const plugin = new (TestPluginFactory({}))();
-			const loadedActions = plugin.getActions(context);
+			const loadedActions = plugin.getActions(logContext);
 			expect(loadedActions).toEqual({});
 		});
 
@@ -171,7 +171,7 @@ describe('JellyfishPlugin', () => {
 				actions: [action1, action2],
 			}))();
 
-			const loadedActions = plugin.getActions(context);
+			const loadedActions = plugin.getActions(logContext);
 
 			expect(loadedActions).toEqual({
 				'action-1': {

@@ -1,8 +1,8 @@
+import type { LogContext } from '@balena/jellyfish-logger';
 import type {
 	Contract,
 	ContractDefinition,
 	ContractData,
-	Context,
 } from '@balena/jellyfish-types/build/core';
 import type { Action } from '@balena/jellyfish-types/build/worker';
 
@@ -106,9 +106,9 @@ export interface JellyfishPlugin {
 	interfaceVersion: string;
 	requires: PluginIdentity[];
 
-	getCards: (context: Context, mixins: CoreMixins) => Contracts;
-	getSyncIntegrations: (context: Context) => Integrations;
-	getActions: (context: Context) => Actions;
+	getCards: (logContext: LogContext, mixins: CoreMixins) => Contracts;
+	getSyncIntegrations: (logContext: LogContext) => Integrations;
+	getActions: (logContext: LogContext) => Actions;
 }
 
 export interface JellyfishPlugins extends Map<JellyfishPlugin> {}

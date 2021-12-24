@@ -1,12 +1,9 @@
+import { getLogger, LogContext } from '@balena/jellyfish-logger';
+import type { ContractDefinition } from '@balena/jellyfish-types/build/core';
+import type { JSONSchema6 } from 'json-schema';
 import _ from 'lodash';
 import skhema from 'skhema';
-import { JSONSchema6 } from 'json-schema';
-import { getLogger } from '@balena/jellyfish-logger';
-import type {
-	Context,
-	ContractDefinition,
-} from '@balena/jellyfish-types/build/core';
-import { INTERFACE_VERSION } from './version';
+import { mixins as builtinMixins } from './mixins';
 import type {
 	ActionFile,
 	Actions,
@@ -20,7 +17,7 @@ import type {
 	JellyfishPluginOptions,
 	CoreMixins,
 } from './types';
-import { mixins as builtinMixins } from './mixins';
+import { INTERFACE_VERSION } from './version';
 
 const logger = getLogger(__filename);
 
@@ -71,7 +68,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 	}
 
 	private getSafeMap<T extends Sluggable>(
-		context: Context,
+		logContext: LogContext,
 		source: any[],
 		sourceType: string,
 		resolver: (item: any) => T = _.identity,
@@ -84,7 +81,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 					_.get(resolvedItem, 'slug') || _.get(resolvedItem, ['card', 'slug']);
 				if (map[slug]) {
 					const errorMessage = `Duplicate ${sourceType} with slug '${slug}' found`;
-					logger.error(context, `${this.name}: ${errorMessage}`);
+					logger.error(logContext, `${this.name}: ${errorMessage}`);
 					throw new Error(errorMessage);
 				}
 				map[slug] = resolvedItem;
@@ -94,7 +91,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		);
 	}
 
-	getCards(context: Context, mixins: CoreMixins) {
+	getCards(logContext: LogContext, mixins: CoreMixins) {
 		const actionCards = _.map(this._actions, 'card');
 		const allCards = _.concat(this._cardFiles, actionCards);
 		const cardMixins = {
@@ -102,7 +99,7 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 			...this._mixins,
 		};
 		const cards = this.getSafeMap<ContractDefinition>(
-			context,
+			logContext,
 			allCards,
 			'cards',
 			(cardFile: ContractFile) => {
@@ -114,15 +111,15 @@ export abstract class JellyfishPluginBase implements JellyfishPlugin {
 		return cards;
 	}
 
-	getSyncIntegrations(context: Context) {
+	getSyncIntegrations(logContext: LogContext) {
 		return this.getSafeMap<Integration>(
-			context,
+			logContext,
 			this._integrations,
 			'integrations',
 		);
 	}
 
-	getActions(_context: Context) {
+	getActions(_logContext: LogContext) {
 		return _.reduce(
 			this._actions,
 			(actions: Actions, action: ActionFile) => {
