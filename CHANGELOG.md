@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.9 - 2021-12-25
+
+* patch: Update dependency lint-staged to ^12.1.4 [Renovate Bot]
+
 ## 2.2.8 - 2021-12-21
 
 * patch: Update dependency @balena/jellyfish-types to v2 [Renovate Bot]
