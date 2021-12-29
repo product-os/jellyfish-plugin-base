@@ -1,4 +1,18 @@
 - commits:
+    - subject: 'Clean up types, use LogContext'
+      hash: 731aaf3ed8509295d70bae30623aa92118a0820d
+      body: |
+        Switch to LogContext and clean up type usage and imports.
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 3.0.0
+  date: 2021-12-29T08:37:52.632Z
+- commits:
     - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.7'
       hash: e48027d7d4eea7a85f568c863f8bd3cd7106ddba
       body: ''

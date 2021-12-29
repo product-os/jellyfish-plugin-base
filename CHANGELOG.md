@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 3.0.0 - 2021-12-29
+
+* Clean up types, use LogContext [Josh Bowling]
+
 ## 2.2.11 - 2021-12-25
 
 * patch: Update dependency @balena/jellyfish-logger to ^4.0.7 [Renovate Bot]
