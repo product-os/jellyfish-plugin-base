@@ -1,6 +1,6 @@
 {
   "name": "@balena/jellyfish-plugin-base",
-  "version": "2.2.11",
+  "version": "2.2.12",
   "repository": {
     "type": "git",
     "url": "https://github.com/product-os/jellyfish-plugin-base.git"
@@ -70,6 +70,6 @@
     "pre-commit": "npx lint-staged"
   },
   "versionist": {
-    "publishedAt": "2021-12-25T02:26:00.237Z"
+    "publishedAt": "2021-12-30T21:33:03.811Z"
   }
 }
