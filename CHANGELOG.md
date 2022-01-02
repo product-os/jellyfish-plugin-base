@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.16 - 2022-01-02
+
+* patch: Update internal-patch [Renovate Bot]
+
 ## 2.2.15 - 2022-01-01
 
 * patch: Update dependency @types/jest to ^27.4.0 [Renovate Bot]
