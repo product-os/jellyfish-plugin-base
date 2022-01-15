@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.23 - 2022-01-15
+
+* patch: Update dependency ts-jest to ^27.1.3 [Renovate Bot]
+
 ## 2.2.22 - 2022-01-08
 
 * patch: Update external-non-major [Renovate Bot]
