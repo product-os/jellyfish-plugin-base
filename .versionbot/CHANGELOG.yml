@@ -1,4 +1,17 @@
 - commits:
+    - subject: Remove remaining $ref statements
+      hash: fd9ed103b7e8c28b43abf7173ecda86369b0a700
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+        signed-off-by: Lucian Buzzo <lucian.buzzo@gmail.com>
+      author: Lucian Buzzo
+      nested: []
+  version: 2.2.25
+  date: 2022-01-17T13:29:20.060Z
+- commits:
     - subject: 'patch: Update internal-patch'
       hash: 25521039c463d2f68b61d8b67c518eea1e2bb510
       body: ''

@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.25 - 2022-01-17
+
+* Remove remaining $ref statements [Lucian Buzzo]
+
 ## 2.2.24 - 2022-01-15
 
 * patch: Update internal-patch [Renovate Bot]
