@@ -95,7 +95,7 @@ const definitions = {
 			orientation: 'horizontal',
 		},
 		items: {
-			$ref: '#/username',
+			'ui:widget': 'JellyfishUser',
 			'ui:options': {
 				suffix: ',',
 				mr: 1,
@@ -107,7 +107,7 @@ const definitions = {
 			orientation: 'horizontal',
 		},
 		items: {
-			$ref: '#/userId',
+			'ui:widget': 'JellyfishUser',
 			'ui:options': {
 				suffix: ',',
 				mr: 1,
@@ -124,9 +124,7 @@ const definitions = {
 		},
 	}),
 	idOrSlugList: () => ({
-		items: {
-			$ref: '#/idOrSlugLink',
-		},
+		items: definitions.idOrSlugLink(),
 	}),
 	externalUrl: () => ({
 		'ui:widget': 'Link',
