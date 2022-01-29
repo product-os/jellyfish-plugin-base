@@ -1,3 +1,5 @@
+**Notice: This utility has been discontinued. The functionality provided by this module has been merged into [`jellyfish-worker`](https://github.com/product-os/jellyfish-worker).**
+
 # Jellyfish Plugin Base
 
 This library contains the building blocks of the Jellyfish Plugin system:
