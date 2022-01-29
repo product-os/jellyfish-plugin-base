@@ -1,7 +1,21 @@
 - commits:
+    - subject: Add deprecation notice to README
+      hash: cfa635744f7b9f7bbcf6f83f7bfc5c0e8fd351f2
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Josh Bowling <josh@balena.io>
+        signed-off-by: Josh Bowling <josh@balena.io>
+      author: Josh Bowling
+      nested: []
+  version: 2.2.26
+  title: Add deprecation notice to README
+  date: 2022-01-29T07:36:58.365Z
+- commits:
     - subject: Remove remaining $ref statements
       hash: fd9ed103b7e8c28b43abf7173ecda86369b0a700
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -12,9 +26,9 @@
   version: 2.2.25
   date: 2022-01-17T13:29:20.060Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 25521039c463d2f68b61d8b67c518eea1e2bb510
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -23,9 +37,9 @@
   version: 2.2.24
   date: 2022-01-15T02:36:18.970Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.1.3'
+    - subject: "patch: Update dependency ts-jest to ^27.1.3"
       hash: aae8495291c29c041a67588330279fbcfab132d1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -34,9 +48,9 @@
   version: 2.2.23
   date: 2022-01-15T01:00:21.897Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6574b35442f731c32010e5ed95a93972cf62f754
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -45,9 +59,9 @@
   version: 2.2.22
   date: 2022-01-08T12:29:27.387Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.15'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.15"
       hash: 6398b1762345c50f4552fcd00864029c162061d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -56,9 +70,9 @@
   version: 2.2.21
   date: 2022-01-08T12:19:28.896Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: bad7441c293443271ac334556d720431c1f62be5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -67,9 +81,9 @@
   version: 2.2.20
   date: 2022-01-08T03:08:24.241Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.12'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.12"
       hash: 50930b620a741a05b4a72a1d0cb9d2a8b2400b3d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -78,9 +92,9 @@
   version: 2.2.19
   date: 2022-01-03T13:55:52.611Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.11'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.11"
       hash: d996bc7009bc213a9cee2bc9ee7ec1cf122f6679
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -89,9 +103,9 @@
   version: 2.2.18
   date: 2022-01-03T11:49:57.507Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.5'
+    - subject: "patch: Update dependency lint-staged to ^12.1.5"
       hash: 483ff79e63903686b59cc9d3fe5c15f219092bf7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -100,9 +114,9 @@
   version: 2.2.17
   date: 2022-01-02T23:09:43.295Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0aec1186d61533bd19032e4a6c6477a290ecadbc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -111,9 +125,9 @@
   version: 2.2.16
   date: 2022-01-02T22:59:17.222Z
 - commits:
-    - subject: 'patch: Update dependency @types/jest to ^27.4.0'
+    - subject: "patch: Update dependency @types/jest to ^27.4.0"
       hash: 3c59d2f9a4447609e0d4787cdb01ad551df4cf16
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -122,9 +136,9 @@
   version: 2.2.15
   date: 2022-01-01T03:46:06.156Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.9'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.9"
       hash: 9f6d55b4f651a35eeb2636547afa49e80640d818
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -133,9 +147,9 @@
   version: 2.2.14
   date: 2022-01-01T03:37:56.892Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.8'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.8"
       hash: fc6dcc658420db5fc3ccc42eb5143ef80a48bef3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -144,9 +158,9 @@
   version: 2.2.13
   date: 2022-01-01T01:45:53.006Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^2.0.1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^2.0.1"
       hash: fb62357aa6e7bc1a45fff7e5885a13d654b94761
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -155,9 +169,9 @@
   version: 2.2.12
   date: 2021-12-30T21:33:03.665Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.7"
       hash: e48027d7d4eea7a85f568c863f8bd3cd7106ddba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -166,9 +180,9 @@
   version: 2.2.11
   date: 2021-12-25T02:26:00.085Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^4.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^4.0.6"
       hash: f15ebe02e0683a135e3c4df784dcd42a9db95cc3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -177,9 +191,9 @@
   version: 2.2.10
   date: 2021-12-25T02:13:31.829Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.4'
+    - subject: "patch: Update dependency lint-staged to ^12.1.4"
       hash: ca2b1ecb45df548509a39a2bf15152326ec55675
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -188,7 +202,7 @@
   version: 2.2.9
   date: 2021-12-25T00:03:06.262Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to v2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to v2"
       hash: 3d2d5e1cfaab715e9516cf4d4f269040e28172bf
       body: |
         Update @balena/jellyfish-types from 1.2.42 to 2.0.0
@@ -200,9 +214,9 @@
   version: 2.2.8
   date: 2021-12-21T11:29:08.039Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.42'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.42"
       hash: ca5f348b11dbbf73d0b84dc85288a4da4c94e003
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -211,9 +225,9 @@
   version: 2.2.7
   date: 2021-12-19T03:23:17.762Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 030f39e42c5a91884c49c400c6d2f3c419044095
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -222,9 +236,9 @@
   version: 2.2.6
   date: 2021-12-18T14:08:09.607Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^12.1.3'
+    - subject: "patch: Update dependency lint-staged to ^12.1.3"
       hash: d95b6f797b0e3cd625dcbee24eeec2d0720f4534
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -233,9 +247,9 @@
   version: 2.2.5
   date: 2021-12-18T10:56:25.138Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 580bd4d47dbd266c2586158abc62eee3d85294a8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -244,7 +258,7 @@
   version: 2.2.4
   date: 2021-12-18T01:36:00.503Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to v4'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to v4"
       hash: 380c6578f22b1b37de98d442da32bffdc479fb8a
       body: |
         Update @balena/jellyfish-logger from 3.1.0 to 4.0.1
@@ -256,7 +270,7 @@
   version: 2.2.3
   date: 2021-12-17T15:43:29.951Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.1.0'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.1.0"
       hash: 7401a85d74d4944f3c2ea4239ffd04162d57d053
       body: |
         Update @balena/jellyfish-logger from 3.0.167 to 3.1.0
@@ -268,9 +282,9 @@
   version: 2.2.2
   date: 2021-12-16T19:41:26.506Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d30cbbff5aa824aaaa7d9552151a41a0d5b1a843
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -281,7 +295,7 @@
 - commits:
     - subject: Remove dependency on core by defining uiSchemaDefs in TS
       hash: 18899db34b17eae8c7912c0ceb188d93349a82b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -306,9 +320,9 @@
   version: 2.2.0
   date: 2021-12-14T15:36:19.880Z
 - commits:
-    - subject: 'Drop depcheck, bump typescript'
+    - subject: Drop depcheck, bump typescript
       hash: 64396f8fd818aacc93bd8e1570c28ce541c998dd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -319,9 +333,9 @@
   version: 2.1.324
   date: 2021-12-14T01:23:07.726Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: eac3392483d8cabdb63dc099388486800a940949
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -330,9 +344,9 @@
   version: 2.1.323
   date: 2021-12-11T09:10:42.341Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: af3250f34c88277fce7aa11190a129bd317c0ee5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -341,7 +355,7 @@
   version: 2.1.322
   date: 2021-12-11T09:01:51.097Z
 - commits:
-    - subject: 'patch: Update dependency typescript to ^4.5.3'
+    - subject: "patch: Update dependency typescript to ^4.5.3"
       hash: ad164ef06916fb58992d494025b2dcf8650ff89c
       body: |
         Update typescript from 4.5.2 to 4.5.3
@@ -355,7 +369,7 @@
 - commits:
     - subject: Update @balena/jellyfish-logger from v3.0.162 to v3.0.163
       hash: a6457daa552dd622867b59d90b0b7eb9b002e46c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -368,7 +382,7 @@
 - commits:
     - subject: Update upstream repos
       hash: f5d36b20c12426988b394dcdbaf2647bcead45a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -379,9 +393,9 @@
   version: 2.1.319
   date: 2021-12-07T05:15:18.872Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.162'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.162"
       hash: adbf57d49e6ef14c07dcb1cd62db604b13a117bb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -390,9 +404,9 @@
   version: 2.1.318
   date: 2021-12-05T23:16:42.124Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.161'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.161"
       hash: 0772a3791d2658e555b70435dda7f502a2a59be1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -401,9 +415,9 @@
   version: 2.1.317
   date: 2021-12-05T11:50:30.809Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.38'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.38"
       hash: 4d693212afb7a82b0c8832430b2cb411bce1bb91
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -412,9 +426,9 @@
   version: 2.1.316
   date: 2021-12-05T09:45:03.083Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.1.0'
+    - subject: "patch: Update dependency ts-jest to ^27.1.0"
       hash: 0a67ec791167c7a2f80daced563b436aedfe4a9a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -423,9 +437,9 @@
   version: 2.1.315
   date: 2021-12-05T09:36:21.242Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.37'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.37"
       hash: 18828bbad73b4eb9de9dc4bd26188ee57a680d93
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -434,9 +448,9 @@
   version: 2.1.314
   date: 2021-12-04T21:10:32.881Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.159'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.159"
       hash: 09e104896b324e2656cd3f558cacbeeb877460bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -445,9 +459,9 @@
   version: 2.1.313
   date: 2021-12-04T18:41:16.994Z
 - commits:
-    - subject: 'patch: Update dependency jest to ^27.4.3'
+    - subject: "patch: Update dependency jest to ^27.4.3"
       hash: 1a85cde751fa03ffd6bbb70c5ea915f687ef1365
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -456,9 +470,9 @@
   version: 2.1.312
   date: 2021-12-04T01:22:57.787Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.156'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.156"
       hash: 03415071796e77e39fb34090f6f5edabfcc9c672
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -467,9 +481,9 @@
   version: 2.1.311
   date: 2021-12-01T12:07:44.437Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 153f90f052dfba58acace27da3d8876fb98ac5a5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -478,9 +492,9 @@
   version: 2.1.310
   date: 2021-11-29T14:04:29.506Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.154'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.154"
       hash: 2d8854bdfa4d53056fc78f23e89b635e3b7a0dcc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -489,9 +503,9 @@
   version: 2.1.309
   date: 2021-11-27T18:53:37.401Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.153'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.153"
       hash: a5ea76660b8cb1f89d210fad5e14b40eb3911b4d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -500,15 +514,15 @@
   version: 2.1.308
   date: 2021-11-27T14:54:29.357Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.10'
+    - subject: "patch: Update dependency typedoc to ^0.22.10"
       hash: 77a996821fcc7a46773b073ba3e7c673abe63b3e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-config to v2'
+    - subject: "patch: Update dependency @balena/jellyfish-config to v2"
       hash: a84c1681f12b23641d8faaf00fb39f9e9cc866bb
       body: |
         Update @balena/jellyfish-config from 1.5.17 to 2.0.1
@@ -520,9 +534,9 @@
   version: 2.1.307
   date: 2021-11-27T14:43:54.570Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.35'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.35"
       hash: cce829d034fddd01e6558f8f14365d3752ba8bcf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -531,9 +545,9 @@
   version: 2.1.306
   date: 2021-11-27T05:19:14.992Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.152'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.152"
       hash: d9fa35c9aaae8c773dc3250462babfc191aca421
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -542,9 +556,9 @@
   version: 2.1.305
   date: 2021-11-27T02:14:00.851Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4d62ce1927a5e0787f43e66dfea6e89446c9db67
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -553,7 +567,7 @@
   version: 2.1.304
   date: 2021-11-26T18:00:05.383Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to ^6.2.0'
+    - subject: "patch: Update dependency @balena/lint to ^6.2.0"
       hash: b7e91be1bfb793a787f9f12306ccdb63ea15fb85
       body: |
         Update @balena/lint from 6.1.1 to 6.2.0
@@ -567,7 +581,7 @@
 - commits:
     - subject: Use product-os/renovate-config
       hash: c590c3b8c3a21f11e56ef290736bc38180d3876a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -578,7 +592,7 @@
   version: 2.1.302
   date: 2021-11-26T04:56:01.466Z
 - commits:
-    - subject: 'patch: Update dependency typescript to ^4.5.2'
+    - subject: "patch: Update dependency typescript to ^4.5.2"
       hash: ff8f925f3611dd9dbdf804157dd58150d93e2308
       body: |
         Update typescript from 4.4.4 to 4.5.2
@@ -590,9 +604,9 @@
   version: 2.1.301
   date: 2021-11-25T08:32:49.452Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7ab36468826a98007409a77b66187f8186d68e7a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -603,7 +617,7 @@
 - commits:
     - subject: Remove jellycheck
       hash: 640ade4aaebcd97b8d1322de72b18c580bfbccd7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -614,9 +628,9 @@
   version: 2.1.299
   date: 2021-11-25T02:27:21.667Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 38d87b84a0bdb9fadf402ba66b305bdcd672f661
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -625,9 +639,9 @@
   version: 2.1.298
   date: 2021-11-24T13:26:30.618Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 33469805bc0882844eac67315944b88a5f57947c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -636,9 +650,9 @@
   version: 2.1.297
   date: 2021-11-24T06:45:44.964Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: bbba7e12e98d15a5426118fc1f04da64fe3bb720
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -647,9 +661,9 @@
   version: 2.1.296
   date: 2021-11-24T03:45:55.554Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.138'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.138"
       hash: 580fcee14c348c746a44673d5820af580f63e0d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -658,9 +672,9 @@
   version: 2.1.295
   date: 2021-11-24T01:33:52.063Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.137'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.137"
       hash: 90c4bc97639fc30396cdaf163335c81329eeecf1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -669,9 +683,9 @@
   version: 2.1.294
   date: 2021-11-23T04:45:41.442Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.14'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.14"
       hash: b7441e0701e494f05c9a21326f0a3def35a66098
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -682,7 +696,7 @@
 - commits:
     - subject: Bump lint-staged dep to v12
       hash: 5a4c273f463bd55b0a484c2fa5ef8ad1aa987c23
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -695,7 +709,7 @@
 - commits:
     - subject: Bump @types/jest to v27.0.3
       hash: c5306fa6af6c823c4ddc983221b60e607aefbe1d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -706,9 +720,9 @@
   version: 2.1.291
   date: 2021-11-22T13:54:47.782Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4f44b638aee8b4ca5b061a185af89d0bd6df8ced
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -717,9 +731,9 @@
   version: 2.1.290
   date: 2021-11-22T05:53:51.393Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.133'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.133"
       hash: 2c41ce8faa428340bf10e63f2769021462a9228b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -728,9 +742,9 @@
   version: 2.1.289
   date: 2021-11-22T01:29:08.283Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e54fa3b40d4505a33162c304cd6c322890e53b54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -741,7 +755,7 @@
 - commits:
     - subject: Remove license headers
       hash: 02d1d41fdd0fffe3afd39c9e97c7fcb23a549183
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -752,15 +766,15 @@
   version: 2.1.287
   date: 2021-11-21T00:46:28.369Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.127'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.127"
       hash: 478d10f00ef5b318fd9c94e8b1daf18d0e1a67de
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellycheck to v1'
+    - subject: "patch: Update dependency @balena/jellycheck to v1"
       hash: 04f7cae524dd92e958932185ab9276d0a03f56d5
       body: |
         Update @balena/jellycheck from 0.1.8 to 1.0.0
@@ -772,9 +786,9 @@
   version: 2.1.286
   date: 2021-11-20T12:08:31.411Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c6656aa564ad6e684c11113a2bb88c853f445747
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -783,9 +797,9 @@
   version: 2.1.285
   date: 2021-11-16T07:44:54.417Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: be55f1095535b9991aecc77daabc7796d2b40681
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -794,9 +808,9 @@
   version: 2.1.284
   date: 2021-11-16T04:00:41.452Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c42ad0ac4d40406eaac6f8bcfb32770ed1f7d484
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -805,9 +819,9 @@
   version: 2.1.283
   date: 2021-11-16T03:39:50.466Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.19'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.19"
       hash: 9c6d91ec49b309ad3200792bdcb83621817b9e27
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -818,7 +832,7 @@
 - commits:
     - subject: Set license
       hash: cf1c462729c9a729206fdec51ab4a856eeab56ae
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -829,9 +843,9 @@
   version: 2.1.281
   date: 2021-11-16T01:08:48.100Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.8'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.8"
       hash: 930a700bbe467a0f554cfa3b2a11a0b41cf01e74
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -840,9 +854,9 @@
   version: 2.1.280
   date: 2021-11-16T00:48:06.042Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.120'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.120"
       hash: 485f04388e7be00936c6ddf82b1daf4f8f4afc41
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -851,9 +865,9 @@
   version: 2.1.279
   date: 2021-11-15T11:54:45.925Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6b8f9add260b62ff32347a74f0a921ce4e848f5e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -862,9 +876,9 @@
   version: 2.1.278
   date: 2021-11-15T09:33:28.631Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 78fc3e0fd0aa08a56f9b91e16e2c9efd86c633fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -873,9 +887,9 @@
   version: 2.1.277
   date: 2021-11-15T04:40:57.517Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.111'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.111"
       hash: 376e5a10ac12271b1ee1769921b13f3af54f59fc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -884,9 +898,9 @@
   version: 2.1.276
   date: 2021-11-14T23:05:56.228Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.9'
+    - subject: "patch: Update dependency typedoc to ^0.22.9"
       hash: c596d66eeed211b52315775a5df1ffa6acca923d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -895,9 +909,9 @@
   version: 2.1.275
   date: 2021-11-14T22:53:42.184Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.15'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.15"
       hash: 2842174deb7a0617d8c5b24206134c575a3c6789
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -906,9 +920,9 @@
   version: 2.1.274
   date: 2021-11-14T22:45:26.187Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.110'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.110"
       hash: f814be591357890c6ddb4ce38b0dca1b703fb7f8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -917,9 +931,9 @@
   version: 2.1.273
   date: 2021-11-14T15:00:35.536Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.109'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.109"
       hash: 47543ed762a2448ebab61a2b8456e0471d1246e8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -928,9 +942,9 @@
   version: 2.1.272
   date: 2021-11-13T09:25:01.274Z
 - commits:
-    - subject: 'patch: Update dependency json-schema to ^0.4.0'
+    - subject: "patch: Update dependency json-schema to ^0.4.0"
       hash: d2779e10a804d53f4327828f21db9740a86101d3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -939,9 +953,9 @@
   version: 2.1.271
   date: 2021-11-13T04:10:42.361Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.14'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.14"
       hash: 6c91a1fe91e7cc2c285824f67659e3602703a0cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -950,9 +964,9 @@
   version: 2.1.270
   date: 2021-11-13T04:03:03.648Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.108'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.108"
       hash: b1c2fdd7710fb94efc42b689199350557c934250
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -961,9 +975,9 @@
   version: 2.1.269
   date: 2021-11-13T01:26:50.883Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.107'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.107"
       hash: d6b2391d34c83ebe6a5de9c6c8dde4dbe9b9016b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -972,9 +986,9 @@
   version: 2.1.268
   date: 2021-11-12T06:00:08.257Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4f1ac89fd5822b3de32b6dd154f6a63f6b70a59a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -985,7 +999,7 @@
 - commits:
     - subject: Bump sinon to v12
       hash: e0bcc43664031c5f79f5c03520d56e795e701997
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -996,9 +1010,9 @@
   version: 2.1.266
   date: 2021-11-09T14:36:18.521Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4df4fd9ea4ef38abdba1e52c50cbc6e446c81d42
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1007,9 +1021,9 @@
   version: 2.1.265
   date: 2021-11-09T14:19:11.539Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.22.8'
+    - subject: "patch: Update dependency typedoc to ^0.22.8"
       hash: 6061f222eaaef617f080711d9676fc9875044a2b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1018,9 +1032,9 @@
   version: 2.1.264
   date: 2021-11-07T01:32:34.847Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.12'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.12"
       hash: 67a1fd25998d7e1d0d5146992a5cfe7d44695772
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1029,9 +1043,9 @@
   version: 2.1.263
   date: 2021-11-07T01:24:13.138Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d0fa11d68b7bbb400887279ab598368637fe0349
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1040,9 +1054,9 @@
   version: 2.1.262
   date: 2021-11-06T02:24:56.229Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.100'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.100"
       hash: 54a2e9cc88b1c52e6c2421c31b99cccb46b0dc39
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1051,9 +1065,9 @@
   version: 2.1.261
   date: 2021-11-05T23:59:30.939Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.7'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.7"
       hash: f45f8a9d73eb95dfe46f96d68ca36c2a536c0850
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1062,9 +1076,9 @@
   version: 2.1.260
   date: 2021-11-05T10:26:38.334Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 21db6c4fc45716ebb9d4990f0e58ce6557b7dbe7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1073,9 +1087,9 @@
   version: 2.1.259
   date: 2021-10-30T04:31:27.741Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 9580743d02c0269084a1431cfc12fd5ba16d9acc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1084,9 +1098,9 @@
   version: 2.1.258
   date: 2021-10-30T00:31:15.431Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.97'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.97"
       hash: 45c758e910e5e9af0aef6a9f8b47d1a04b079f74
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1095,9 +1109,9 @@
   version: 2.1.257
   date: 2021-10-28T14:45:28.141Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 8d41fa4be273569cac452f3d6934749e35ce176e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1106,9 +1120,9 @@
   version: 2.1.256
   date: 2021-10-28T12:22:46.085Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 352b46a730afffe8551b2590223d16864923fb05
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1117,9 +1131,9 @@
   version: 2.1.255
   date: 2021-10-28T10:36:57.800Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: a2300c5df37029fb997f35485577f44df67eb66b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1128,9 +1142,9 @@
   version: 2.1.254
   date: 2021-10-28T05:17:57.666Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ec5c7aae38bbf42f901a65c311dbae2d4615b5e8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1139,9 +1153,9 @@
   version: 2.1.253
   date: 2021-10-23T21:55:49.372Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 15c09de975cc665824e10b2f1002c5754f03c0d1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1150,9 +1164,9 @@
   version: 2.1.252
   date: 2021-10-23T21:44:37.160Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.91'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.91"
       hash: b2e995d3cac00306cb0c63834c1a0875cdc080a6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1161,9 +1175,9 @@
   version: 2.1.251
   date: 2021-10-23T09:37:45.924Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.90'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.90"
       hash: 3df91dfb09002e272a2f26c6485fd3ed94d3a00e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1172,9 +1186,9 @@
   version: 2.1.250
   date: 2021-10-23T04:30:38.824Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0968ce1d328bfd1ad1290cbe390e8829240b1aed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1183,9 +1197,9 @@
   version: 2.1.249
   date: 2021-10-23T02:52:10.661Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 42189dfe9cf99e1b824f8312e0178f1618fa333e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1194,9 +1208,9 @@
   version: 2.1.248
   date: 2021-10-23T00:25:35.984Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.87'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.87"
       hash: 53f30a7bc0b9c331031bccfb57f9429605cb39f9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1205,7 +1219,7 @@
   version: 2.1.247
   date: 2021-10-20T08:26:08.340Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.5.4'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.5.4"
       hash: 7ff323185c0897ead50bcb03739b7583566988c3
       body: |
         Update @balena/jellyfish-config from 1.4.8 to 1.5.4
@@ -1217,9 +1231,9 @@
   version: 2.1.246
   date: 2021-10-18T20:13:07.751Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 99368ee26ab34ea1f904fcd23d3546f960618fed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1228,9 +1242,9 @@
   version: 2.1.245
   date: 2021-10-18T20:03:37.662Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: dc2e8d39212dba1c8301211c198da554ab84e089
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1241,7 +1255,7 @@
 - commits:
     - subject: Add typedoc to depcheck ignore list
       hash: 12b02853e075f09876f14752c6b3059c0a8c9ab3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1249,9 +1263,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 3ca2b55a8c03f9c019eb5aa76ac8538c90fca0cc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1260,9 +1274,9 @@
   version: 2.1.243
   date: 2021-09-22T00:53:36.803Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.71'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.71"
       hash: 0013585a989e1eb5dd0848bd27dd854c33758bb4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1271,7 +1285,7 @@
   version: 2.1.242
   date: 2021-09-20T11:33:20.797Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^1.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^1.2.0"
       hash: d3abf514b6a783f3ec7347dd318cb08e36e06ade
       body: |
         Update @balena/jellyfish-types from 1.1.2 to 1.2.0
@@ -1283,9 +1297,9 @@
   version: 2.1.241
   date: 2021-09-20T11:24:20.957Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.70'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.70"
       hash: fffbb0f03ed5727002eba421fcc4c01a993ae5fe
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1294,9 +1308,9 @@
   version: 2.1.240
   date: 2021-09-18T03:41:31.278Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.69'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.69"
       hash: a29f69100bb95dc0a7ed980b39b987e532a43f6a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1305,9 +1319,9 @@
   version: 2.1.239
   date: 2021-09-12T05:15:00.751Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.68'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.68"
       hash: 39bd332a6b03e098c4968194f3412c4d6fda3db3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1316,9 +1330,9 @@
   version: 2.1.238
   date: 2021-09-11T05:33:20.439Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.67'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.67"
       hash: fad54e2786841690ddbac91bac064f17324a6e5c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1327,7 +1341,7 @@
   version: 2.1.237
   date: 2021-09-10T00:28:07.336Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to v1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to v1"
       hash: c2679790b9a6d20cc0c83a83d5523aa4306d1ed5
       body: |
         Update @balena/jellyfish-types from 0.9.9 to 1.1.2
@@ -1339,9 +1353,9 @@
   version: 2.1.236
   date: 2021-09-07T09:18:31.043Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.9'
+    - subject: "patch: Update dependency typedoc to ^0.21.9"
       hash: d08209a8afb95e22511dd881e82d940b0d2853c9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1350,9 +1364,9 @@
   version: 2.1.235
   date: 2021-09-04T00:18:50.807Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.66'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.66"
       hash: e9cea04136f2e0db37f2b09856bc6cd881dcf923
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1361,9 +1375,9 @@
   version: 2.1.234
   date: 2021-08-30T02:00:50.906Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.8'
+    - subject: "patch: Update dependency typedoc to ^0.21.8"
       hash: ba05ae846e3352b430dfc6ee8f039dfd4f32f6a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1372,9 +1386,9 @@
   version: 2.1.233
   date: 2021-08-29T23:38:50.802Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.65'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.65"
       hash: 0d32ad37d660406cf2c1d41af3fd82acfe2c33cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1385,7 +1399,7 @@
 - commits:
     - subject: Fix error type unknown type errors
       hash: 6e2c2e6adf821b12ae5a186d7347c94ff1c4b649
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1393,9 +1407,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 95ef3e5cd766b97ec195f3adfb070073481e9493
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1406,7 +1420,7 @@
 - commits:
     - subject: Move jellyfish-types to devDependencies
       hash: 883eb4e6cbfc2c1b50670a2b7884c7ede9b81789
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1417,9 +1431,9 @@
   version: 2.1.230
   date: 2021-08-25T12:40:46.483Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 16e56a9258140e3a4f5d6331f03149cd2fbe0c1f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1428,9 +1442,9 @@
   version: 2.1.229
   date: 2021-08-22T01:24:00.351Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b42603d208da2cb1ee33d68b391b59f236c7626b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1441,7 +1455,7 @@
 - commits:
     - subject: Bump @types/jest to v27.0.1
       hash: 1a74f8bdabd7fb785d591bbbb7e8f5543593df16
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1452,9 +1466,9 @@
   version: 2.1.227
   date: 2021-08-22T01:07:20.027Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.8'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.8"
       hash: 9b8ae1402ad8bba522b5edf2e407376654e2210a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1463,9 +1477,9 @@
   version: 2.1.226
   date: 2021-08-19T23:03:00.909Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.7'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.7"
       hash: c9412801a2bc2e8407aa96d85dd44e277383dce0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1474,9 +1488,9 @@
   version: 2.1.225
   date: 2021-08-18T11:38:51.373Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.5'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.5"
       hash: 9c40fde924134badd31a60ea166a3fc44524cc32
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1485,9 +1499,9 @@
   version: 2.1.224
   date: 2021-08-17T13:39:00.230Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c1907a6c7eb76796fd33b7ed4d8f4d30d753d2bb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1511,9 +1525,9 @@
   version: 2.1.222
   date: 2021-08-10T13:05:06.670Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.2"
       hash: 5135e4d3aa40735ffbd15ac4f0d43e1e62d9b310
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1522,9 +1536,9 @@
   version: 2.1.221
   date: 2021-08-10T11:54:46.189Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.1"
       hash: 89a95d5ffdab3f8805f78d66b1244aadc56ad66c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1533,7 +1547,7 @@
   version: 2.1.220
   date: 2021-08-10T11:03:30.691Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.9.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.9.0"
       hash: 4534fc4a489dfa12612a02c9acd067383d0e84af
       body: |
         Update @balena/jellyfish-types from 0.8.15 to 0.9.0
@@ -1545,9 +1559,9 @@
   version: 2.1.219
   date: 2021-08-09T11:41:20.370Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.58'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.58"
       hash: 6fef2758f6001374c26aa0521183a4db762fccdd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1556,9 +1570,9 @@
   version: 2.1.218
   date: 2021-08-09T11:32:50.581Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.15'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.15"
       hash: bc39f7e2eb928e96b268b08a68bca674ea10f4dc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1567,9 +1581,9 @@
   version: 2.1.217
   date: 2021-08-07T02:53:41.534Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.57'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.57"
       hash: 363afb40a0868637cf5149c8b411db56dde46412
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1578,9 +1592,9 @@
   version: 2.1.216
   date: 2021-08-07T01:24:00.854Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.1.2'
+    - subject: "patch: Update dependency lint-staged to ^11.1.2"
       hash: 41f2a11a2741c0aee5ce32a70490d99c84a26556
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1589,9 +1603,9 @@
   version: 2.1.215
   date: 2021-08-07T01:15:41.136Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.56'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.56"
       hash: 8c722bd204386afd9b7d90d4826c74022a6350e1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1600,9 +1614,9 @@
   version: 2.1.214
   date: 2021-08-06T14:02:21.312Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.13'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.13"
       hash: c45dd1f240c7edb6cc689b177cd49c36ab7b3922
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1625,9 +1639,9 @@
   version: 2.1.212
   date: 2021-08-04T23:33:11.687Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.5'
+    - subject: "patch: Update dependency typedoc to ^0.21.5"
       hash: a89267cddef7c41e7acd924f691ebfd8f33872b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1636,9 +1650,9 @@
   version: 2.1.211
   date: 2021-07-31T18:09:20.753Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.8'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.8"
       hash: 0fb0a4d9cda954cbf89c6867973dfe9eb1432ef4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1647,9 +1661,9 @@
   version: 2.1.210
   date: 2021-07-31T03:17:00.688Z
 - commits:
-    - subject: 'patch: Update dependency sinon to ^11.1.2'
+    - subject: "patch: Update dependency sinon to ^11.1.2"
       hash: bf026652176b60ae4ce399890425520b00f56718
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1658,9 +1672,9 @@
   version: 2.1.209
   date: 2021-07-31T01:05:21.285Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellycheck to ^0.1.3'
+    - subject: "patch: Update dependency @balena/jellycheck to ^0.1.3"
       hash: c3688f3bd57f0201c491ee33f2d9b7d21d5c6ad0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1669,9 +1683,9 @@
   version: 2.1.208
   date: 2021-07-30T03:46:01.344Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.7'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.7"
       hash: 5ea8c62b0d49fde0547e11a4cd054c788a7fd298
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1680,9 +1694,9 @@
   version: 2.1.207
   date: 2021-07-29T02:24:01.202Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to ^11.1.1'
+    - subject: "patch: Update dependency lint-staged to ^11.1.1"
       hash: f600dd519371d461969a4ae48b478a981d14b9c3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1691,9 +1705,9 @@
   version: 2.1.206
   date: 2021-07-24T12:02:10.928Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 1f25238480081c2f8b2987d51df68ada561fd173
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1702,9 +1716,9 @@
   version: 2.1.205
   date: 2021-07-24T01:26:51.942Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.6'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.6"
       hash: de650629d15c3e60b456e06400c4b52b1f31556a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1713,9 +1727,9 @@
   version: 2.1.204
   date: 2021-07-21T08:39:11.611Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.54'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.54"
       hash: 7dcd4c7435cffa111ccee954664c838543286657
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1724,9 +1738,9 @@
   version: 2.1.203
   date: 2021-07-17T06:38:25.764Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.53'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.53"
       hash: f3c78b8705cba4f4d89f542b09b1a64ce75d3954
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1735,9 +1749,9 @@
   version: 2.1.202
   date: 2021-07-17T02:23:43.040Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.12'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.12"
       hash: 0f429d45981bf91b967dc4519efaae6330f55157
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1746,9 +1760,9 @@
   version: 2.1.201
   date: 2021-07-17T00:49:23.052Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.11'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.11"
       hash: b729c2b38ab939995ff92d2268701eab4a8ddfcc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1759,7 +1773,7 @@
 - commits:
     - subject: Remove whitesource config
       hash: f45714c77799cbd79eeb90090ddf6c9a2d546ab1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1770,9 +1784,9 @@
   version: 2.1.199
   date: 2021-07-17T00:25:22.131Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d7b0803ffec73a1d0aa81774600bba4a3f0efbb5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1781,9 +1795,9 @@
   version: 2.1.198
   date: 2021-07-17T00:11:42.789Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.52'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.52"
       hash: 6f4238f5a6913992c3a67f92879de9f3c7106050
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1792,9 +1806,9 @@
   version: 2.1.197
   date: 2021-07-16T23:59:58.557Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 48d6db5352b76bbde268c85a98fb8908fc23cbd9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1803,9 +1817,9 @@
   version: 2.1.196
   date: 2021-07-14T08:12:34.619Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b09408ccb6a543311f7ec99a8e90882e944bbc76
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1814,9 +1828,9 @@
   version: 2.1.195
   date: 2021-07-14T04:27:09.684Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.8'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.8"
       hash: 6f24af1c738129af5d5d3bb59a9487e0d47a1b6e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1825,9 +1839,9 @@
   version: 2.1.194
   date: 2021-07-11T07:24:23.385Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.49'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.49"
       hash: 53700d9e958d424aa2a393cd5d4cfc7d47446e91
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1836,9 +1850,9 @@
   version: 2.1.193
   date: 2021-07-11T02:04:01.582Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.48'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.48"
       hash: f36bdd6dc54cb35dbe382585c8c7b31e98fd5f33
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1847,9 +1861,9 @@
   version: 2.1.192
   date: 2021-07-10T22:00:55.665Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.3'
+    - subject: "patch: Update dependency typedoc to ^0.21.3"
       hash: 117e8fecf4a24618f4df97dc9d8a704c8f582696
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1858,9 +1872,9 @@
   version: 2.1.191
   date: 2021-07-10T20:15:40.987Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 04f7922fd81b69e0fd599936c7a2a11ebe87f2ef
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1869,9 +1883,9 @@
   version: 2.1.190
   date: 2021-07-10T08:56:11.000Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.46'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.46"
       hash: 11409a26fee137f7205bf7b3214eb94b56b76342
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1880,9 +1894,9 @@
   version: 2.1.189
   date: 2021-07-10T08:47:41.043Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 2141f869d4fa196af8c419bb54a8299c958c17c9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1891,9 +1905,9 @@
   version: 2.1.188
   date: 2021-07-10T01:53:42.336Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 67765aae89ec8656cc252a404892210578034103
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1902,9 +1916,9 @@
   version: 2.1.187
   date: 2021-07-09T02:08:02.308Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.43'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.43"
       hash: 350272e42e354846875b44659864268dff830201
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1913,9 +1927,9 @@
   version: 2.1.186
   date: 2021-07-07T01:59:41.165Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.42'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.42"
       hash: bb00057665d1c45d11b2c71a38f5b60092b785aa
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1924,9 +1938,9 @@
   version: 2.1.185
   date: 2021-07-05T03:59:43.077Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 249a6455dece2b37665a0d7f3f9f264b738787d7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1935,9 +1949,9 @@
   version: 2.1.184
   date: 2021-07-05T02:19:51.727Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 877972ac18ca6970aafecdfae3f2432b1439292c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1946,9 +1960,9 @@
   version: 2.1.183
   date: 2021-07-03T02:46:41.985Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 4a0079744da701a0978a354a81aa5148b4adafba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1957,9 +1971,9 @@
   version: 2.1.182
   date: 2021-07-03T00:32:41.349Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: 6b8fb249afb7b97c06ede22b3b561012bdeea40e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1968,9 +1982,9 @@
   version: 2.1.181
   date: 2021-07-03T00:19:50.337Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.36'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.36"
       hash: 45524ec0bdc539a6d07ea1606aa705cd5f737e0a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1979,9 +1993,9 @@
   version: 2.1.180
   date: 2021-07-02T09:07:00.866Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.1"
       hash: 2fff28b41a01ae02878fcbb17ab8e0551fc9e502
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -1990,9 +2004,9 @@
   version: 2.1.179
   date: 2021-07-02T07:27:40.841Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.35'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.35"
       hash: 17391164314f2603331c402efe4ab656a08f4d48
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2001,7 +2015,7 @@
   version: 2.1.178
   date: 2021-07-02T07:16:52.566Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.8.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.8.0"
       hash: eab9179a25f93e93d34d4445896a7df8f9f5e84f
       body: |
         Update @balena/jellyfish-types from 0.7.3 to 0.8.0
@@ -2013,7 +2027,7 @@
   version: 2.1.177
   date: 2021-07-02T07:07:41.175Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.4.0'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.4.0"
       hash: 31bbbec1e7a80f176427e5d47e5051af1b2a4919
       body: |
         Update @balena/jellyfish-config from 1.3.4 to 1.4.0
@@ -2027,7 +2041,7 @@
 - commits:
     - subject: Remove package lock file
       hash: 888cdf4568ed389c209a2371ba70cbdb2a712379
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2035,9 +2049,9 @@
         signed-off-by: Graham McCulloch <graham@balena.io>
       author: Graham McCulloch
       nested: []
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: 2689ea2577fda3787a7b8b44c8ff2f98b9a22980
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2046,9 +2060,9 @@
   version: 2.1.175
   date: 2021-06-30T04:50:01.844Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.34'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.34"
       hash: d0610f39997fef7c6fa7c00dcb97963fec6b2dca
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2059,7 +2073,7 @@
 - commits:
     - subject: Remove package-lock.json
       hash: 1673d7e31f4b229160307bfb2fafd48b3a1a2471
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2070,9 +2084,9 @@
   version: 2.1.173
   date: 2021-06-30T01:37:51.406Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.32'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.32"
       hash: 3ec5a76c35322d8c74ffb078e5dff00247725972
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2081,17 +2095,17 @@
   version: 2.1.172
   date: 2021-06-30T01:18:33.335Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.7.3'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.7.3"
       hash: 83aa6b4cad532936bbf01ab0abb641541f7f2d5f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: e4f9cf32f950f19cd507263be1ace3dab3995030
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2100,9 +2114,9 @@
   version: 2.1.171
   date: 2021-06-29T13:00:12.307Z
 - commits:
-    - subject: 'patch: Update dependency simple-git-hooks to ^2.5.1'
+    - subject: "patch: Update dependency simple-git-hooks to ^2.5.1"
       hash: c1895b232fc5ea2f81bb6c76406508bcb9d74a04
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2111,9 +2125,9 @@
   version: 2.1.170
   date: 2021-06-27T20:27:21.305Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.21.2'
+    - subject: "patch: Update dependency typedoc to ^0.21.2"
       hash: 742c3fea36a0172997f806692b9d51b3bdb81e19
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2122,9 +2136,9 @@
   version: 2.1.169
   date: 2021-06-27T04:08:11.435Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.29'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.29"
       hash: 614c0be26c193a4d2c12307633cd187d38ea826c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2133,9 +2147,9 @@
   version: 2.1.168
   date: 2021-06-26T00:37:53.505Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: bb80b847e9602593c405189b8ade62819d4ebd85
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2144,9 +2158,9 @@
   version: 2.1.167
   date: 2021-06-26T00:23:52.713Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.28'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.28"
       hash: 58a5a5e46a2b19cafdba09f1c0986618c01a0e11
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2155,9 +2169,9 @@
   version: 2.1.166
   date: 2021-06-25T23:28:10.678Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.27'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.27"
       hash: 4884cfc5e20767b1547b992ba0e0fcf95587610e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2166,9 +2180,9 @@
   version: 2.1.165
   date: 2021-06-25T02:23:30.377Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.26'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.26"
       hash: 0b0ab9b7d405f56b1b4fe83dbd57ec9b7148577f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2177,9 +2191,9 @@
   version: 2.1.164
   date: 2021-06-24T14:25:41.625Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.24'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.24"
       hash: bd8d66f6ebbe5817edeec938070ed5d1beaffa75
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2188,9 +2202,9 @@
   version: 2.1.163
   date: 2021-06-24T00:59:52.101Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.23'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.23"
       hash: 8279853222ead57d73d6e54526b0ef6726d7974c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2199,7 +2213,7 @@
   version: 2.1.162
   date: 2021-06-23T09:11:43.110Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.7.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.7.0"
       hash: 71e2dd2f00a92901b29386b2d27efa877563be96
       body: |
         Update @balena/jellyfish-types from 0.6.11 to 0.7.0
@@ -2211,9 +2225,9 @@
   version: 2.1.161
   date: 2021-06-22T12:15:52.456Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.11'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.11"
       hash: 586cc31f49be966809515814457ed8f028734388
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2222,9 +2236,9 @@
   version: 2.1.160
   date: 2021-06-22T07:53:45.522Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 9443843ed0aceaafc6f59950167ba4e4415355ad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2233,9 +2247,9 @@
   version: 2.1.159
   date: 2021-06-22T07:00:47.421Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.20'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.20"
       hash: 2e155395b363ecba5927fb9d30080eee16236374
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2244,9 +2258,9 @@
   version: 2.1.158
   date: 2021-06-20T14:46:51.937Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.19'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.19"
       hash: 4a652e79d82a4e44667deba6453044c0b524680f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2255,9 +2269,9 @@
   version: 2.1.157
   date: 2021-06-19T10:39:31.142Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.10'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.10"
       hash: f13145c4de7610e4692a428ddfad922ca393649f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2266,9 +2280,9 @@
   version: 2.1.156
   date: 2021-06-19T02:07:26.805Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: be347579b81f756ceeffbb2ec5bcd7106f5b9bf3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2277,9 +2291,9 @@
   version: 2.1.155
   date: 2021-06-19T00:20:53.119Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.17'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.17"
       hash: bc2b8ef5611f86533155b63653c8d3fbbeaa9a79
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2288,9 +2302,9 @@
   version: 2.1.154
   date: 2021-06-15T06:06:26.837Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.9'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.9"
       hash: 522aae76be320cb220e3cf2a517882f85dc158ff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2299,9 +2313,9 @@
   version: 2.1.153
   date: 2021-06-15T03:07:51.334Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b55af156edbac310175bf3a98974986d25d7b6fc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2310,9 +2324,9 @@
   version: 2.1.152
   date: 2021-06-15T01:31:52.970Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.8'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.8"
       hash: 4af6955fa20cbc350a0f7cdedabf1a7891fa1b7b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2321,9 +2335,9 @@
   version: 2.1.151
   date: 2021-06-12T04:02:32.145Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.14'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.14"
       hash: 8e95f52c701b2687ea4a45a66805197a7b338798
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2332,9 +2346,9 @@
   version: 2.1.150
   date: 2021-06-12T00:52:05.217Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.13'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.13"
       hash: c5a36ca18de3de2ed9f50962cd3fb919ff8a7431
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2343,9 +2357,9 @@
   version: 2.1.149
   date: 2021-06-11T07:38:41.723Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.7'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.7"
       hash: d1df50a497976e766af74e6e7baf90023150ca1e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2354,9 +2368,9 @@
   version: 2.1.148
   date: 2021-06-11T07:28:35.482Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 1cf0b5590446920a3ef4318b9e67718c5f59afd6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2365,9 +2379,9 @@
   version: 2.1.147
   date: 2021-06-11T06:41:11.920Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: b98c4ec216540ad5bcfcd35f21b9253ceb611673
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2376,7 +2390,7 @@
   version: 2.1.146
   date: 2021-06-08T08:11:51.219Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.3.0'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.3.0"
       hash: 32f304827cecabb04f4065f14f82b6d65bf3ba34
       body: |
         Update @balena/jellyfish-config from 1.2.8 to 1.3.0
@@ -2388,9 +2402,9 @@
   version: 2.1.145
   date: 2021-06-08T04:15:22.467Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 55c63eb2cb3225f705fb77c59d059a1b37de4088
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2399,9 +2413,9 @@
   version: 2.1.144
   date: 2021-06-08T03:56:30.929Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.2.8'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.2.8"
       hash: 8914d5db71f92d291c21c212921158df68c2ba8e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2410,9 +2424,9 @@
   version: 2.1.143
   date: 2021-06-08T02:32:30.861Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.3'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.3"
       hash: 9934fc3d8f475694a033b321ab553dcba74df16c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2421,9 +2435,9 @@
   version: 2.1.142
   date: 2021-06-07T04:01:52.004Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.7'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.7"
       hash: a1adbf9dfc948afde19d50dec37f7ffdf9369cf9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2432,9 +2446,9 @@
   version: 2.1.141
   date: 2021-06-06T18:57:21.801Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^27.0.3'
+    - subject: "patch: Update dependency ts-jest to ^27.0.3"
       hash: 4a7acac41f9450f8a94604deb5769a8a5e4fddf8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2443,9 +2457,9 @@
   version: 2.1.140
   date: 2021-06-06T17:34:23.569Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.6'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.6"
       hash: 76215a672093e70523cf0b8082bcb1795974b63b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2454,9 +2468,9 @@
   version: 2.1.139
   date: 2021-06-06T17:24:56.727Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.5'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.5"
       hash: 8607e6b6330b4ace0589abc4dc0c06914b253469
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2465,7 +2479,7 @@
   version: 2.1.138
   date: 2021-06-05T09:53:42.472Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.6.2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.6.2"
       hash: c9398c030d03f0a554d34bd457f2755646ede1f6
       body: |
         Update @balena/jellyfish-types from 0.5.137 to 0.6.2
@@ -2477,9 +2491,9 @@
   version: 2.1.137
   date: 2021-06-05T08:07:04.830Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: d46c1e752283845b84547d99924044dae76d39b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2488,9 +2502,9 @@
   version: 2.1.136
   date: 2021-06-05T07:56:41.173Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^3.0.3'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^3.0.3"
       hash: eb936b3d463282fd6450d943d651de702ef2f6cc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2501,7 +2515,7 @@
 - commits:
     - subject: Add optional options to translate function
       hash: a801e7f9dedd6c68e511358f0335222e0c4dc606
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2514,7 +2528,7 @@
 - commits:
     - subject: Improve lint-staged config
       hash: 979b8ebaf95fbc7f8b3906a7bed7f85654269271
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2527,7 +2541,7 @@
 - commits:
     - subject: Remove unnecessary catch-uncommitted
       hash: 21aca14f0cc3e8cf3c86fcbc552a48a7486a348b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2538,7 +2552,7 @@
   version: 2.1.132
   date: 2021-06-02T23:58:56.218Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to v3'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to v3"
       hash: 04eb73516223b4bf0f936022546a995d059208bb
       body: |
         Update @balena/jellyfish-logger from 2.1.95 to 3.0.0
@@ -2550,9 +2564,9 @@
   version: 2.1.131
   date: 2021-05-31T10:34:41.580Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ed10b24f7ae2a7926c7842a2f9c899b693756032
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2561,9 +2575,9 @@
   version: 2.1.130
   date: 2021-05-31T10:24:53.574Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.2.7'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.2.7"
       hash: c07bce5b1e878c504834d046d62dff4c5fe55ef4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2572,9 +2586,9 @@
   version: 2.1.129
   date: 2021-05-31T09:00:12.674Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.136'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.136"
       hash: 01552a8134f2aa5d67b23c17e65c089b7e3fa0b0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2583,9 +2597,9 @@
   version: 2.1.128
   date: 2021-05-31T03:47:21.886Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: ac859110a88e2d8de818dad316e70af41d763153
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2594,9 +2608,9 @@
   version: 2.1.127
   date: 2021-05-31T03:36:31.556Z
 - commits:
-    - subject: "\U0001F504 Synced file(s) with product-os/jellyfish-config"
+    - subject: 🔄 Synced file(s) with product-os/jellyfish-config
       hash: c1c0b53bd80e010e80e90ba0030d8d4b9e6a6a2b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2605,9 +2619,9 @@
   version: 2.1.126
   date: 2021-05-31T03:14:50.777Z
 - commits:
-    - subject: 'patch: Update dependency jest to ^27.0.3'
+    - subject: "patch: Update dependency jest to ^27.0.3"
       hash: 89bc1fa7c6d640eb716ebe282c7bab23f363fa7f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2616,9 +2630,9 @@
   version: 2.1.125
   date: 2021-05-29T20:36:27.474Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.94'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.94"
       hash: 7b4b708caf1d8f6a02af0a18b1c1ac90245971c7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2627,9 +2641,9 @@
   version: 2.1.124
   date: 2021-05-29T20:25:33.695Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 22b5c120cd41e146734216c7eb205fcaf5d616a4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2638,9 +2652,9 @@
   version: 2.1.123
   date: 2021-05-29T20:14:28.461Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.92'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.92"
       hash: b6a37b7d9351f70732bbb442190ea5483e1994a7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2649,9 +2663,9 @@
   version: 2.1.122
   date: 2021-05-29T14:46:41.027Z
 - commits:
-    - subject: 'patch: Update dependency jest to ^27.0.2'
+    - subject: "patch: Update dependency jest to ^27.0.2"
       hash: 104e4ed7a2077e7456b71c937bc359344f0dd5ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2660,9 +2674,9 @@
   version: 2.1.121
   date: 2021-05-29T13:14:05.539Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.90'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.90"
       hash: 738d2cc880d34e9fb26fc16be515bf017bf37808
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2671,9 +2685,9 @@
   version: 2.1.120
   date: 2021-05-29T10:15:50.833Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.89'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.89"
       hash: 2d09a6b4b80e40c32ff5d7d0427483d8d75a1913
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2682,9 +2696,9 @@
   version: 2.1.119
   date: 2021-05-29T09:00:00.946Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 0260cfc2c362cdb567eeee69af76f689a6c38937
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2693,9 +2707,9 @@
   version: 2.1.118
   date: 2021-05-29T07:55:08.793Z
 - commits:
-    - subject: 'patch: Update external-major'
+    - subject: "patch: Update external-major"
       hash: 81dde9e4496f0dd439bc83b3d24263c1b473cb38
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2704,9 +2718,9 @@
   version: 2.1.117
   date: 2021-05-29T05:25:50.321Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c5268831fa51189952d85bc049fc14b6e155025a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2715,9 +2729,9 @@
   version: 2.1.116
   date: 2021-05-29T05:16:39.122Z
 - commits:
-    - subject: 'patch: Update external-non-major'
+    - subject: "patch: Update external-non-major"
       hash: ddf4997d6e8f6f31cc4a8367737da803ea4a8ed8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2726,9 +2740,9 @@
   version: 2.1.115
   date: 2021-05-29T00:17:50.574Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 09d346a5b3c5947f1dc0944f44a16d81f8687bdd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2737,9 +2751,9 @@
   version: 2.1.114
   date: 2021-05-27T12:30:34.026Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 6213a593c62e7ad9409757b9bc114806df76cd5b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2748,9 +2762,9 @@
   version: 2.1.113
   date: 2021-05-27T10:26:22.248Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 92f0e1c68a87defc484b7b5ae34daf734971d84e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2759,9 +2773,9 @@
   version: 2.1.112
   date: 2021-05-27T08:20:10.073Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: c1cc1a330566c1aa5a2d21074c5f7f96893097d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2770,9 +2784,9 @@
   version: 2.1.111
   date: 2021-05-27T04:18:42.626Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.2.1'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.2.1"
       hash: ef740d54f7431ef44ab39a92f7fef7bde3e9e333
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2781,7 +2795,7 @@
   version: 2.1.110
   date: 2021-05-27T02:10:27.280Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-config to ^1.2.0'
+    - subject: "patch: Update dependency @balena/jellyfish-config to ^1.2.0"
       hash: e82105054d76e6ca27ef11da65b6024c50f1bca6
       body: |
         Update @balena/jellyfish-config from 1.0.7 to 1.2.0
@@ -2793,9 +2807,9 @@
   version: 2.1.109
   date: 2021-05-26T09:46:40.762Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.79'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.79"
       hash: 13f1106f7e59abb658ac35add804495a0ceec300
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2806,7 +2820,7 @@
 - commits:
     - subject: Fix arity in CoreMixin interface
       hash: d7682e18c0ea86a7ccc7b53d5fcc47a30c7788c7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2817,9 +2831,9 @@
   version: 2.1.107
   date: 2021-05-25T16:24:50.691Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.78'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.78"
       hash: 4d93f8abf85ade2b38c97da8a6bef6db1d8907a5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2828,9 +2842,9 @@
   version: 2.1.106
   date: 2021-05-25T03:59:50.893Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.77'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.77"
       hash: fec08b2bbab9f24c3b508f4fd295540e2b5eab8b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2839,9 +2853,9 @@
   version: 2.1.105
   date: 2021-05-25T03:48:20.903Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: d7a00fc4825732c7a17235bc6fbf27f9d2dc31b9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2850,7 +2864,7 @@
   version: 2.1.104
   date: 2021-05-25T01:50:58.130Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to ^6.1.1'
+    - subject: "patch: Update dependency @balena/lint to ^6.1.1"
       hash: 34987971cc259e9e8f172de0435c743195123219
       body: |
         Update @balena/lint from 6.0.0 to 6.1.1
@@ -2864,7 +2878,7 @@
 - commits:
     - subject: Improve typings for core mixins
       hash: bd3bd5952d3bb75198ca5e438cb94c4b195e7ddc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2875,9 +2889,9 @@
   version: 2.1.102
   date: 2021-05-24T16:42:51.102Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f64fb848c6a355c6cd4bf8e718e4eed775b74c5d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2886,9 +2900,9 @@
   version: 2.1.101
   date: 2021-05-24T08:42:21.107Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: 7f689f2cfa0d0122f8100a6b8633bf7d96fb2a2b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2899,7 +2913,7 @@
 - commits:
     - subject: Update lint command
       hash: 2b86b8dfb6b54a81f445447b968677059023e96e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2909,7 +2923,7 @@
       nested: []
     - subject: Use jellyfish-config
       hash: eb947d0f2de5a95e3e3fe17e035b65dc264012d7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2920,9 +2934,9 @@
   version: 2.1.99
   date: 2021-05-24T06:23:28.526Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.119'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.119"
       hash: 29c8730d93f652b29d5baf30df3491b024b83660
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2931,9 +2945,9 @@
   version: 2.1.98
   date: 2021-05-24T03:49:41.358Z
 - commits:
-    - subject: 'patch: Update internal-patch'
+    - subject: "patch: Update internal-patch"
       hash: f7447605e0bf7ec4265df51b8383c1d4e36f4e80
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2942,9 +2956,9 @@
   version: 2.1.97
   date: 2021-05-24T01:49:23.335Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.70'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.70"
       hash: 3477336cf3ef48efd27e8672bba0ecbdf7c77917
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2953,9 +2967,9 @@
   version: 2.1.96
   date: 2021-05-23T09:35:00.711Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to v6'
+    - subject: "patch: Update dependency @balena/lint to v6"
       hash: 7d03dd494350e5165b89ef4fc8da9e67dffb714a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2964,9 +2978,9 @@
   version: 2.1.95
   date: 2021-05-23T02:17:42.327Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.69'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.69"
       hash: 1c54ea53ff94135d3a94206bbeb7fd5057b1fb35
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2975,9 +2989,9 @@
   version: 2.1.94
   date: 2021-05-23T02:06:50.606Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.68'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.68"
       hash: d15bb1d6a7c7697cf304ad139302ae157b3bd6b4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2986,9 +3000,9 @@
   version: 2.1.93
   date: 2021-05-22T01:51:32.615Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.66'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.66"
       hash: f03debf8c9ddb84917b7c32162bb19b3e6372edd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -2997,9 +3011,9 @@
   version: 2.1.92
   date: 2021-05-21T11:45:20.203Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.65'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.65"
       hash: 8f49bbd81cd51298bbcb5fc26a0bf6d1b174f9c7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3008,9 +3022,9 @@
   version: 2.1.91
   date: 2021-05-21T09:53:59.272Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.64'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.64"
       hash: c1df32bb18c89e23fadf3b237332600f028829bd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3019,9 +3033,9 @@
   version: 2.1.90
   date: 2021-05-21T07:48:11.696Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.60'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.60"
       hash: b52a51ae3d59643c845cd071c3782096a6e7f219
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3030,9 +3044,9 @@
   version: 2.1.89
   date: 2021-05-17T09:38:01.115Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 0cc678e5cbaa9388b076ba98e0203da5d60590b6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3041,9 +3055,9 @@
   version: 2.1.88
   date: 2021-05-13T18:17:16.093Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.58'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.58"
       hash: feffe6eff58340b047bf424377ebdee67646c623
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3052,9 +3066,9 @@
   version: 2.1.87
   date: 2021-05-12T10:05:41.363Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.116'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.116"
       hash: 127c87e4d1ea62fc152fe2db930888933a390bf0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3063,9 +3077,9 @@
   version: 2.1.86
   date: 2021-05-11T09:02:12.312Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 3d93de9413b955aa294108a1732b1312f88f21ed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3074,9 +3088,9 @@
   version: 2.1.85
   date: 2021-05-11T08:49:51.004Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.54'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.54"
       hash: 080f30051f329485ad5f6df48952a68a08cc879e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3085,9 +3099,9 @@
   version: 2.1.84
   date: 2021-05-10T10:26:42.007Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.115'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.115"
       hash: 8571a4686cfa89de5082695e5de84ceca24cfc25
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3096,9 +3110,9 @@
   version: 2.1.83
   date: 2021-05-10T07:37:20.734Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.53'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.53"
       hash: ae9f7f7e1c08b0a3d4652276f08576dc89ccaf1e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3107,9 +3121,9 @@
   version: 2.1.82
   date: 2021-05-08T08:02:41.115Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 8800f117f38a4a1b56552642127ad8539a64cf12
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3118,9 +3132,9 @@
   version: 2.1.81
   date: 2021-05-08T04:40:07.901Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 482b48624f713e7fd22ddebf4ba364ef4024865b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3129,9 +3143,9 @@
   version: 2.1.80
   date: 2021-05-08T00:52:31.616Z
 - commits:
-    - subject: 'patch: Update dependency lint-staged to v11'
+    - subject: "patch: Update dependency lint-staged to v11"
       hash: 92b3460662657e350714646afd5977843a12bd78
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3140,9 +3154,9 @@
   version: 2.1.79
   date: 2021-05-07T17:06:10.665Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 5855e25c80822f1926ac59fb1242ff597e28383a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3151,9 +3165,9 @@
   version: 2.1.78
   date: 2021-05-06T01:32:37.374Z
 - commits:
-    - subject: 'patch: Update dependency catch-uncommitted to v2'
+    - subject: "patch: Update dependency catch-uncommitted to v2"
       hash: a16d934d2a32a0c74f8ef55a539cb4e023ba3884
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3162,9 +3176,9 @@
   version: 2.1.77
   date: 2021-05-05T21:06:50.102Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.43'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.43"
       hash: 09b318344daef0d49c05d91791ad1f39873ab544
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3173,9 +3187,9 @@
   version: 2.1.76
   date: 2021-05-05T17:22:21.342Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 95704de993e77760db8d20d4070f5458673f0392
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3184,9 +3198,9 @@
   version: 2.1.75
   date: 2021-05-05T15:45:36.315Z
 - commits:
-    - subject: 'patch: Update dependency ts-jest to ^26.5.6'
+    - subject: "patch: Update dependency ts-jest to ^26.5.6"
       hash: c67c7fdaad6b8a931cd460f6ec960d46bdfa45f7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3195,9 +3209,9 @@
   version: 2.1.74
   date: 2021-05-05T14:31:02.984Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.110'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.110"
       hash: 5c8bd95906ed4999014bf12756d819134c32d950
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3220,9 +3234,9 @@
   version: 2.1.72
   date: 2021-05-05T07:34:35.027Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.109'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.109"
       hash: 84e3be0943e759c59c472a32787771a2d7041908
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3231,9 +3245,9 @@
   version: 2.1.71
   date: 2021-05-04T22:59:41.103Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.107'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.107"
       hash: 709b8982ab63af8dee69658379a6b1c4b4419b53
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3242,9 +3256,9 @@
   version: 2.1.70
   date: 2021-05-04T21:15:10.617Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.106'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.106"
       hash: 3338dedb9030a8916c80f2e51b73cb1ea57b6c84
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3253,9 +3267,9 @@
   version: 2.1.69
   date: 2021-05-04T19:52:42.526Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.105'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.105"
       hash: ebc4ff68bb6f319cd8e328746a6383cd0426140f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3264,9 +3278,9 @@
   version: 2.1.68
   date: 2021-05-04T16:22:21.207Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.104'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.104"
       hash: d70e5b383722cfd077238efc6f0663ece6459be9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3275,9 +3289,9 @@
   version: 2.1.67
   date: 2021-05-04T14:45:00.850Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.103'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.103"
       hash: 7386deb7a8afc5f1646699cb13d7a12c94d4b886
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3286,9 +3300,9 @@
   version: 2.1.66
   date: 2021-05-04T14:01:57.583Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.102'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.102"
       hash: 30e57a9eeeedc60789f4b427e5cffef61e3d3505
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3297,9 +3311,9 @@
   version: 2.1.65
   date: 2021-05-04T11:09:01.751Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.100'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.100"
       hash: 99e50900decd98b251ff8e6a7dd363bc0b2b5e8c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3308,9 +3322,9 @@
   version: 2.1.64
   date: 2021-05-04T09:47:00.878Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.99'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.99"
       hash: 56127659a76d2326263e741ff5860a9923f9c4b1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3319,9 +3333,9 @@
   version: 2.1.63
   date: 2021-05-04T08:42:31.277Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.97'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.97"
       hash: 5a06a565bf7efb1cf66a93d00af6fd9b40c99d0e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3330,9 +3344,9 @@
   version: 2.1.62
   date: 2021-05-04T04:30:27.730Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.96'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.96"
       hash: b66cfcb3e6d75b922abca4487750de87a1f00399
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3341,9 +3355,9 @@
   version: 2.1.61
   date: 2021-05-04T01:58:56.579Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.95'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.95"
       hash: 2e2972ba5d6bce1247605296fc8a17afe1c43f54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3352,9 +3366,9 @@
   version: 2.1.60
   date: 2021-05-04T00:06:01.149Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.93'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.93"
       hash: 199fe35dfe96d96df8539d63215622ef7be36cbc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3363,9 +3377,9 @@
   version: 2.1.59
   date: 2021-05-03T19:41:20.811Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.92'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.92"
       hash: 13e3ce20a1fd03bcb9b148b6b80b305e239997ce
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3374,9 +3388,9 @@
   version: 2.1.58
   date: 2021-05-03T18:16:12.116Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.91'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.91"
       hash: 5e96b6d1dbb217198767afc55f76f6dc0c3b9230
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3385,9 +3399,9 @@
   version: 2.1.57
   date: 2021-05-03T15:16:00.716Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 5d19abc86cf2845f16531014f4a31ccbb84e00d2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3396,9 +3410,9 @@
   version: 2.1.56
   date: 2021-05-03T12:16:11.438Z
 - commits:
-    - subject: 'patch: Update dependency @balena/lint to ^5.4.2'
+    - subject: "patch: Update dependency @balena/lint to ^5.4.2"
       hash: 62a742911e15ae24d41688350fbb9a7eca06d589
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3407,9 +3421,9 @@
   version: 2.1.55
   date: 2021-05-03T09:46:41.519Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.87'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.87"
       hash: 8b322774f6f950398eac9256c07a9a36a244e906
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3418,9 +3432,9 @@
   version: 2.1.54
   date: 2021-05-03T08:22:56.934Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.86'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.86"
       hash: 5c9aab9fa778ea9172f3039419e05af9c95239d6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3429,9 +3443,9 @@
   version: 2.1.53
   date: 2021-05-03T05:41:10.526Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.85'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.85"
       hash: 296f8f3ee2390415912dbf9ca40b2d295b57bcb2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3440,9 +3454,9 @@
   version: 2.1.52
   date: 2021-05-03T01:40:12.300Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.84'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.84"
       hash: 3c84341592149198492bba71fe79fe17ff016d07
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3451,9 +3465,9 @@
   version: 2.1.51
   date: 2021-05-02T07:58:21.524Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.83'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.83"
       hash: 3238fe143c518f250b5b64683b78ff088264b4c9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3462,9 +3476,9 @@
   version: 2.1.50
   date: 2021-05-02T05:13:21.123Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.81'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.81"
       hash: 73f47c03d82e9b3f14d698bca4157012495e8b45
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3473,9 +3487,9 @@
   version: 2.1.49
   date: 2021-05-02T03:08:52.547Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.80'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.80"
       hash: 62117f493ba945c4c4436148f230d3fdde2d7d52
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3484,9 +3498,9 @@
   version: 2.1.48
   date: 2021-05-02T01:40:50.126Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.79'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.79"
       hash: d142d35501ea442026b95ea7043e61da4d605aa7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3495,9 +3509,9 @@
   version: 2.1.47
   date: 2021-05-01T16:31:31.901Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.78'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.78"
       hash: e4a0aa06e8b7cba90e870ed41c5c17f9adffb3d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3506,9 +3520,9 @@
   version: 2.1.46
   date: 2021-05-01T15:10:37.478Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.77'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.77"
       hash: 1b6c626af3b1edefcd18ee9562fa17a1dc2892f8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3517,9 +3531,9 @@
   version: 2.1.45
   date: 2021-05-01T13:12:30.884Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.76'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.76"
       hash: 65f9960c3a4e5105e99660683474ce24533c9dda
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3528,9 +3542,9 @@
   version: 2.1.44
   date: 2021-05-01T10:58:40.735Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.75'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.75"
       hash: 962c910369fd5e394730c3a388d03b3a26cde8dd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3539,9 +3553,9 @@
   version: 2.1.43
   date: 2021-05-01T08:36:38.072Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.74'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.74"
       hash: 68d2908caf9ba560144f129f61df7ba2be3c719d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3552,7 +3566,7 @@
 - commits:
     - subject: Update interfaces based on jellyfish-types
       hash: 5b7d6806d13071cb7f3de589861d8ceaa55ef042
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3563,9 +3577,9 @@
   version: 2.1.41
   date: 2021-04-30T15:49:57.323Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.40'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.40"
       hash: 2feb342d06f606e4c51a29eb600feded13387edc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3574,9 +3588,9 @@
   version: 2.1.40
   date: 2021-04-30T15:34:00.749Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.72'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.72"
       hash: 465fe66e2d58d47e4d60376fbf2b8bf21d2fbf3b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3585,9 +3599,9 @@
   version: 2.1.39
   date: 2021-04-30T09:04:32.217Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.71'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.71"
       hash: 933e1e0850e703c7cc20055f7891e0f167135e27
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3596,9 +3610,9 @@
   version: 2.1.38
   date: 2021-04-30T04:43:26.244Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.70'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.70"
       hash: 4acfb7121f7573ef9f338f1c46213c24a5adbdd7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3607,9 +3621,9 @@
   version: 2.1.37
   date: 2021-04-30T02:22:20.489Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.68'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.68"
       hash: 3ef46e4c8a7789204d323134b6a153dfb1cd56e9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3618,9 +3632,9 @@
   version: 2.1.36
   date: 2021-04-29T20:25:10.495Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.66'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.66"
       hash: 3c81de5c29b78cdf311afa1318c3b118eb94034a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3629,9 +3643,9 @@
   version: 2.1.35
   date: 2021-04-29T17:37:41.755Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.65'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.65"
       hash: 64e2d8c595ff6dff0fcf982c66582d319c938b04
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3640,9 +3654,9 @@
   version: 2.1.34
   date: 2021-04-29T14:40:28.195Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 1bba704e8dc982e0224c76c729a25365b178e1c2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3651,9 +3665,9 @@
   version: 2.1.33
   date: 2021-04-29T10:47:20.805Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.63'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.63"
       hash: 25cfa0d414d58c31578e9ba7a45971ffc9d80fec
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3662,9 +3676,9 @@
   version: 2.1.32
   date: 2021-04-29T07:58:11.706Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.61'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.61"
       hash: 3101c0f719e93d21fd2675264c32f9613e79f6f3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3673,9 +3687,9 @@
   version: 2.1.31
   date: 2021-04-29T03:44:40.220Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.60'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.60"
       hash: 97535f69353a973e97f176ba8ef90c41c32bd173
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3684,9 +3698,9 @@
   version: 2.1.30
   date: 2021-04-29T02:14:49.696Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.38'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.38"
       hash: a94914a6d3b78ba16f66798c51ea903c1685ed24
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3695,9 +3709,9 @@
   version: 2.1.29
   date: 2021-04-28T13:06:57.184Z
 - commits:
-    - subject: 'patch: Update dependency skhema to ^5.3.4'
+    - subject: "patch: Update dependency skhema to ^5.3.4"
       hash: 675a942c10012905837cafc8672c6aaf10ecfbc1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3706,9 +3720,9 @@
   version: 2.1.28
   date: 2021-04-27T15:11:20.773Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 380491d80bc1871dedf58b89f7db965ef24b1884
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3717,9 +3731,9 @@
   version: 2.1.27
   date: 2021-04-27T02:35:22.965Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.58'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.58"
       hash: 121d38cd90cf5d3c575abd8a451e54dcf3918489
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3728,9 +3742,9 @@
   version: 2.1.26
   date: 2021-04-26T21:20:21.372Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.57'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.57"
       hash: 6245ccfbf62c4ce8236dc3313db30e0059fdcbff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3739,9 +3753,9 @@
   version: 2.1.25
   date: 2021-04-26T19:17:51.204Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.35'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.35"
       hash: f8f22dc9335808c78234e110921529b22034451f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3750,9 +3764,9 @@
   version: 2.1.24
   date: 2021-04-26T12:05:14.453Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 9d65e40c0b0b06418c06cc3a6d41ae578a4eb034
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3761,9 +3775,9 @@
   version: 2.1.23
   date: 2021-04-26T11:55:10.395Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.55'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.55"
       hash: 59f66aa336d2077ef5155359972e62c7704d02f1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3772,9 +3786,9 @@
   version: 2.1.22
   date: 2021-04-26T03:32:22.341Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.54'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.54"
       hash: 9cca0bdb6cff03c16b1de95bf68555abd23a5dd2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3783,9 +3797,9 @@
   version: 2.1.21
   date: 2021-04-26T00:45:30.686Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.53'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.53"
       hash: 5af39218a44718b000d26979ba49436cb602ab1c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3794,9 +3808,9 @@
   version: 2.1.20
   date: 2021-04-25T23:45:10.669Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.52'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.52"
       hash: 322690bfd04fb29995baa1c243c995190323db94
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3805,9 +3819,9 @@
   version: 2.1.19
   date: 2021-04-24T22:23:53.047Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 909a5c0634a7e3aebe97c3a6b50cf4686c35176d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3816,9 +3830,9 @@
   version: 2.1.18
   date: 2021-04-24T18:28:10.413Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 517e26135b031f3bb845b4d9fadf28c437bb4012
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3827,9 +3841,9 @@
   version: 2.1.17
   date: 2021-04-24T14:17:18.968Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.49'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.49"
       hash: 1c801c2a2531d7dd7a92483d7622d85a6a803f6d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3838,9 +3852,9 @@
   version: 2.1.16
   date: 2021-04-24T06:19:10.718Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.47'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.47"
       hash: 6143f7c583d08d2fac3df9ca9424c6ea35806903
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3849,9 +3863,9 @@
   version: 2.1.15
   date: 2021-04-24T02:07:09.132Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 3ed8519909e23ba1f0f48546490806731eef44d5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3860,9 +3874,9 @@
   version: 2.1.14
   date: 2021-04-23T19:39:40.177Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.45'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.45"
       hash: 350b348e83e340f6f434d9997b0dca62b1422624
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3871,9 +3885,9 @@
   version: 2.1.13
   date: 2021-04-23T14:00:11.065Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 15f0311c8d86c926d35c3475a1f8e98b60f77833
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3882,9 +3896,9 @@
   version: 2.1.12
   date: 2021-04-23T11:20:41.364Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.20.36'
+    - subject: "patch: Update dependency typedoc to ^0.20.36"
       hash: 56a12e51aa07e2917448fa1849dcadcb8cf02832
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3893,9 +3907,9 @@
   version: 2.1.11
   date: 2021-04-23T03:48:02.778Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.42'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.42"
       hash: a8169b9339b1ea15568091f7a35fb9c24c39464b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3904,9 +3918,9 @@
   version: 2.1.10
   date: 2021-04-23T01:51:50.951Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.41'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.41"
       hash: 07656af28682916db8ae3fc11a5dc328fd12bcbd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3915,9 +3929,9 @@
   version: 2.1.9
   date: 2021-04-21T21:28:51.324Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.39'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.39"
       hash: 81d676b1d12d1d9878a3eb5034c3b791afc0cda4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3926,9 +3940,9 @@
   version: 2.1.8
   date: 2021-04-21T17:09:41.330Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.38'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.38"
       hash: 8b229c5cbc61dd5abb0342a4b1654f99d983d26f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3937,9 +3951,9 @@
   version: 2.1.7
   date: 2021-04-21T14:51:41.159Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.37'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.37"
       hash: 19c9517fcbe693b29137a790e70c4e2ba3288d4e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3948,9 +3962,9 @@
   version: 2.1.6
   date: 2021-04-21T12:59:14.091Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.36'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.36"
       hash: 5caec9c491b27e3cef2339731584f54fd1de19a8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3959,9 +3973,9 @@
   version: 2.1.5
   date: 2021-04-21T11:27:31.026Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.34'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.34"
       hash: 25f9d76d4385f217f6081f577102f29ec8e6c48f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3970,9 +3984,9 @@
   version: 2.1.4
   date: 2021-04-21T09:35:31.372Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.28'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.28"
       hash: a9dca53a655b167df6f4814bd2bc0b093d5c1f87
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3981,9 +3995,9 @@
   version: 2.1.3
   date: 2021-04-20T20:08:47.695Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.33'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.33"
       hash: 3287367bc2e8280ced52163e9b0f7d83d8fbe0c5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -3992,9 +4006,9 @@
   version: 2.1.2
   date: 2021-04-20T11:27:05.880Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.32'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.32"
       hash: 2952743dc848ff18e6595285f1b0fff60bf9824f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4005,7 +4019,7 @@
 - commits:
     - subject: Update mixins interface to allow extra
       hash: 7d1fa6d39338582d67ae7c1ab8ada5d2e52d379f
-      body: ''
+      body: ""
       footer:
         Change-type: minor
         change-type: minor
@@ -4016,9 +4030,9 @@
   version: 2.1.0
   date: 2021-04-20T02:31:29.534Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.31'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.31"
       hash: 6148c9f38cad6245b39270bf5da7a2d757699f71
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4027,9 +4041,9 @@
   version: 2.0.82
   date: 2021-04-20T00:38:10.754Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.5.29'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.5.29"
       hash: bf98810445db85ba52587310602a15e1ec405009
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4040,7 +4054,7 @@
 - commits:
     - subject: Update test fixture to satisfy type
       hash: 10d96854062760e2479c0568971b1daeb07ab358
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4048,9 +4062,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: ccc6e4f4acf3f23abc83d973d999147a721b7610
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4059,9 +4073,9 @@
   version: 2.0.80
   date: 2021-04-19T00:55:42.666Z
 - commits:
-    - subject: 'patch: Update dependency @types/sinon to v10'
+    - subject: "patch: Update dependency @types/sinon to v10"
       hash: 9cd67ffebd7d75fcfae3153d8c84c9ebf63bb60d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4070,9 +4084,9 @@
   version: 2.0.79
   date: 2021-04-15T05:16:27.804Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.74'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.74"
       hash: 909a409ba14abe2baff7109052bcf534b5102a50
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4081,9 +4095,9 @@
   version: 2.0.78
   date: 2021-04-15T05:07:28.435Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.73'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.73"
       hash: 1768249c11d5a4720463086476e31a6bedc4d0f2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4092,9 +4106,9 @@
   version: 2.0.77
   date: 2021-04-15T04:54:13.581Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.72'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.72"
       hash: b7a44de4b88bb9aa6a06fb396d6c7fc34272b079
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4103,9 +4117,9 @@
   version: 2.0.76
   date: 2021-04-15T02:41:51.692Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.70'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.70"
       hash: 7e4e529e665a8333f36ec1cefc7984a6cb04bed6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4114,9 +4128,9 @@
   version: 2.0.75
   date: 2021-04-15T00:01:38.947Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.69'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.69"
       hash: 112740f81d5cb9d0205fb02214bf05f258251edc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4125,9 +4139,9 @@
   version: 2.0.74
   date: 2021-04-14T21:12:58.824Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.67'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.67"
       hash: 28b300004a518dc4926196f07854dd976c1da995
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4136,9 +4150,9 @@
   version: 2.0.73
   date: 2021-04-14T16:52:48.570Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.66'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.66"
       hash: 254cd087ec298ab374b4ab95c94a74c2f9e6fce5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4147,9 +4161,9 @@
   version: 2.0.72
   date: 2021-04-14T16:33:40.785Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.65'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.65"
       hash: 1dcb74b83221f61ee0bf9dcb6561d65126b41d44
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4158,9 +4172,9 @@
   version: 2.0.71
   date: 2021-04-14T12:55:51.302Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.64'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.64"
       hash: 922568b751ec306d3cae960c2a8fd7a814208def
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4169,9 +4183,9 @@
   version: 2.0.70
   date: 2021-04-14T11:16:40.481Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.63'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.63"
       hash: de55619dd03cd67e54b056892213cf3ecc254be8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4180,9 +4194,9 @@
   version: 2.0.69
   date: 2021-04-14T09:28:20.478Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 297880d599ce273579ae669ac2e50facd8fc4a9a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4191,9 +4205,9 @@
   version: 2.0.68
   date: 2021-04-14T04:21:49.273Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.60'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.60"
       hash: 9d3083bd3e6bffa048b7ed62aee5fc82ef3598e7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4202,9 +4216,9 @@
   version: 2.0.67
   date: 2021-04-13T09:00:02.543Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.59'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.59"
       hash: 8601bd5edd6fe289e0c75c8213a4117e7dfeb7a2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4213,9 +4227,9 @@
   version: 2.0.66
   date: 2021-04-13T05:34:53.293Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.58'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.58"
       hash: 4a63b3d56b7358b10a56517d4a2b842af7c2b74f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4224,9 +4238,9 @@
   version: 2.0.65
   date: 2021-04-13T02:30:13.070Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.57'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.57"
       hash: 3f8da9b86bfb9ff03d27495742760be466a8bb14
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4235,9 +4249,9 @@
   version: 2.0.64
   date: 2021-04-12T22:39:38.735Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.55'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.55"
       hash: f4fb3acca4543af79a6839445ed4772670a8e2df
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4246,9 +4260,9 @@
   version: 2.0.63
   date: 2021-04-12T18:07:41.573Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.54'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.54"
       hash: 21d09fbaf9e763e9489153a28cbbb2c8783beec0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4257,9 +4271,9 @@
   version: 2.0.62
   date: 2021-04-12T15:45:01.086Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.53'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.53"
       hash: 6b40fd4c8031afd3116710a10cbcff73a0b9d11f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4268,9 +4282,9 @@
   version: 2.0.61
   date: 2021-04-12T13:15:07.775Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.52'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.52"
       hash: 70bd9c9a14690bce7037dfe65e18dedf1462fe8d
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4279,9 +4293,9 @@
   version: 2.0.60
   date: 2021-04-12T10:11:28.101Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.51'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.51"
       hash: 37f42181f3f42555a8048e198e34b7664a579f98
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4290,9 +4304,9 @@
   version: 2.0.59
   date: 2021-04-12T09:59:01.421Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.50'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.50"
       hash: 92098a37390c84990d3b0e9c4ede5a567daf8255
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4301,9 +4315,9 @@
   version: 2.0.58
   date: 2021-04-12T05:04:36.505Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.49'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.49"
       hash: 2b3cd1d0920a51424d016d313fcdacd59e33e244
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4312,9 +4326,9 @@
   version: 2.0.57
   date: 2021-04-12T03:27:40.874Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.48'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.48"
       hash: bee28242baceda16015e75f89f1f1762e80ab1ad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4323,9 +4337,9 @@
   version: 2.0.56
   date: 2021-04-11T23:25:03.194Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.46'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.46"
       hash: e2cf3f18ba17a79dd0384c1eca8329aa1126afcd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4334,9 +4348,9 @@
   version: 2.0.55
   date: 2021-04-11T19:26:31.342Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.45'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.45"
       hash: 0576bcccf034009fd472e1d9a13a0c8f6e3cc582
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4345,9 +4359,9 @@
   version: 2.0.54
   date: 2021-04-11T17:39:40.639Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.44'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.44"
       hash: af3d1c93c71e44a4edd993333d02d21917b0eff2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4356,9 +4370,9 @@
   version: 2.0.53
   date: 2021-04-11T15:00:51.438Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.43'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.43"
       hash: 40adba63f6a03ae5be5145834821de30f077bd8b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4367,9 +4381,9 @@
   version: 2.0.52
   date: 2021-04-11T13:43:51.229Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.42'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.42"
       hash: f44f3a88e02b2de4cf98c81263798e2496a1b0ff
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4378,9 +4392,9 @@
   version: 2.0.51
   date: 2021-04-11T09:36:11.093Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.41'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.41"
       hash: 1415dfe9a675bd0922646caa2cb7499d2ff9f5e7
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4389,9 +4403,9 @@
   version: 2.0.50
   date: 2021-04-11T05:34:10.397Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.40'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.40"
       hash: fb89df143786bd6bf5f3f95f6fae0f25335a6fe8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4400,9 +4414,9 @@
   version: 2.0.49
   date: 2021-04-11T03:58:14.882Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.39'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.39"
       hash: 779f02e05e83bb03bbe705038945b25526fffd44
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4411,9 +4425,9 @@
   version: 2.0.48
   date: 2021-04-11T01:51:55.677Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.31'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.31"
       hash: 4e3d976e5600d9350ece39bd92072381c1aa8351
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4422,9 +4436,9 @@
   version: 2.0.47
   date: 2021-04-10T12:02:12.161Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.30'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.30"
       hash: f1ba33d984bb196fb17c096e5348586f90801c91
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4435,7 +4449,7 @@
 - commits:
     - subject: Update return type for ActionPreFn
       hash: 3a45ac68d580810f3fa21368a716307eafa6cc9a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4446,9 +4460,9 @@
   version: 2.0.45
   date: 2021-04-08T05:23:01.395Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.24'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.24"
       hash: 323da6103eef0196eb06e368c5c4715174a72ec0
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4457,9 +4471,9 @@
   version: 2.0.44
   date: 2021-04-07T22:10:20.933Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: d08d9dee316ec23733e85dc40a633a06335c9563
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4468,9 +4482,9 @@
   version: 2.0.43
   date: 2021-04-07T19:53:55.228Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.26'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.26"
       hash: 7f50b3b4eb9057a0c74fe544b98924874e742393
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4479,9 +4493,9 @@
   version: 2.0.42
   date: 2021-04-07T00:18:50.580Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.25'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.25"
       hash: a0bb0e120c54254a927b1fa5ee617723cdaff638
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4490,9 +4504,9 @@
   version: 2.0.41
   date: 2021-04-06T21:47:11.435Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.24'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.24"
       hash: 0b60aeda7a8b85f9ce315efff0765e454e492719
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4501,9 +4515,9 @@
   version: 2.0.40
   date: 2021-04-06T19:44:11.324Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.23'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.23"
       hash: f8732585616a9b34c967f6bfe224043d664e4679
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4512,9 +4526,9 @@
   version: 2.0.39
   date: 2021-04-06T18:47:06.184Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.22'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.22"
       hash: 7131827dd80240a15c74381b27ba66529937d418
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4523,9 +4537,9 @@
   version: 2.0.38
   date: 2021-04-06T15:14:58.389Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.21'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.21"
       hash: 60394e447a31c3de829c8fe6ed9c28856b688ccf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4534,9 +4548,9 @@
   version: 2.0.37
   date: 2021-04-06T13:23:22.152Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.20'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.20"
       hash: 08de2af5151c837599cfd3245e0635f910735e29
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4545,9 +4559,9 @@
   version: 2.0.36
   date: 2021-04-04T11:44:06.681Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.19'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.19"
       hash: 7fc48730f49bf5eff307c5ce6a4130353faf2054
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4556,9 +4570,9 @@
   version: 2.0.35
   date: 2021-04-04T09:23:10.368Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.18'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.18"
       hash: 8a3be60d17f3f15119f8f91374559ef4bcc2def8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4567,9 +4581,9 @@
   version: 2.0.34
   date: 2021-04-04T08:22:10.224Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.17'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.17"
       hash: 5f57d799cafbf95664db2ceca930b1e388a4746f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4578,9 +4592,9 @@
   version: 2.0.33
   date: 2021-04-04T05:08:03.791Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 0ebb9a035b58dcaa1f5b3dd5c75d0991cdcd9dd3
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4589,9 +4603,9 @@
   version: 2.0.32
   date: 2021-04-04T02:21:37.848Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.20.35'
+    - subject: "patch: Update dependency typedoc to ^0.20.35"
       hash: e8e77dd42106788b36d17799128c25b904a8b17a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4600,9 +4614,9 @@
   version: 2.0.31
   date: 2021-04-03T20:49:55.439Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: edb24c740896de5008841c69211fb01062011c76
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4611,9 +4625,9 @@
   version: 2.0.30
   date: 2021-04-03T12:32:50.872Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.14'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.14"
       hash: 2a5a46d9d63aed2aa4c335857e0f71f1ff0806cb
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4622,9 +4636,9 @@
   version: 2.0.29
   date: 2021-04-03T01:10:41.378Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.13'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.13"
       hash: 30c5e59bb9838140b6665b77152721e6202e71c1
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4633,9 +4647,9 @@
   version: 2.0.28
   date: 2021-04-02T23:10:30.582Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 7a6e2957d5a83de4a708ac06f6e50dcb61c3196a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4644,9 +4658,9 @@
   version: 2.0.27
   date: 2021-04-02T21:09:51.148Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 04cb0ca99506b35d60cfa785ebbcf2317b01c77e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4655,9 +4669,9 @@
   version: 2.0.26
   date: 2021-04-02T19:00:10.126Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 74dbb7c6e5d007eff7956ce69c832ca1e00c1900
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4666,9 +4680,9 @@
   version: 2.0.25
   date: 2021-04-02T16:59:28.999Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.7'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.7"
       hash: 1457e9c0d3ce34363235843b60ac7818e3950830
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4677,9 +4691,9 @@
   version: 2.0.24
   date: 2021-04-01T22:49:40.692Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.17'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.17"
       hash: 50628725ffbb76b5a25143a7c560fe155e676e7f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4688,9 +4702,9 @@
   version: 2.0.23
   date: 2021-04-01T13:47:40.551Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.6'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.6"
       hash: 52428420776f7cdfeb673e9a5118cf55333df297
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4699,9 +4713,9 @@
   version: 2.0.22
   date: 2021-04-01T03:42:30.997Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.5'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.5"
       hash: b09ee5cc1669daf6651f7278579c823078d39055
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4710,9 +4724,9 @@
   version: 2.0.21
   date: 2021-04-01T00:58:12.880Z
 - commits:
-    - subject: 'patch: Update dependency sinon to v10'
+    - subject: "patch: Update dependency sinon to v10"
       hash: d1c66b45b40bfa5b96cc08d725d1a34c14d66bab
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4721,9 +4735,9 @@
   version: 2.0.20
   date: 2021-03-31T09:14:02.581Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.16'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.16"
       hash: 5c62dece4cba7f77f45a8caf76ae0902a1a5f8bf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4732,9 +4746,9 @@
   version: 2.0.19
   date: 2021-03-31T09:04:01.046Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.15'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.15"
       hash: 5b749f94a78a8de9f1167f1e04418bd1c5bd3499
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4743,9 +4757,9 @@
   version: 2.0.18
   date: 2021-03-31T00:33:30.477Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.14'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.14"
       hash: 57971a16972edbb72c201b400ac21c0002ccb185
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4754,9 +4768,9 @@
   version: 2.0.17
   date: 2021-03-30T14:44:24.090Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.13'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.13"
       hash: c8d71a085127d0a9f68535d63444a99c71e9fb6e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4767,7 +4781,7 @@
 - commits:
     - subject: Allow for array result for action handler
       hash: 70e8d326861ac786b556d38f44ca6569902cd883
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4778,9 +4792,9 @@
   version: 2.0.15
   date: 2021-03-30T02:45:30.667Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.4'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.4"
       hash: 1b43c84936b4a4cc294e7738603c3d4a61d681fd
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4789,9 +4803,9 @@
   version: 2.0.14
   date: 2021-03-29T17:14:21.110Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.1'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.1"
       hash: fa60d59e2b25c5b04fdd5252822071da236fd2c4
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4800,9 +4814,9 @@
   version: 2.0.13
   date: 2021-03-29T06:47:21.043Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.4.0'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.4.0"
       hash: 25eb0503054c1c860aa566210573836a8c2a425c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4813,7 +4827,7 @@
 - commits:
     - subject: Replace husky with simple-git-hooks
       hash: 121b00b2843a7f0bd8117ea9ae88b85ca87c9327
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4824,9 +4838,9 @@
   version: 2.0.11
   date: 2021-03-26T05:57:41.907Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-types to ^0.2.2'
+    - subject: "patch: Update dependency @balena/jellyfish-types to ^0.2.2"
       hash: 570caa9be54bf318d3df6d666fcb01eb03f4349f
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4835,9 +4849,9 @@
   version: 2.0.10
   date: 2021-03-26T04:53:40.653Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.12'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.12"
       hash: c2741c0b1e66d6406ec7fa5ac8e49b5f05ef5f85
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4846,9 +4860,9 @@
   version: 2.0.9
   date: 2021-03-25T22:40:30.519Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: db926b63cd37082e2978c31968978e281d83e364
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4857,9 +4871,9 @@
   version: 2.0.8
   date: 2021-03-25T19:57:20.828Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.10'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.10"
       hash: 261e5f6110d1367cfbe4c07daf3dd1581fb70736
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4868,9 +4882,9 @@
   version: 2.0.7
   date: 2021-03-25T13:48:27.193Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: f41f1da146e162e4ad75c38785044de2ad137169
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4881,7 +4895,7 @@
 - commits:
     - subject: Use GitHub action to generate and publish Typedoc docs
       hash: e81b4b9ac22a28ded6943b70ca7d1d16c04fed33
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4892,9 +4906,9 @@
   version: 2.0.5
   date: 2021-03-25T05:31:10.402Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.6'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.6"
       hash: 43a0a3bbab07d0ab274ffa8b91f5287feac44e9b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4903,9 +4917,9 @@
   version: 2.0.4
   date: 2021-03-24T10:14:30.919Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.3'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.3"
       hash: e9277ed52576a2cbaa4ecc339ce6fc646d563b45
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4914,9 +4928,9 @@
   version: 2.0.3
   date: 2021-03-24T04:36:26.957Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.1.2'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.1.2"
       hash: cc0932d3a2d444d4abbc129fd979978c39edc4bc
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4925,9 +4939,9 @@
   version: 2.0.2
   date: 2021-03-24T04:23:10.731Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^2.0.2'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^2.0.2"
       hash: 60728534b8a818e18c064e60d8d36de8d724b021
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4938,7 +4952,7 @@
 - commits:
     - subject: Update docs
       hash: db6de98ea213300c4f78e2caef85d450a0b36c14
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4961,9 +4975,9 @@
   version: 2.0.0
   date: 2021-03-23T02:26:10.834Z
 - commits:
-    - subject: 'patch: Update dependency semver to ^7.3.5'
+    - subject: "patch: Update dependency semver to ^7.3.5"
       hash: 409992412e007d5f1a1e1533f1234a85cb2c9a1b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4972,9 +4986,9 @@
   version: 1.2.41
   date: 2021-03-23T02:17:50.278Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.57'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.57"
       hash: 0a7b4d759e2e618d839648fafc8e78492b133e54
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4983,9 +4997,9 @@
   version: 1.2.40
   date: 2021-03-22T12:20:59.444Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.56'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.56"
       hash: d1d25372f7e483ac38ebd0b63f18b32fcf7ee7de
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -4994,17 +5008,17 @@
   version: 1.2.39
   date: 2021-03-22T06:11:22.103Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.20.33'
+    - subject: "patch: Update dependency typedoc to ^0.20.33"
       hash: f69ed8fbf6c602aa62ce4c7a4588fa437f0f8f6b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
       author: Renovate Bot
       nested: []
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.55'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.55"
       hash: 1c83d5d636cdd34f6d19d0f76c0aa523b3c5f6f2
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5013,9 +5027,9 @@
   version: 1.2.38
   date: 2021-03-22T03:13:48.404Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.54'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.54"
       hash: 80d55966c4207a7a56a02cddc84886eaf021508a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5024,9 +5038,9 @@
   version: 1.2.37
   date: 2021-03-21T22:12:20.332Z
 - commits:
-    - subject: 'patch: Update dependency husky to ^5.2.0'
+    - subject: "patch: Update dependency husky to ^5.2.0"
       hash: 4d6429a1029b8f4397c153d88dc841b81c521b4c
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5035,9 +5049,9 @@
   version: 1.2.36
   date: 2021-03-21T19:49:25.621Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.53'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.53"
       hash: 726b47f24f859efe256981b0dd0f01b5bc1e7016
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5046,9 +5060,9 @@
   version: 1.2.35
   date: 2021-03-19T21:06:01.300Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.52'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.52"
       hash: 773d77641351e3942544de9ef3043002087b09d9
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5059,7 +5073,7 @@
 - commits:
     - subject: Update docs
       hash: 7c0a0da367ed092df37c0f3e52f6b07d9159f863
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5067,9 +5081,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 7e38a3d77ec54f8a0cadcd1246fad0f1d97f8fb5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5080,7 +5094,7 @@
 - commits:
     - subject: Use jellycheck
       hash: 27b6d0e770a7cef90f3dd8235e236c86b118cbaf
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5093,7 +5107,7 @@
 - commits:
     - subject: Update docs
       hash: 40eaae78d073e66a008b30fd27d5700c5ebf764b
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5101,9 +5115,9 @@
         signed-off-by: Josh Bowling <josh@balena.io>
       author: Josh Bowling
       nested: []
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 2994bdce6ed883ea7956a02a161794635ed41ad8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5112,9 +5126,9 @@
   version: 1.2.31
   date: 2021-03-13T14:43:10.408Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: bf14c0eb5b203ffad227ce339b9f9fc86584cb86
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5123,9 +5137,9 @@
   version: 1.2.30
   date: 2021-03-02T04:43:21.155Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.40'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.40"
       hash: f50edd020bde12e106c3927b9ad7cb877fb6da66
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5134,9 +5148,9 @@
   version: 1.2.29
   date: 2021-03-01T18:39:20.438Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.39'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.39"
       hash: 522f21a50cbc3d73f8ba2d1730103e7f622c7709
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5145,9 +5159,9 @@
   version: 1.2.28
   date: 2021-03-01T04:11:36.434Z
 - commits:
-    - subject: 'patch: Update dependency husky to ^5.1.2'
+    - subject: "patch: Update dependency husky to ^5.1.2"
       hash: 1f6a4a67af54055a81b1b0f2ad84bc2d6fccba09
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5156,9 +5170,9 @@
   version: 1.2.27
   date: 2021-03-01T02:36:55.117Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.38'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.38"
       hash: c5a82dc2aaa4bf796fd274586c1273203b0f6955
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5167,9 +5181,9 @@
   version: 1.2.26
   date: 2021-02-28T14:02:57.192Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.37'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.37"
       hash: 8ac4d3653dc228836d14ffc1e1b39641f4c612ba
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5178,9 +5192,9 @@
   version: 1.2.25
   date: 2021-02-28T03:43:21.038Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.36'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.36"
       hash: 49c59ebc6c27ad453551bd4dbc15795e65319998
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5189,9 +5203,9 @@
   version: 1.2.24
   date: 2021-02-28T00:35:07.578Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.34'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.34"
       hash: f052b78c4c342060e9ab64141c9184eff256f78e
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5200,9 +5214,9 @@
   version: 1.2.23
   date: 2021-02-26T12:19:40.934Z
 - commits:
-    - subject: 'patch: Update dependency shellcheck to v1'
+    - subject: "patch: Update dependency shellcheck to v1"
       hash: ee6098e3dd57319f7c27b164057dc92bbfaebf02
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5211,9 +5225,9 @@
   version: 1.2.22
   date: 2021-02-25T18:52:39.894Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: 10364fb7a9b4074734380c8e4bb421f6b8c5e9f5
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5222,9 +5236,9 @@
   version: 1.2.21
   date: 2021-02-23T22:38:00.809Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.33'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.33"
       hash: 6031836d5271b86e5da7962483d75ea4a3dadba8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5233,9 +5247,9 @@
   version: 1.2.20
   date: 2021-02-23T14:52:01.157Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.32'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.32"
       hash: 08f91ade875868d6db2e572e626acc91aa36e521
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5244,9 +5258,9 @@
   version: 1.2.19
   date: 2021-02-23T11:26:20.212Z
 - commits:
-    - subject: 'patch: Update non-major'
+    - subject: "patch: Update non-major"
       hash: cf2eef7cecd164fd76273a403951e200e89d992a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5255,9 +5269,9 @@
   version: 1.2.18
   date: 2021-02-23T04:07:30.147Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.30'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.30"
       hash: f6d790530e140ecd0ae7272453028920b7606e57
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5266,9 +5280,9 @@
   version: 1.2.17
   date: 2021-02-22T20:58:40.334Z
 - commits:
-    - subject: 'patch: Update dependency husky to ^5.1.1'
+    - subject: "patch: Update dependency husky to ^5.1.1"
       hash: d04649778c00a91ef49b34905815f7e4a0b8a561
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5277,9 +5291,9 @@
   version: 1.2.16
   date: 2021-02-22T18:37:30.069Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.29'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.29"
       hash: 63faee167363189d50a364ccd38352bc90648ad8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5288,9 +5302,9 @@
   version: 1.2.15
   date: 2021-02-22T05:37:16.240Z
 - commits:
-    - subject: 'patch: Update dependency husky to ^5.1.0'
+    - subject: "patch: Update dependency husky to ^5.1.0"
       hash: d4d67e4116ef5d7730a1abd652b7483fb456e5ed
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5299,9 +5313,9 @@
   version: 1.2.14
   date: 2021-02-21T23:13:41.705Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.28'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.28"
       hash: 374a079abe169e1a30fcb0818c6c85202cf4cd7a
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5310,9 +5324,9 @@
   version: 1.2.13
   date: 2021-02-21T04:55:57.458Z
 - commits:
-    - subject: 'patch: Update dependency typedoc to ^0.20.27'
+    - subject: "patch: Update dependency typedoc to ^0.20.27"
       hash: cd304415e15d8eb0a2f456b43fb3c750ede4d6c8
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5321,9 +5335,9 @@
   version: 1.2.12
   date: 2021-02-21T01:18:40.325Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.26'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.26"
       hash: 37729c9cfae89619d03ad352aa762cb51e9cdc21
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5332,9 +5346,9 @@
   version: 1.2.11
   date: 2021-02-20T18:29:40.140Z
 - commits:
-    - subject: 'patch: Update dependency lodash to ^4.17.21'
+    - subject: "patch: Update dependency lodash to ^4.17.21"
       hash: 2486b4fac166b1f70fb0b18ad07339b4c1586953
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5343,9 +5357,9 @@
   version: 1.2.10
   date: 2021-02-20T16:19:56.287Z
 - commits:
-    - subject: 'patch: Update dependency @balena/jellyfish-logger to ^1.0.25'
+    - subject: "patch: Update dependency @balena/jellyfish-logger to ^1.0.25"
       hash: b8e75555e8e17e563d248d0b2c932ab7e82f83f6
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch
@@ -5356,7 +5370,7 @@
 - commits:
     - subject: Add versionbot CHANGELOG.yml
       hash: 8720ee2d3f8e0a6a323c9d643f430b22ea1de4ad
-      body: ''
+      body: ""
       footer:
         Change-type: patch
         change-type: patch

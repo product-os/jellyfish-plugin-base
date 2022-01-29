@@ -5,6 +5,10 @@
 
 # v0.0.3
 
+## 2.2.26 - 2022-01-29
+
+* Add deprecation notice to README [Josh Bowling]
+
 ## 2.2.25 - 2022-01-17
 
 * Remove remaining $ref statements [Lucian Buzzo]
